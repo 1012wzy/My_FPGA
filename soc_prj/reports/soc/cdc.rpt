@@ -1,0 +1,89 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Fri Oct 16 23:29:14 2026
+| Host         : MaYiQun running 64-bit major release  (build 9200)
+| Command      : report_cdc -details -return_string
+| Design       : mic_soc_top
+| Device       : 7z100-ffg900
+| Speed File   : -2  PRODUCTION 1.12 2019-11-22
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+CDC Report
+
+ID     Severity  Count  Description
+-----  --------  -----  ----------------------------------------------
+CDC-3  Info         19  1-bit synchronized with ASYNC_REG property
+CDC-6  Warning       1  Multi-bit synchronized with ASYNC_REG property
+
+Source Clock: clk_out1_camera_display_clocks
+Destination Clock: camera_pclk
+CDC Type: No Common Primary Clock
+
+Row  ID     Severity  Description                                 Depth  Exception            Source (From)              Destination (To)
+---  -----  --------  ------------------------------------------  -----  -------------------  -------------------------  -----------------------------------------------------------------------------
+  1  CDC-3  Info      1-bit synchronized with ASYNC_REG property      2  Asynch Clock Groups  camera/store/accept_reg/C  camera/store/bank_mailbox/xpm_cdc_single_dest2src_inst/syncstages_ff_reg[0]/D
+
+Source Clock: sys_clk
+Destination Clock: camera_pclk
+CDC Type: No Common Primary Clock
+
+Row  ID     Severity  Description                                 Depth  Exception            Source (From)                                                              Destination (To)
+---  -----  --------  ------------------------------------------  -----  -------------------  -------------------------------------------------------------------------  ---------------------------------
+  1  CDC-3  Info      1-bit synchronized with ASYNC_REG property      2  Asynch Clock Groups  system_i/system_i/camera_gpio/U0/gpio_core_1/Dual.gpio_Data_Out_reg[29]/C  camera/camera_reset_sync_reg[0]/D
+
+Source Clock: camera_pclk
+Destination Clock: clk_out1_camera_display_clocks
+CDC Type: No Common Primary Clock
+
+Row  ID     Severity  Description                                 Depth  Exception            Source (From)                                 Destination (To)
+---  -----  --------  ------------------------------------------  -----  -------------------  --------------------------------------------  -----------------------------------------------------------------------------
+  1  CDC-3  Info      1-bit synchronized with ASYNC_REG property      2  Asynch Clock Groups  camera/store/bank_mailbox/src_sendd_ff_reg/C  camera/store/bank_mailbox/xpm_cdc_single_src2dest_inst/syncstages_ff_reg[0]/D
+
+Source Clock: sys_clk
+Destination Clock: clk_out1_camera_display_clocks
+CDC Type: Safely Timed
+
+Row  ID     Severity  Description                                 Depth  Exception   Source (From)                                 Destination (To)
+---  -----  --------  ------------------------------------------  -----  ----------  --------------------------------------------  -----------------------------------------------------------------------------
+  1  CDC-3  Info      1-bit synchronized with ASYNC_REG property      2  False Path  camera/direction/transfer/src_sendd_ff_reg/C  camera/direction/transfer/xpm_cdc_single_src2dest_inst/syncstages_ff_reg[0]/D
+  2  CDC-3  Info      1-bit synchronized with ASYNC_REG property      2  False Path  camera/marker/transfer/src_sendd_ff_reg/C     camera/marker/transfer/xpm_cdc_single_src2dest_inst/syncstages_ff_reg[0]/D
+
+Source Clock: camera_pclk
+Destination Clock: sys_clk
+CDC Type: No Common Primary Clock
+
+Row  ID     Severity  Description                                     Depth  Exception            Source (From)                        Destination (To)
+---  -----  --------  ----------------------------------------------  -----  -------------------  -----------------------------------  -------------------------------------
+  1  CDC-6  Warning   Multi-bit synchronized with ASYNC_REG property      7  Asynch Clock Groups  camera/store/error_flags_reg[2:0]/C  camera/ce/syncstages_ff_reg[0][2:0]/D
+  2  CDC-3  Info      1-bit synchronized with ASYNC_REG property          7  Asynch Clock Groups  camera/store/malformed_reg/C         camera/status_meta_reg[6]/D
+
+Source Clock: clk_out1_camera_display_clocks
+Destination Clock: sys_clk
+CDC Type: Safely Timed
+
+Row  ID     Severity  Description                                 Depth  Exception   Source (From)                                Destination (To)
+---  -----  --------  ------------------------------------------  -----  ----------  -------------------------------------------  -----------------------------------------------------------------------------
+  1  CDC-3  Info      1-bit synchronized with ASYNC_REG property      2  False Path  camera/direction/transfer/dest_req_ff_reg/C  camera/direction/transfer/xpm_cdc_single_dest2src_inst/syncstages_ff_reg[0]/D
+  2  CDC-3  Info      1-bit synchronized with ASYNC_REG property      7  False Path  camera/marker/transfer/dest_req_ff_reg/C     camera/marker/transfer/xpm_cdc_single_dest2src_inst/syncstages_ff_reg[0]/D
+  3  CDC-3  Info      1-bit synchronized with ASYNC_REG property      2  False Path  camera/store/frame_available_reg/C           camera/status_meta_reg[4]/D
+  4  CDC-3  Info      1-bit synchronized with ASYNC_REG property      7  False Path  camera/store/frame_toggle_reg/C              camera/status_meta_reg[5]/D
+  5  CDC-3  Info      1-bit synchronized with ASYNC_REG property      7  False Path  camera/marker_registered_reg/C               camera/status_meta_reg[7]/D
+  6  CDC-3  Info      1-bit synchronized with ASYNC_REG property      2  False Path  camera/fresh_registered_reg/C                camera/status_meta_reg[8]/D
+
+Source Clock: input port clock
+Destination Clock: sys_clk
+CDC Type: No Common Primary Clock
+
+Row  ID     Severity  Description                                 Depth  Exception   Source (From)  Destination (To)
+---  -----  --------  ------------------------------------------  -----  ----------  -------------  ------------------------------------------
+  1  CDC-3  Info      1-bit synchronized with ASYNC_REG property      2  False Path  mic_data[0]    array/g_lane[0].u_receiver/data_meta_reg/D
+  2  CDC-3  Info      1-bit synchronized with ASYNC_REG property      2  False Path  mic_data[1]    array/g_lane[1].u_receiver/data_meta_reg/D
+  3  CDC-3  Info      1-bit synchronized with ASYNC_REG property      2  False Path  mic_data[2]    array/g_lane[2].u_receiver/data_meta_reg/D
+  4  CDC-3  Info      1-bit synchronized with ASYNC_REG property      2  False Path  mic_data[3]    array/g_lane[3].u_receiver/data_meta_reg/D
+  5  CDC-3  Info      1-bit synchronized with ASYNC_REG property      7  False Path  camera_scl     camera/status_meta_reg[0]/D
+  6  CDC-3  Info      1-bit synchronized with ASYNC_REG property      7  False Path  camera_sda     camera/status_meta_reg[1]/D
+  7  CDC-3  Info      1-bit synchronized with ASYNC_REG property      2  False Path  mode_key_n     motors/key_meta_reg/D
+
+

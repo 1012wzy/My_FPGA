@@ -1,0 +1,3 @@
+﻿
+PASS: alpha-beta common track, paired-outlier rejection, bounded relocation, no stale motion, quality/continuation, irregular timing, projection and wrap; motion lag 0.500deg, stop settling <0.6deg in three updates
+PASS: alpha-beta common track, paired-outlier rejection, bounded relocation, no stale motion, quality/continuation, irregular timing, projection and wrap; motion lag 0.500deg, stop settling <0.6deg in three updates

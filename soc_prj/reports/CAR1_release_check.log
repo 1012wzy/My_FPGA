@@ -1,0 +1,9 @@
+ZIP_CAMERA_RELEASE_OK: original audio/DOA baseline, tests, pins, source copies, XSA/bit/init/ELF manifest, tilt=1600, 800x450 triple-BRAM capture / 720p display and sound marker
+BRAM_VIDEO_RELEASE_CHECK_OK
+PS_SOURCE_RECEIPT_OK
+RESPONSE_RELEASE_OK: faster bounded PWM, speech continuation, fresh observation servo gate, motion/stop/noise tests, corrected timing calculation
+SOS3_BASELINE_PRESERVED: camera, SOS, DOA, P servo; only independent pan-centre override added to servo PWM
+CAR1_HARDWARE_AND_TESTS_OK
+CAR1_RELEASE_OK: powered background calibration, trajectory-authorized non-PID servo, 204x84 SOS, no history table, vblank interpolation; new full hardware + matching rebuilt PS software
+CAR_ROLLING_RELEASE_OK: forward arcs, 10deg deadband/50deg saturation, 1200ms speech-loss timeout and real PS-to-PL command replay
+RESTORE18_RELEASE_OK: exact user ZIP baseline; only car.c/car.h application edits; gap1200ms, stale500ms, original64/38 speed and sound judgment

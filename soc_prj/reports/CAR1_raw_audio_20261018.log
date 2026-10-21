@@ -1,0 +1,22 @@
+
+****** Software Commandline Tool (XSCT) v2025.2.0
+  **** SW Build 6298600 on Thu Nov 13 01:12:30 MST 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+Warning: XSCT is deprecated and will be removed in future releases.
+We recommend using the new Python command-line tool for project management and debugging:
+- Run "vitis -i" for interactive mode.
+- Run "vitis -s <script>" for script mode.
+RAW_SAMPLE 0 ms=49 frames=0,1,2 ch0:nonzero=0,min=0,max=0 ch1:nonzero=0,min=0,max=0 ch2:nonzero=0,min=0,max=0 ch3:nonzero=0,min=0,max=0 ch4:nonzero=0,min=0,max=0 ch5:nonzero=0,min=0,max=0 ch6:nonzero=0,min=0,max=0
+MARKER: 7 0 100 0 0 0 4294892296 4294907296
+RAW_SAMPLE 1 ms=636 frames=0,1,2 ch0:nonzero=0,min=0,max=0 ch1:nonzero=0,min=0,max=0 ch2:nonzero=0,min=0,max=0 ch3:nonzero=0,min=0,max=0 ch4:nonzero=0,min=0,max=0 ch5:nonzero=0,min=0,max=0 ch6:nonzero=0,min=0,max=0
+MARKER: 7 0 100 0 0 0 4294892296 4294907296
+RAW_SAMPLE 2 ms=1205 frames=0,1,2 ch0:nonzero=0,min=0,max=0 ch1:nonzero=0,min=0,max=0 ch2:nonzero=0,min=0,max=0 ch3:nonzero=0,min=0,max=0 ch4:nonzero=0,min=0,max=0 ch5:nonzero=0,min=0,max=0 ch6:nonzero=0,min=0,max=0
+MARKER: 7 0 100 0 0 0 4294892296 4294907296
+RAW_SAMPLE 3 ms=1774 frames=0,1,2 ch0:nonzero=0,min=0,max=0 ch1:nonzero=0,min=0,max=0 ch2:nonzero=0,min=0,max=0 ch3:nonzero=0,min=0,max=0 ch4:nonzero=0,min=0,max=0 ch5:nonzero=0,min=0,max=0 ch6:nonzero=0,min=0,max=0
+MARKER: 7 0 100 0 0 0 4294892296 4294907296
+RAW_SAMPLE 4 ms=2341 frames=0,1,2 ch0:nonzero=0,min=0,max=0 ch1:nonzero=0,min=0,max=0 ch2:nonzero=0,min=0,max=0 ch3:nonzero=0,min=0,max=0 ch4:nonzero=0,min=0,max=0 ch5:nonzero=0,min=0,max=0 ch6:nonzero=0,min=0,max=0
+MARKER: 7 0 100 0 0 0 4294892296 4294907296
+exit

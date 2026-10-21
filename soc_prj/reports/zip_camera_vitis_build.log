@@ -1,0 +1,109 @@
+
+****** Xilinx Vitis Development Environment
+****** Vitis v2025.2 (64-bit)
+****** SW Build 6295257 on 2025-11-13-08:29:30
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+Vitis Server started on port '60334'.
+Initiating build for the mic_platform component.
+[INFO]: Building BSP
+[INFO]: Building BSP
+[INFO]: Copying headers and built archives
+[INFO]: Copying headers and built archives
+[INFO]: Successfully built BSP. Generated libxil.a, libxilstandalone.a, libxiltimer.a
+[1/2] Archiving C static library libsrc/build_configs/gen_bsp/libxil.a
+[2/2] ========== BSP Build Information ==========
+Compiler PATH: D:/Xilinx/Install/2025.2/Vitis/gnu/aarch32/nt/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe
+Compiler FLAGS:  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=D:/Xilinx/proje
+ct/My_FPGA/soc_sdk/workspace/mic_platform/ps7_cortexa9_0/standalone_a9/bsp/Xilinx.spec -ID:/Xilinx/p
+roject/My_FPGA/soc_sdk/workspace/mic_platform/ps7_cortexa9_0/standalone_a9/bsp/include  -O2 -g -Wall
+ -Wextra -fno-tree-loop-distribute-patterns -DNDEBUG
+===========================================
+** The above flags are BSP level flags. Increase verbosity to see component specific flags **
+===========================================
+[INFO]: Successfully built BSP. Generated libxil.a, libxilffs.a, libxilrsa.a, libxilstandalone.a, libxiltimer.a
+[1/2] Archiving C static library libsrc/build_configs/gen_bsp/libxil.a
+[2/2] ========== BSP Build Information ==========
+Compiler PATH: D:/Xilinx/Install/2025.2/Vitis/gnu/aarch32/nt/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe
+Compiler FLAGS:  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=D:/Xilinx/proje
+ct/My_FPGA/soc_sdk/workspace/mic_platform/zynq_fsbl/zynq_fsbl_bsp/Xilinx.spec -ID:/Xilinx/project/My
+_FPGA/soc_sdk/workspace/mic_platform/zynq_fsbl/zynq_fsbl_bsp/include  -O2 -g -Wall -Wextra -fno-tree
+-loop-distribute-patterns -DNDEBUG
+===========================================
+** The above flags are BSP level flags. Increase verbosity to see component specific flags **
+===========================================
+Generating Boot ELFs
+[INFO]: Starting Application build process
+[INFO]: Building BSP
+[INFO]: Copying headers and built archives
+[INFO]: Successfully built BSP. Generated libxil.a, libxilffs.a, libxilrsa.a, libxilstandalone.a, libxiltimer.a
+[INFO]: Building Application
+[1/2] Archiving C static library libsrc/build_configs/gen_bsp/libxil.a
+[2/2] ========== BSP Build Information ==========
+Compiler PATH: D:/Xilinx/Install/2025.2/Vitis/gnu/aarch32/nt/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe
+Compiler FLAGS:  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=D:/Xilinx/proje
+ct/My_FPGA/soc_sdk/workspace/mic_platform/zynq_fsbl/zynq_fsbl_bsp/Xilinx.spec -ID:/Xilinx/project/My
+_FPGA/soc_sdk/workspace/mic_platform/zynq_fsbl/zynq_fsbl_bsp/include  -O2 -g -Wall -Wextra -fno-tree
+-loop-distribute-patterns -DNDEBUG
+===========================================
+** The above flags are BSP level flags. Increase verbosity to see component specific flags **
+===========================================
+[1/13] ==========Application Build Information ==========
+Compiler Flags:  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=D:/Xilinx/proje
+ct/My_FPGA/soc_sdk/workspace/mic_platform/zynq_fsbl/zynq_fsbl_bsp/Xilinx.spec -ID:/Xilinx/project/My
+_FPGA/soc_sdk/workspace/mic_platform/zynq_fsbl/zynq_fsbl_bsp/include -Wall -Wextra      -O0  -g3    
+ -U__clang__  
+Linker Flags:       -Os -Wl,--gc-sections -n -T"D:/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_plat
+form/zynq_fsbl/lscript.ld" -L"D:/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_platform/zynq_fsbl/zyn
+q_fsbl_bsp/lib/" -L"/" -Wl,--start-group,-lxiltimer,-lxilffs,-lxilrsa,-lxil,-lxilstandalone,-lxiltim
+er,-lxilffs,-lxilrsa,-lgcc,-lc -Wl,--end-group
+===========================================
+[2/13] Building C object CMakeFiles/fsbl.elf.dir/fsbl_hooks.c.obj
+[3/13] Building C object CMakeFiles/fsbl.elf.dir/rsa.c.obj
+[4/13] Building C object CMakeFiles/fsbl.elf.dir/md5.c.obj
+[5/13] Building C object CMakeFiles/fsbl.elf.dir/nand.c.obj
+[6/13] Building C object CMakeFiles/fsbl.elf.dir/image_mover.c.obj
+[7/13] Building C object CMakeFiles/fsbl.elf.dir/nor.c.obj
+[8/13] Building C object CMakeFiles/fsbl.elf.dir/sd.c.obj
+[9/13] Building C object CMakeFiles/fsbl.elf.dir/qspi.c.obj
+[10/13] Building C object CMakeFiles/fsbl.elf.dir/pcap.c.obj
+[11/13] Building C object CMakeFiles/fsbl.elf.dir/ps7_init.c.obj
+D:/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_platform/zynq_fsbl/ps7_init.c: In function 'ps7_config':
+D:/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_platform/zynq_fsbl/ps7_init.c:8335:35: warning: comparison of integer expressions of different signedness: 'long unsigned int' and 'int' [-Wsign-compare]
+ 8335 |                     while ((*addr < delay)) {
+      |                                   ^
+[12/13] Building C object CMakeFiles/fsbl.elf.dir/main.c.obj
+[13/13] Linking C executable fsbl.elf
+   text	   data	    bss	    dec	    hex	filename
+  48137	   7920	  67988	 124045	  1e48d	fsbl.elf
+Generating Export directory
+Platform Build Finished successfully.
+Initiating build for the mic_angle component.
+Command: cmd.exe /C set CC= && set CXX= && empyro.bat build_app -s D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_angle\src -b D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_angle\build
+[INFO]: Starting Application build process
+[INFO]: Building Application
+[1/10] ==========Application Build Information ==========
+Compiler Flags:  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=D:/Xilinx/proje
+ct/My_FPGA/soc_sdk/workspace/mic_platform/export/mic_platform/sw/standalone_a9/Xilinx.spec -ID:/Xili
+nx/project/My_FPGA/soc_sdk/workspace/mic_platform/export/mic_platform/sw/standalone_a9/include -Wall
+ -Wextra      -O2  -g3     -U__clang__  
+Linker Flags:       -Wl,-T -Wl,"D:/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_angle/src/lscript.ld
+" -L"D:/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_angle/src/" -L"D:/Xilinx/project/My_FPGA/soc_sd
+k/workspace/mic_platform/export/mic_platform/sw/standalone_a9/lib/" -L"/" -Wl,--start-group,-lxilsta
+ndalone,-lxiltimer,-lxil,-lgcc,-lc,-lm -Wl,--end-group
+===========================================
+[2/10] Building C object CMakeFiles/mic_angle.elf.dir/background.c.obj
+[3/10] Building C object CMakeFiles/mic_angle.elf.dir/servo_startup.c.obj
+[4/10] Building C object CMakeFiles/mic_angle.elf.dir/car.c.obj
+[5/10] Building C object CMakeFiles/mic_angle.elf.dir/servo.c.obj
+[6/10] Building C object CMakeFiles/mic_angle.elf.dir/camera.c.obj
+[7/10] Building C object CMakeFiles/mic_angle.elf.dir/sound_marker.c.obj
+[8/10] Building C object CMakeFiles/mic_angle.elf.dir/doa.c.obj
+[9/10] Building C object CMakeFiles/mic_angle.elf.dir/main.c.obj
+[10/10] Linking C executable mic_angle.elf
+   text	   data	    bss	    dec	    hex	filename
+  60149	   1916	 302720	 364785	  590f1	mic_angle.elf
+Build Finished successfully
+VITIS_BUILD_OK: platform, ELF and matching XSA/bit/init verified
+Shutting down Vitis server running on port '60334'

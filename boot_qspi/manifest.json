@@ -1,0 +1,20 @@
+{
+  "program": "CAR1",
+  "built_at": "2026-10-18T19:34:48+08:00",
+  "architecture": "zynq",
+  "qspi_fsbl_enabled": true,
+  "flash_type": "qspi-x8-dual_parallel",
+  "offset": "0x0",
+  "board_programmed": false,
+  "files": {
+    "soc_hw/system_wrapper.xsa": "c183b310dd407e1fe789dd4ad25f568f28a4e914c3223594cd987d9fb70ceb5b",
+    "soc_hw/mic_soc_top.bit": "4c0241a09f39d5cb438e1e671f343da7b2c0a4a12fe69e5a4385a4fe43a88501",
+    "soc_sdk/workspace/mic_angle/build/mic_angle.elf": "983f5e6fa1f3cbb01b3b48503df823ee5e27487d4b22ca7bd623ec52646ee643",
+    "boot_qspi/boot_init.xsa": "86fe4b5fb0e57761de460bb0e40d98c22eac911b20962ad9947221f1a13387f7",
+    "boot_qspi/fsbl_receipt.json": "df611b5574e73cf1f58bede4776359bdf60ded3bcfe36cfe45cebac8c4a2ad13",
+    "boot_qspi/ps7_init_qspi.tcl": "93754e4881d9da9044b0a0e858819ecf8f08e0dbfa3e2db7c5270721cb71425d",
+    "boot_qspi/fsbl.elf": "ee6e8722b0d5282151bb7bcb25bf484e9c014c899f4d99624ac6dcebdc93c889",
+    "boot_qspi/boot.bif": "12dfb88fcf9ce46889dcb37ced3c18f2554ab0149e504a6f2c3c881a15cb4141",
+    "boot_qspi/BOOT.BIN": "6bb0e7ae212d3b4234c50903fbd2a7f35d8d5c3bd916f63249861584fc589a6e"
+  }
+}

@@ -1,0 +1,20 @@
+
+****** Software Commandline Tool (XSCT) v2025.2.0
+  **** SW Build 6298600 on Thu Nov 13 01:12:30 MST 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+Warning: XSCT is deprecated and will be removed in future releases.
+We recommend using the new Python command-line tool for project management and debugging:
+- Run "vitis -i" for interactive mode.
+- Run "vitis -s <script>" for script mode.
+CAMERA: result=0 sensor_id=0x5640 last_register=0x3503 status=0x2722725f displayed_frames=1166
+VIDEO: display_clock=1 camera_clock=1 frame_available=1 malformed=1 image_fresh=1 image_stale=0
+TRACKING: state=2 blocks=611 fault=0 az=-53 el=-50 valid=0 pan_target=1841 tilt_target=1350 pan_pwm=1841 tilt_pwm=1350
+MARKER: requested=0 x=342 y=583 overlay_active=0 (lens calibration required)
+PERFORMANCE: capture_ms=42 compute_ms=19 cycle_ms=121 max_compute_ms=19 valid_blocks=513/611 noise_rms=4615
+MARKER_QUALITY: reason=ambiguity rms=12765 threshold=6462 coherence=0.821 margin=0.010 tonality=0.184 az=-53.000 el=-50.000
+VIDEO_RATE: input_fps=14.61 complete_fps=14.61 display_fps=14.61 window_ms=1095
+VIDEO_RECOVERY: attempts=0 stage=0 error=0 line_error=1 odd_byte=0 overrun=0 version=0x54383030
+STATUS_READ_OK

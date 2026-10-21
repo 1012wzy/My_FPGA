@@ -1,0 +1,59 @@
+CONFIG.PCW_ACT_QSPI_PERIPHERAL_FREQMHZ: 10.000000 -> 150.000000
+CONFIG.PCW_DUAL_PARALLEL_QSPI_DATA_MODE: <Select> -> x8
+CONFIG.PCW_EN_QSPI: 0 -> 1
+CONFIG.PCW_MIO_0_DIRECTION: <Select> -> out
+CONFIG.PCW_MIO_0_IOTYPE: <Select> -> LVCMOS 3.3V
+CONFIG.PCW_MIO_0_PULLUP: <Select> -> enabled
+CONFIG.PCW_MIO_0_SLEW: <Select> -> slow
+CONFIG.PCW_MIO_10_DIRECTION: <Select> -> inout
+CONFIG.PCW_MIO_10_IOTYPE: <Select> -> LVCMOS 3.3V
+CONFIG.PCW_MIO_10_PULLUP: <Select> -> enabled
+CONFIG.PCW_MIO_10_SLEW: <Select> -> slow
+CONFIG.PCW_MIO_11_DIRECTION: <Select> -> inout
+CONFIG.PCW_MIO_11_IOTYPE: <Select> -> LVCMOS 3.3V
+CONFIG.PCW_MIO_11_PULLUP: <Select> -> enabled
+CONFIG.PCW_MIO_11_SLEW: <Select> -> slow
+CONFIG.PCW_MIO_12_DIRECTION: <Select> -> inout
+CONFIG.PCW_MIO_12_IOTYPE: <Select> -> LVCMOS 3.3V
+CONFIG.PCW_MIO_12_PULLUP: <Select> -> enabled
+CONFIG.PCW_MIO_12_SLEW: <Select> -> slow
+CONFIG.PCW_MIO_13_DIRECTION: <Select> -> inout
+CONFIG.PCW_MIO_13_IOTYPE: <Select> -> LVCMOS 3.3V
+CONFIG.PCW_MIO_13_PULLUP: <Select> -> enabled
+CONFIG.PCW_MIO_13_SLEW: <Select> -> slow
+CONFIG.PCW_MIO_1_DIRECTION: <Select> -> out
+CONFIG.PCW_MIO_1_IOTYPE: <Select> -> LVCMOS 3.3V
+CONFIG.PCW_MIO_1_PULLUP: <Select> -> enabled
+CONFIG.PCW_MIO_1_SLEW: <Select> -> slow
+CONFIG.PCW_MIO_2_DIRECTION: <Select> -> inout
+CONFIG.PCW_MIO_2_IOTYPE: <Select> -> LVCMOS 3.3V
+CONFIG.PCW_MIO_2_PULLUP: <Select> -> disabled
+CONFIG.PCW_MIO_2_SLEW: <Select> -> slow
+CONFIG.PCW_MIO_3_DIRECTION: <Select> -> inout
+CONFIG.PCW_MIO_3_IOTYPE: <Select> -> LVCMOS 3.3V
+CONFIG.PCW_MIO_3_PULLUP: <Select> -> disabled
+CONFIG.PCW_MIO_3_SLEW: <Select> -> slow
+CONFIG.PCW_MIO_4_DIRECTION: <Select> -> inout
+CONFIG.PCW_MIO_4_IOTYPE: <Select> -> LVCMOS 3.3V
+CONFIG.PCW_MIO_4_PULLUP: <Select> -> disabled
+CONFIG.PCW_MIO_4_SLEW: <Select> -> slow
+CONFIG.PCW_MIO_5_DIRECTION: <Select> -> inout
+CONFIG.PCW_MIO_5_IOTYPE: <Select> -> LVCMOS 3.3V
+CONFIG.PCW_MIO_5_PULLUP: <Select> -> disabled
+CONFIG.PCW_MIO_5_SLEW: <Select> -> slow
+CONFIG.PCW_MIO_6_DIRECTION: <Select> -> out
+CONFIG.PCW_MIO_6_IOTYPE: <Select> -> LVCMOS 3.3V
+CONFIG.PCW_MIO_6_PULLUP: <Select> -> disabled
+CONFIG.PCW_MIO_6_SLEW: <Select> -> slow
+CONFIG.PCW_MIO_9_DIRECTION: <Select> -> out
+CONFIG.PCW_MIO_9_IOTYPE: <Select> -> LVCMOS 3.3V
+CONFIG.PCW_MIO_9_PULLUP: <Select> -> enabled
+CONFIG.PCW_MIO_9_SLEW: <Select> -> slow
+CONFIG.PCW_MIO_TREE_PERIPHERALS: unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#UART 0#UART 0#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#USB 1#USB 1#USB 1#USB 1#USB 1#USB 1#USB 1#USB 1#USB 1#USB 1#USB 1#USB 1#unassigned#unassigned -> Quad SPI Flash#Quad SPI Flash#Quad SPI Flash#Quad SPI Flash#Quad SPI Flash#Quad SPI Flash#Quad SPI Flash#unassigned#unassigned#Quad SPI Flash#Quad SPI Flash#Quad SPI Flash#Quad SPI Flash#Quad SPI Flash#UART 0#UART 0#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#USB 1#USB 1#USB 1#USB 1#USB 1#USB 1#USB 1#USB 1#USB 1#USB 1#USB 1#USB 1#unassigned#unassigned
+CONFIG.PCW_MIO_TREE_SIGNALS: unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#rx#tx#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#data[4]#dir#stp#nxt#data[0]#data[1]#data[2]#data[3]#clk#data[5]#data[6]#data[7]#unassigned#unassigned -> qspi1_ss_b#qspi0_ss_b#qspi0_io[0]#qspi0_io[1]#qspi0_io[2]#qspi0_io[3]/HOLD_B#qspi0_sclk#unassigned#unassigned#qspi1_sclk#qspi1_io[0]#qspi1_io[1]#qspi1_io[2]#qspi1_io[3]#rx#tx#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#data[4]#dir#stp#nxt#data[0]#data[1]#data[2]#data[3]#clk#data[5]#data[6]#data[7]#unassigned#unassigned
+CONFIG.PCW_QSPI_GRP_IO1_ENABLE: 0 -> 1
+CONFIG.PCW_QSPI_GRP_IO1_IO: <Select> -> MIO 0 9 .. 13
+CONFIG.PCW_QSPI_PERIPHERAL_DIVISOR0: 1 -> 12
+CONFIG.PCW_QSPI_PERIPHERAL_ENABLE: 0 -> 1
+CONFIG.PCW_QSPI_PERIPHERAL_FREQMHZ: 200 -> 150
+CONFIG.PCW_QSPI_QSPI_IO: <Select> -> MIO 1 .. 6

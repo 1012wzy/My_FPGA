@@ -1,0 +1,17 @@
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Fri Oct 16 13:03:50 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/tb_sound_overlay/xsim_script.tcl
+# xsim {tb_sound_overlay} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS: SOS 204x84 glyph/size/transparency/clipping, direction dot signs/validity, removed history panel, panel priority, status line, 3-stage sync, raster preview
+$finish called at time : 9216926 ns : File "D:/Xilinx/project/My_FPGA/soc_prj/scripts/test_support/tb_sound_overlay.sv" Line 45
+exit
+INFO: [Common 17-206] Exiting xsim at Fri Oct 16 13:03:54 2026...

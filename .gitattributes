@@ -1,0 +1,17 @@
+# Release manifests hash the original file bytes; preserve their line endings.
+* -text
+*.bit binary
+*.bin binary
+*.BIN binary
+*.dcp binary
+*.elf binary
+*.xsa binary
+*.png binary
+*.jpg binary
+*.pdf binary
+
+# Keep generated vendor platform files out of the primary language statistics.
+soc_sdk/workspace/** linguist-generated=true
+soc_hw/** linguist-generated=true
+boot_qspi/*.log linguist-generated=true
+soc_prj/reports/** linguist-generated=true

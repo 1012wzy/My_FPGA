@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-18",
+  "device": "xc7z100",
+  "boot_mode": "JTAG",
+  "flash": "n25q128a13",
+  "configuration": "dual parallel",
+  "total_mib": 32,
+  "read_bytes": 64,
+  "erased": false,
+  "programmed": false,
+  "cold_boot_verified": false,
+  "probe_log_sha256": "b9a7b519453b242aa7525e853336c0a1bcdc98a56fa8ce3d9ab5941f0a011aa5",
+  "fsbl_sha256": "ee6e8722b0d5282151bb7bcb25bf484e9c014c899f4d99624ac6dcebdc93c889",
+  "note": "Dummy comparison mismatch is expected in -no_program probe; Flash identification/read succeeded."
+}

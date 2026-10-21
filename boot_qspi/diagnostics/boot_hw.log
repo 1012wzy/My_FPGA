@@ -1,0 +1,927 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Sun Oct 18 10:13:02 2026
+# Process ID         : 30956
+# Current directory  : D:/Xilinx/project/My_FPGA
+# Command line       : vivado.exe -mode batch -source D:\Xilinx\project\My_FPGA\scripts\build_boot_hw.tcl -log D:\Xilinx\project\My_FPGA\boot_qspi\diagnostics\boot_hw.log -journal D:\Xilinx\project\My_FPGA\boot_qspi\diagnostics\boot_hw.jou
+# Log file           : D:/Xilinx/project/My_FPGA/boot_qspi/diagnostics/boot_hw.log
+# Journal file       : D:\Xilinx\project\My_FPGA\boot_qspi\diagnostics\boot_hw.jou
+# Running On         : MaYiQun
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26300
+# Processor Detail   : AMD Ryzen 9 7845HX with Radeon Graphics        
+# CPU Frequency      : 2994 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 24
+# Host memory        : 16341 MB
+# Swap memory        : 31664 MB
+# Total Virtual      : 48005 MB
+# Available Virtual  : 11971 MB
+#-----------------------------------------------------------
+source {D:\Xilinx\project\My_FPGA\scripts\build_boot_hw.tcl}
+# set root [file normalize [file join [file dirname [info script]] ..]]
+# set out [file join $root boot_qspi]
+# set work [file join $out init_hw]
+# file mkdir $work
+# set ::env(TEMP) [file join $root .build_tmp]
+# set ::env(TMP) $::env(TEMP)
+# open_project [file join $root soc_prj SXCX.xpr]
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory 'D:/Xilinx/project/My_FPGA/soc_prj/SXCX.ip_user_files'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.0 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.0\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.1 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.1\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:v80:part0:1.0 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\v80\1.0\board.xml as part xcv80-lsva4737-2mhp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vc707\1.4\board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.5 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vc707\1.5\board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vc709\1.8\board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\2.2\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.0\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.1\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.2\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.3\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.4 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.4\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.0\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.1\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.2\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.3 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.3\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu108\1.6\board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu108\1.7\board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu110\1.4\board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu118\2.0\board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu118\2.3\board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu118\2.4\board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu128\production\1.0\board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu129\production\1.0\board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu1525\1.3\board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.0\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.1 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.1\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.2 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.2\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek385:part0:1.0 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek385\1.0\board.xml as part xc2ve3858-ssva2112-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek385:part0:1.1 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek385\1.1\board.xml as part xc2ve3858-ssva2112-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek385_1:part0:1.0 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek385_2\1.0\board.xml as part xc2ve3858-ssva2112-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.0\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.1\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.2 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.2\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\2.2\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\3.0\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\3.1\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\3.2\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.3 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\3.3\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180_newl\production\1.0\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180_newl\production\1.1\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk120\production\1.0\board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk120\production\1.1\board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk120\production\1.2\board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.0\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.1\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.2 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.2\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vrk160:part0:1.0 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vrk160\1.0\board.xml as part xcvr1602-vsva2488-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vrk160:part0:1.1 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vrk160\1.1\board.xml as part xcvr1602-vsva2488-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208ld\production\2.0\board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216ld\production\2.0\board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/Xilinx/Install/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670ld\1.0\board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Project 1-5713] Board part '' set for the project  is not found. BoardPart property will be unset. Please select board from latest repo build 
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Install/2025.2/Vivado/data/ip'.
+INFO: [Project 1-5698] Found the below utility IPs instantiated in block design D:/Xilinx/project/My_FPGA/soc_prj/SXCX.srcs/sources_1/bd/system/system.bd which have equivalent inline hdl with improved performance and reduced diskspace.
+It is recommended to migrate these utility IPs to inline hdl  using the command upgrade_project -migrate_to_inline_hdl.  The utility IPs may be deprecated in future releases.
+More information on inline hdl is available in UG994.
+Utility IP Component Instances:
+ system_one_0
+open_project: Time (s): cpu = 00:00:43 ; elapsed = 00:00:43 . Memory (MB): peak = 718.254 ; gain = 379.719
+# open_bd_design [get_files system.bd]
+Reading block design file <D:/Xilinx/project/My_FPGA/soc_prj/SXCX.srcs/sources_1/bd/system/system.bd>...
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - ps7
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - one
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - dma
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - gpio
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - cfg_ic
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - mem_ic
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - camera_gpio
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - direction_gpio
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - car_gpio
+Successfully read diagram <system> from block design file <D:/Xilinx/project/My_FPGA/soc_prj/SXCX.srcs/sources_1/bd/system/system.bd>
+# write_bd_tcl -force [file join $work recreate_system.tcl]
+INFO: [BD 5-148] Tcl file written out <D:/Xilinx/project/My_FPGA/boot_qspi/init_hw/recreate_system.tcl>.
+
+# close_project
+# create_project -force boot_init [file join $work clean_project] -part xc7z100ffg900-2
+# source [file join $work recreate_system.tcl]
+## namespace eval _tcl {
+## proc get_script_folder {} {
+##    set script_path [file normalize [info script]]
+##    set script_folder [file dirname $script_path]
+##    return $script_folder
+## }
+## }
+## variable script_folder
+## set script_folder [_tcl::get_script_folder]
+## set scripts_vivado_version 2025.2
+## set current_vivado_version [version -short]
+## if { [string first $scripts_vivado_version $current_vivado_version] == -1 } {
+##    puts ""
+##    if { [string compare $scripts_vivado_version $current_vivado_version] > 0 } {
+##       catch {common::send_gid_msg -ssname BD::TCL -id 2042 -severity "ERROR" " This script was generated using Vivado <$scripts_vivado_version> and is being run in <$current_vivado_version> of Vivado. Sourcing the script failed since it was created with a future version of Vivado."}
+## 
+##    } else {
+##      catch {common::send_gid_msg -ssname BD::TCL -id 2041 -severity "ERROR" "This script was generated using Vivado <$scripts_vivado_version> and is being run in <$current_vivado_version> of Vivado. Please run the script in Vivado <$scripts_vivado_version> then open the design in Vivado <$current_vivado_version>. Upgrade the design by running \"Tools => Report => Report IP Status...\", then run write_bd_tcl to create an updated script."}
+## 
+##    }
+## 
+##    return 1
+## }
+## set list_projs [get_projects -quiet]
+## if { $list_projs eq "" } {
+##    create_project project_1 myproj -part xc7z100ffg900-2
+## }
+## variable design_name
+## set design_name system
+## set errMsg ""
+## set nRet 0
+## set cur_design [current_bd_design -quiet]
+## set list_cells [get_bd_cells -quiet]
+## if { ${design_name} eq "" } {
+##    # USE CASES:
+##    #    1) Design_name not set
+## 
+##    set errMsg "Please set the variable <design_name> to a non-empty value."
+##    set nRet 1
+## 
+## } elseif { ${cur_design} ne "" && ${list_cells} eq "" } {
+##    # USE CASES:
+##    #    2): Current design opened AND is empty AND names same.
+##    #    3): Current design opened AND is empty AND names diff; design_name NOT in project.
+##    #    4): Current design opened AND is empty AND names diff; design_name exists in project.
+## 
+##    if { $cur_design ne $design_name } {
+##       common::send_gid_msg -ssname BD::TCL -id 2001 -severity "INFO" "Changing value of <design_name> from <$design_name> to <$cur_design> since current design is empty."
+##       set design_name [get_property NAME $cur_design]
+##    }
+##    common::send_gid_msg -ssname BD::TCL -id 2002 -severity "INFO" "Constructing design in IPI design <$cur_design>..."
+## 
+## } elseif { ${cur_design} ne "" && $list_cells ne "" && $cur_design eq $design_name } {
+##    # USE CASES:
+##    #    5) Current design opened AND has components AND same names.
+## 
+##    set errMsg "Design <$design_name> already exists in your project, please set the variable <design_name> to another value."
+##    set nRet 1
+## } elseif { [get_files -quiet ${design_name}.bd] ne "" } {
+##    # USE CASES: 
+##    #    6) Current opened design, has components, but diff names, design_name exists in project.
+##    #    7) No opened design, design_name exists in project.
+## 
+##    set errMsg "Design <$design_name> already exists in your project, please set the variable <design_name> to another value."
+##    set nRet 2
+## 
+## } else {
+##    # USE CASES:
+##    #    8) No opened design, design_name not in project.
+##    #    9) Current opened design, has components, but diff names, design_name not in project.
+## 
+##    common::send_gid_msg -ssname BD::TCL -id 2003 -severity "INFO" "Currently there is no design <$design_name> in project, so creating one..."
+## 
+##    create_bd_design $design_name
+## 
+##    common::send_gid_msg -ssname BD::TCL -id 2004 -severity "INFO" "Making design <$design_name> as current_bd_design."
+##    current_bd_design $design_name
+## 
+## }
+INFO: [BD::TCL 103-2003] Currently there is no design <system> in project, so creating one...
+Wrote  : <D:\Xilinx\project\My_FPGA\boot_qspi\init_hw\clean_project\boot_init.srcs\sources_1\bd\system\system.bd> 
+INFO: [BD::TCL 103-2004] Making design <system> as current_bd_design.
+## common::send_gid_msg -ssname BD::TCL -id 2005 -severity "INFO" "Currently the variable <design_name> is equal to \"$design_name\"."
+INFO: [BD::TCL 103-2005] Currently the variable <design_name> is equal to "system".
+## if { $nRet != 0 } {
+##    catch {common::send_gid_msg -ssname BD::TCL -id 2006 -severity "ERROR" $errMsg}
+##    return $nRet
+## }
+## set bCheckIPsPassed 1
+## set bCheckIPs 1
+## if { $bCheckIPs == 1 } {
+##    set list_check_ips "\ 
+## xilinx.com:ip:processing_system7:5.5\
+## xilinx.com:ip:proc_sys_reset:5.0\
+## xilinx.com:ip:xlconstant:1.1\
+## xilinx.com:ip:axi_dma:7.1\
+## xilinx.com:ip:axi_gpio:2.0\
+## "
+## 
+##    set list_ips_missing ""
+##    common::send_gid_msg -ssname BD::TCL -id 2011 -severity "INFO" "Checking if the following IPs exist in the project's IP catalog: $list_check_ips ."
+## 
+##    foreach ip_vlnv $list_check_ips {
+##       set ip_obj [get_ipdefs -all $ip_vlnv]
+##       if { $ip_obj eq "" } {
+##          lappend list_ips_missing $ip_vlnv
+##       }
+##    }
+## 
+##    if { $list_ips_missing ne "" } {
+##       catch {common::send_gid_msg -ssname BD::TCL -id 2012 -severity "ERROR" "The following IPs are not found in the IP Catalog:\n  $list_ips_missing\n\nResolution: Please add the repository containing the IP(s) to the project." }
+##       set bCheckIPsPassed 0
+##    }
+## 
+## }
+INFO: [BD::TCL 103-2011] Checking if the following IPs exist in the project's IP catalog:  
+xilinx.com:ip:processing_system7:5.5 xilinx.com:ip:proc_sys_reset:5.0 xilinx.com:ip:xlconstant:1.1 xilinx.com:ip:axi_dma:7.1 xilinx.com:ip:axi_gpio:2.0  .
+## if { $bCheckIPsPassed != 1 } {
+##   common::send_gid_msg -ssname BD::TCL -id 2023 -severity "WARNING" "Will not continue with creation of design due to the error(s) above."
+##   return 3
+## }
+## proc create_root_design { parentCell } {
+## 
+##   variable script_folder
+##   variable design_name
+## 
+##   if { $parentCell eq "" } {
+##      set parentCell [get_bd_cells /]
+##   }
+## 
+##   # Get object for parentCell
+##   set parentObj [get_bd_cells $parentCell]
+##   if { $parentObj == "" } {
+##      catch {common::send_gid_msg -ssname BD::TCL -id 2090 -severity "ERROR" "Unable to find parent cell <$parentCell>!"}
+##      return
+##   }
+## 
+##   # Make sure parentObj is hier blk
+##   set parentType [get_property TYPE $parentObj]
+##   if { $parentType ne "hier" } {
+##      catch {common::send_gid_msg -ssname BD::TCL -id 2091 -severity "ERROR" "Parent <$parentObj> has TYPE = <$parentType>. Expected to be <hier>."}
+##      return
+##   }
+## 
+##   # Save current instance; Restore later
+##   set oldCurInst [current_bd_instance .]
+## 
+##   # Set parent object as current
+##   current_bd_instance $parentObj
+## 
+## 
+##   # Create interface ports
+##   set DDR [ create_bd_intf_port -mode Master -vlnv xilinx.com:interface:ddrx_rtl:1.0 DDR ]
+## 
+##   set FIXED_IO [ create_bd_intf_port -mode Master -vlnv xilinx.com:display_processing_system7:fixedio_rtl:1.0 FIXED_IO ]
+## 
+##   set mic_axis [ create_bd_intf_port -mode Slave -vlnv xilinx.com:interface:axis_rtl:1.0 mic_axis ]
+##   set_property -dict [ list \
+##    CONFIG.FREQ_HZ {100000000} \
+##    CONFIG.HAS_TKEEP {1} \
+##    CONFIG.HAS_TLAST {1} \
+##    CONFIG.HAS_TREADY {1} \
+##    CONFIG.HAS_TSTRB {0} \
+##    CONFIG.LAYERED_METADATA {undef} \
+##    CONFIG.TDATA_NUM_BYTES {4} \
+##    CONFIG.TDEST_WIDTH {0} \
+##    CONFIG.TID_WIDTH {0} \
+##    CONFIG.TUSER_WIDTH {0} \
+##    ] $mic_axis
+## 
+## 
+##   # Create ports
+##   set clk_100 [ create_bd_port -dir I -type clk -freq_hz 100000000 clk_100 ]
+##   set_property -dict [ list \
+##    CONFIG.ASSOCIATED_BUSIF {mic_axis} \
+##  ] $clk_100
+##   set resetn [ create_bd_port -dir O -from 0 -to 0 -type rst resetn ]
+##   set_property -dict [ list \
+##    CONFIG.POLARITY {ACTIVE_LOW} \
+##  ] $resetn
+##   set control [ create_bd_port -dir O -from 31 -to 0 control ]
+##   set status [ create_bd_port -dir I -from 31 -to 0 status ]
+##   set camera_control [ create_bd_port -dir O -from 31 -to 0 camera_control ]
+##   set camera_status [ create_bd_port -dir I -from 31 -to 0 camera_status ]
+##   set direction_control [ create_bd_port -dir O -from 31 -to 0 direction_control ]
+##   set car_control [ create_bd_port -dir O -from 31 -to 0 car_control ]
+##   set car_status [ create_bd_port -dir I -from 31 -to 0 car_status ]
+## 
+##   # Create instance: ps7, and set properties
+##   set ps7 [ create_bd_cell -type ip -vlnv xilinx.com:ip:processing_system7:5.5 ps7 ]
+##   set_property -dict [list \
+##     CONFIG.PCW_ACT_APU_PERIPHERAL_FREQMHZ {666.666687} \
+##     CONFIG.PCW_ACT_CAN0_PERIPHERAL_FREQMHZ {23.8095} \
+##     CONFIG.PCW_ACT_CAN1_PERIPHERAL_FREQMHZ {23.8095} \
+##     CONFIG.PCW_ACT_CAN_PERIPHERAL_FREQMHZ {10.000000} \
+##     CONFIG.PCW_ACT_DCI_PERIPHERAL_FREQMHZ {10.158730} \
+##     CONFIG.PCW_ACT_ENET0_PERIPHERAL_FREQMHZ {10.000000} \
+##     CONFIG.PCW_ACT_ENET1_PERIPHERAL_FREQMHZ {10.000000} \
+##     CONFIG.PCW_ACT_FPGA0_PERIPHERAL_FREQMHZ {100.000000} \
+##     CONFIG.PCW_ACT_FPGA1_PERIPHERAL_FREQMHZ {10.000000} \
+##     CONFIG.PCW_ACT_FPGA2_PERIPHERAL_FREQMHZ {10.000000} \
+##     CONFIG.PCW_ACT_FPGA3_PERIPHERAL_FREQMHZ {10.000000} \
+##     CONFIG.PCW_ACT_I2C_PERIPHERAL_FREQMHZ {50} \
+##     CONFIG.PCW_ACT_PCAP_PERIPHERAL_FREQMHZ {200.000000} \
+##     CONFIG.PCW_ACT_QSPI_PERIPHERAL_FREQMHZ {10.000000} \
+##     CONFIG.PCW_ACT_SDIO_PERIPHERAL_FREQMHZ {10.000000} \
+##     CONFIG.PCW_ACT_SMC_PERIPHERAL_FREQMHZ {10.000000} \
+##     CONFIG.PCW_ACT_SPI_PERIPHERAL_FREQMHZ {10.000000} \
+##     CONFIG.PCW_ACT_TPIU_PERIPHERAL_FREQMHZ {200.000000} \
+##     CONFIG.PCW_ACT_TTC0_CLK0_PERIPHERAL_FREQMHZ {111.111115} \
+##     CONFIG.PCW_ACT_TTC0_CLK1_PERIPHERAL_FREQMHZ {111.111115} \
+##     CONFIG.PCW_ACT_TTC0_CLK2_PERIPHERAL_FREQMHZ {111.111115} \
+##     CONFIG.PCW_ACT_TTC1_CLK0_PERIPHERAL_FREQMHZ {111.111115} \
+##     CONFIG.PCW_ACT_TTC1_CLK1_PERIPHERAL_FREQMHZ {111.111115} \
+##     CONFIG.PCW_ACT_TTC1_CLK2_PERIPHERAL_FREQMHZ {111.111115} \
+##     CONFIG.PCW_ACT_TTC_PERIPHERAL_FREQMHZ {50} \
+##     CONFIG.PCW_ACT_UART_PERIPHERAL_FREQMHZ {100.000000} \
+##     CONFIG.PCW_ACT_USB0_PERIPHERAL_FREQMHZ {60} \
+##     CONFIG.PCW_ACT_USB1_PERIPHERAL_FREQMHZ {60} \
+##     CONFIG.PCW_ACT_WDT_PERIPHERAL_FREQMHZ {111.111115} \
+##     CONFIG.PCW_APU_CLK_RATIO_ENABLE {6:2:1} \
+##     CONFIG.PCW_APU_PERIPHERAL_FREQMHZ {666.666666} \
+##     CONFIG.PCW_CAN0_PERIPHERAL_CLKSRC {External} \
+##     CONFIG.PCW_CAN0_PERIPHERAL_ENABLE {0} \
+##     CONFIG.PCW_CAN1_PERIPHERAL_CLKSRC {External} \
+##     CONFIG.PCW_CAN1_PERIPHERAL_ENABLE {0} \
+##     CONFIG.PCW_CAN_PERIPHERAL_CLKSRC {IO PLL} \
+##     CONFIG.PCW_CAN_PERIPHERAL_VALID {0} \
+##     CONFIG.PCW_CLK0_FREQ {100000000} \
+##     CONFIG.PCW_CLK1_FREQ {10000000} \
+##     CONFIG.PCW_CLK2_FREQ {10000000} \
+##     CONFIG.PCW_CLK3_FREQ {10000000} \
+##     CONFIG.PCW_CPU_CPU_6X4X_MAX_RANGE {800} \
+##     CONFIG.PCW_CPU_PERIPHERAL_CLKSRC {ARM PLL} \
+##     CONFIG.PCW_CRYSTAL_PERIPHERAL_FREQMHZ {33.333333} \
+##     CONFIG.PCW_DCI_PERIPHERAL_CLKSRC {DDR PLL} \
+##     CONFIG.PCW_DCI_PERIPHERAL_FREQMHZ {10.159} \
+##     CONFIG.PCW_DDR_PERIPHERAL_CLKSRC {DDR PLL} \
+##     CONFIG.PCW_DDR_RAM_BASEADDR {0x00100000} \
+##     CONFIG.PCW_DDR_RAM_HIGHADDR {0x3FFFFFFF} \
+##     CONFIG.PCW_DM_WIDTH {4} \
+##     CONFIG.PCW_DQS_WIDTH {4} \
+##     CONFIG.PCW_DQ_WIDTH {32} \
+##     CONFIG.PCW_ENET0_PERIPHERAL_CLKSRC {IO PLL} \
+##     CONFIG.PCW_ENET0_PERIPHERAL_ENABLE {0} \
+##     CONFIG.PCW_ENET1_PERIPHERAL_CLKSRC {IO PLL} \
+##     CONFIG.PCW_ENET1_PERIPHERAL_ENABLE {0} \
+##     CONFIG.PCW_ENET_RESET_POLARITY {Active Low} \
+##     CONFIG.PCW_EN_4K_TIMER {0} \
+##     CONFIG.PCW_EN_CAN0 {0} \
+##     CONFIG.PCW_EN_CAN1 {0} \
+##     CONFIG.PCW_EN_CLK0_PORT {1} \
+##     CONFIG.PCW_EN_CLK1_PORT {0} \
+##     CONFIG.PCW_EN_CLK2_PORT {0} \
+##     CONFIG.PCW_EN_CLK3_PORT {0} \
+##     CONFIG.PCW_EN_CLKTRIG0_PORT {0} \
+##     CONFIG.PCW_EN_CLKTRIG1_PORT {0} \
+##     CONFIG.PCW_EN_CLKTRIG2_PORT {0} \
+##     CONFIG.PCW_EN_CLKTRIG3_PORT {0} \
+##     CONFIG.PCW_EN_DDR {1} \
+##     CONFIG.PCW_EN_EMIO_CAN0 {0} \
+##     CONFIG.PCW_EN_EMIO_CAN1 {0} \
+##     CONFIG.PCW_EN_EMIO_CD_SDIO0 {0} \
+##     CONFIG.PCW_EN_EMIO_CD_SDIO1 {0} \
+##     CONFIG.PCW_EN_EMIO_ENET0 {0} \
+##     CONFIG.PCW_EN_EMIO_ENET1 {0} \
+##     CONFIG.PCW_EN_EMIO_GPIO {0} \
+##     CONFIG.PCW_EN_EMIO_I2C0 {0} \
+##     CONFIG.PCW_EN_EMIO_I2C1 {0} \
+##     CONFIG.PCW_EN_EMIO_MODEM_UART0 {0} \
+##     CONFIG.PCW_EN_EMIO_MODEM_UART1 {0} \
+##     CONFIG.PCW_EN_EMIO_PJTAG {0} \
+##     CONFIG.PCW_EN_EMIO_SDIO0 {0} \
+##     CONFIG.PCW_EN_EMIO_SDIO1 {0} \
+##     CONFIG.PCW_EN_EMIO_SPI0 {0} \
+##     CONFIG.PCW_EN_EMIO_SPI1 {0} \
+##     CONFIG.PCW_EN_EMIO_SRAM_INT {0} \
+##     CONFIG.PCW_EN_EMIO_TRACE {0} \
+##     CONFIG.PCW_EN_EMIO_TTC0 {0} \
+##     CONFIG.PCW_EN_EMIO_TTC1 {0} \
+##     CONFIG.PCW_EN_EMIO_UART0 {0} \
+##     CONFIG.PCW_EN_EMIO_UART1 {0} \
+##     CONFIG.PCW_EN_EMIO_WDT {0} \
+##     CONFIG.PCW_EN_EMIO_WP_SDIO0 {0} \
+##     CONFIG.PCW_EN_EMIO_WP_SDIO1 {0} \
+##     CONFIG.PCW_EN_ENET0 {0} \
+##     CONFIG.PCW_EN_ENET1 {0} \
+##     CONFIG.PCW_EN_GPIO {0} \
+##     CONFIG.PCW_EN_I2C0 {0} \
+##     CONFIG.PCW_EN_I2C1 {0} \
+##     CONFIG.PCW_EN_MODEM_UART0 {0} \
+##     CONFIG.PCW_EN_MODEM_UART1 {0} \
+##     CONFIG.PCW_EN_PJTAG {0} \
+##     CONFIG.PCW_EN_PTP_ENET0 {0} \
+##     CONFIG.PCW_EN_PTP_ENET1 {0} \
+##     CONFIG.PCW_EN_QSPI {0} \
+##     CONFIG.PCW_EN_RST0_PORT {1} \
+##     CONFIG.PCW_EN_RST1_PORT {0} \
+##     CONFIG.PCW_EN_RST2_PORT {0} \
+##     CONFIG.PCW_EN_RST3_PORT {0} \
+##     CONFIG.PCW_EN_SDIO0 {0} \
+##     CONFIG.PCW_EN_SDIO1 {0} \
+##     CONFIG.PCW_EN_SMC {0} \
+##     CONFIG.PCW_EN_SPI0 {0} \
+##     CONFIG.PCW_EN_SPI1 {0} \
+##     CONFIG.PCW_EN_TRACE {0} \
+##     CONFIG.PCW_EN_TTC0 {0} \
+##     CONFIG.PCW_EN_TTC1 {0} \
+##     CONFIG.PCW_EN_UART0 {1} \
+##     CONFIG.PCW_EN_UART1 {0} \
+##     CONFIG.PCW_EN_USB0 {0} \
+##     CONFIG.PCW_EN_USB1 {1} \
+##     CONFIG.PCW_EN_WDT {0} \
+##     CONFIG.PCW_FCLK0_PERIPHERAL_CLKSRC {IO PLL} \
+##     CONFIG.PCW_FCLK1_PERIPHERAL_CLKSRC {IO PLL} \
+##     CONFIG.PCW_FCLK2_PERIPHERAL_CLKSRC {IO PLL} \
+##     CONFIG.PCW_FCLK3_PERIPHERAL_CLKSRC {IO PLL} \
+##     CONFIG.PCW_FCLK_CLK0_BUF {TRUE} \
+##     CONFIG.PCW_FPGA0_PERIPHERAL_FREQMHZ {100} \
+##     CONFIG.PCW_FPGA1_PERIPHERAL_FREQMHZ {25} \
+##     CONFIG.PCW_FPGA2_PERIPHERAL_FREQMHZ {50} \
+##     CONFIG.PCW_FPGA3_PERIPHERAL_FREQMHZ {50} \
+##     CONFIG.PCW_FPGA_FCLK0_ENABLE {1} \
+##     CONFIG.PCW_GP0_EN_MODIFIABLE_TXN {1} \
+##     CONFIG.PCW_GP0_NUM_READ_THREADS {4} \
+##     CONFIG.PCW_GP0_NUM_WRITE_THREADS {4} \
+##     CONFIG.PCW_GP1_EN_MODIFIABLE_TXN {1} \
+##     CONFIG.PCW_GP1_NUM_READ_THREADS {4} \
+##     CONFIG.PCW_GP1_NUM_WRITE_THREADS {4} \
+##     CONFIG.PCW_GPIO_EMIO_GPIO_ENABLE {0} \
+##     CONFIG.PCW_GPIO_MIO_GPIO_ENABLE {0} \
+##     CONFIG.PCW_GPIO_PERIPHERAL_ENABLE {0} \
+##     CONFIG.PCW_I2C0_PERIPHERAL_ENABLE {0} \
+##     CONFIG.PCW_I2C1_PERIPHERAL_ENABLE {0} \
+##     CONFIG.PCW_I2C_RESET_POLARITY {Active Low} \
+##     CONFIG.PCW_IMPORT_BOARD_PRESET {None} \
+##     CONFIG.PCW_INCLUDE_ACP_TRANS_CHECK {0} \
+##     CONFIG.PCW_MIO_14_IOTYPE {LVCMOS 3.3V} \
+##     CONFIG.PCW_MIO_14_PULLUP {enabled} \
+##     CONFIG.PCW_MIO_14_SLEW {slow} \
+##     CONFIG.PCW_MIO_15_IOTYPE {LVCMOS 3.3V} \
+##     CONFIG.PCW_MIO_15_PULLUP {enabled} \
+##     CONFIG.PCW_MIO_15_SLEW {slow} \
+##     CONFIG.PCW_MIO_40_IOTYPE {LVCMOS 1.8V} \
+##     CONFIG.PCW_MIO_40_PULLUP {enabled} \
+##     CONFIG.PCW_MIO_40_SLEW {slow} \
+##     CONFIG.PCW_MIO_41_IOTYPE {LVCMOS 1.8V} \
+##     CONFIG.PCW_MIO_41_PULLUP {enabled} \
+##     CONFIG.PCW_MIO_41_SLEW {slow} \
+##     CONFIG.PCW_MIO_42_IOTYPE {LVCMOS 1.8V} \
+##     CONFIG.PCW_MIO_42_PULLUP {enabled} \
+##     CONFIG.PCW_MIO_42_SLEW {slow} \
+##     CONFIG.PCW_MIO_43_IOTYPE {LVCMOS 1.8V} \
+##     CONFIG.PCW_MIO_43_PULLUP {enabled} \
+##     CONFIG.PCW_MIO_43_SLEW {slow} \
+##     CONFIG.PCW_MIO_44_IOTYPE {LVCMOS 1.8V} \
+##     CONFIG.PCW_MIO_44_PULLUP {enabled} \
+##     CONFIG.PCW_MIO_44_SLEW {slow} \
+##     CONFIG.PCW_MIO_45_IOTYPE {LVCMOS 1.8V} \
+##     CONFIG.PCW_MIO_45_PULLUP {enabled} \
+##     CONFIG.PCW_MIO_45_SLEW {slow} \
+##     CONFIG.PCW_MIO_46_IOTYPE {LVCMOS 1.8V} \
+##     CONFIG.PCW_MIO_46_PULLUP {enabled} \
+##     CONFIG.PCW_MIO_46_SLEW {slow} \
+##     CONFIG.PCW_MIO_47_IOTYPE {LVCMOS 1.8V} \
+##     CONFIG.PCW_MIO_47_PULLUP {enabled} \
+##     CONFIG.PCW_MIO_47_SLEW {slow} \
+##     CONFIG.PCW_MIO_48_IOTYPE {LVCMOS 1.8V} \
+##     CONFIG.PCW_MIO_48_PULLUP {enabled} \
+##     CONFIG.PCW_MIO_48_SLEW {slow} \
+##     CONFIG.PCW_MIO_49_IOTYPE {LVCMOS 1.8V} \
+##     CONFIG.PCW_MIO_49_PULLUP {enabled} \
+##     CONFIG.PCW_MIO_49_SLEW {slow} \
+##     CONFIG.PCW_MIO_50_IOTYPE {LVCMOS 1.8V} \
+##     CONFIG.PCW_MIO_50_PULLUP {enabled} \
+##     CONFIG.PCW_MIO_50_SLEW {slow} \
+##     CONFIG.PCW_MIO_51_IOTYPE {LVCMOS 1.8V} \
+##     CONFIG.PCW_MIO_51_PULLUP {enabled} \
+##     CONFIG.PCW_MIO_51_SLEW {slow} \
+##     CONFIG.PCW_MIO_PRIMITIVE {54} \
+##     CONFIG.PCW_MIO_TREE_PERIPHERALS {unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#UART 0#UART\
+## 0#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#USB\
+## 1#USB 1#USB 1#USB 1#USB 1#USB 1#USB 1#USB 1#USB 1#USB 1#USB 1#USB 1#unassigned#unassigned} \
+##     CONFIG.PCW_MIO_TREE_SIGNALS {unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#rx#tx#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#data[4]#dir#stp#nxt#data[0]#data[1]#data[2]#data[3]#clk#data[5]#data[6]#data[7]#unassigned#unassigned}\
+## \
+##     CONFIG.PCW_NAND_CYCLES_T_AR {1} \
+##     CONFIG.PCW_NAND_CYCLES_T_CLR {1} \
+##     CONFIG.PCW_NAND_CYCLES_T_RC {11} \
+##     CONFIG.PCW_NAND_CYCLES_T_REA {1} \
+##     CONFIG.PCW_NAND_CYCLES_T_RR {1} \
+##     CONFIG.PCW_NAND_CYCLES_T_WC {11} \
+##     CONFIG.PCW_NAND_CYCLES_T_WP {1} \
+##     CONFIG.PCW_NAND_PERIPHERAL_ENABLE {0} \
+##     CONFIG.PCW_NOR_CS0_T_CEOE {1} \
+##     CONFIG.PCW_NOR_CS0_T_PC {1} \
+##     CONFIG.PCW_NOR_CS0_T_RC {11} \
+##     CONFIG.PCW_NOR_CS0_T_TR {1} \
+##     CONFIG.PCW_NOR_CS0_T_WC {11} \
+##     CONFIG.PCW_NOR_CS0_T_WP {1} \
+##     CONFIG.PCW_NOR_CS0_WE_TIME {0} \
+##     CONFIG.PCW_NOR_CS1_T_CEOE {1} \
+##     CONFIG.PCW_NOR_CS1_T_PC {1} \
+##     CONFIG.PCW_NOR_CS1_T_RC {11} \
+##     CONFIG.PCW_NOR_CS1_T_TR {1} \
+##     CONFIG.PCW_NOR_CS1_T_WC {11} \
+##     CONFIG.PCW_NOR_CS1_T_WP {1} \
+##     CONFIG.PCW_NOR_CS1_WE_TIME {0} \
+##     CONFIG.PCW_NOR_PERIPHERAL_ENABLE {0} \
+##     CONFIG.PCW_NOR_SRAM_CS0_T_CEOE {1} \
+##     CONFIG.PCW_NOR_SRAM_CS0_T_PC {1} \
+##     CONFIG.PCW_NOR_SRAM_CS0_T_RC {11} \
+##     CONFIG.PCW_NOR_SRAM_CS0_T_TR {1} \
+##     CONFIG.PCW_NOR_SRAM_CS0_T_WC {11} \
+##     CONFIG.PCW_NOR_SRAM_CS0_T_WP {1} \
+##     CONFIG.PCW_NOR_SRAM_CS0_WE_TIME {0} \
+##     CONFIG.PCW_NOR_SRAM_CS1_T_CEOE {1} \
+##     CONFIG.PCW_NOR_SRAM_CS1_T_PC {1} \
+##     CONFIG.PCW_NOR_SRAM_CS1_T_RC {11} \
+##     CONFIG.PCW_NOR_SRAM_CS1_T_TR {1} \
+##     CONFIG.PCW_NOR_SRAM_CS1_T_WC {11} \
+##     CONFIG.PCW_NOR_SRAM_CS1_T_WP {1} \
+##     CONFIG.PCW_NOR_SRAM_CS1_WE_TIME {0} \
+##     CONFIG.PCW_OVERRIDE_BASIC_CLOCK {0} \
+##     CONFIG.PCW_PACKAGE_DDR_BOARD_DELAY0 {0.089} \
+##     CONFIG.PCW_PACKAGE_DDR_BOARD_DELAY1 {0.075} \
+##     CONFIG.PCW_PACKAGE_DDR_BOARD_DELAY2 {0.085} \
+##     CONFIG.PCW_PACKAGE_DDR_BOARD_DELAY3 {0.092} \
+##     CONFIG.PCW_PACKAGE_DDR_DQS_TO_CLK_DELAY_0 {-0.025} \
+##     CONFIG.PCW_PACKAGE_DDR_DQS_TO_CLK_DELAY_1 {0.014} \
+##     CONFIG.PCW_PACKAGE_DDR_DQS_TO_CLK_DELAY_2 {-0.009} \
+##     CONFIG.PCW_PACKAGE_DDR_DQS_TO_CLK_DELAY_3 {-0.033} \
+##     CONFIG.PCW_PACKAGE_NAME {ffg900} \
+##     CONFIG.PCW_PCAP_PERIPHERAL_CLKSRC {IO PLL} \
+##     CONFIG.PCW_PCAP_PERIPHERAL_FREQMHZ {200} \
+##     CONFIG.PCW_PERIPHERAL_BOARD_PRESET {None} \
+##     CONFIG.PCW_PJTAG_PERIPHERAL_ENABLE {0} \
+##     CONFIG.PCW_PLL_BYPASSMODE_ENABLE {0} \
+##     CONFIG.PCW_PRESET_BANK0_VOLTAGE {LVCMOS 3.3V} \
+##     CONFIG.PCW_PRESET_BANK1_VOLTAGE {LVCMOS 1.8V} \
+##     CONFIG.PCW_PS7_SI_REV {PRODUCTION} \
+##     CONFIG.PCW_QSPI_INTERNAL_HIGHADDRESS {0xFCFFFFFF} \
+##     CONFIG.PCW_QSPI_PERIPHERAL_CLKSRC {IO PLL} \
+##     CONFIG.PCW_QSPI_PERIPHERAL_ENABLE {0} \
+##     CONFIG.PCW_SD0_PERIPHERAL_ENABLE {0} \
+##     CONFIG.PCW_SD1_PERIPHERAL_ENABLE {0} \
+##     CONFIG.PCW_SDIO_PERIPHERAL_CLKSRC {IO PLL} \
+##     CONFIG.PCW_SDIO_PERIPHERAL_VALID {0} \
+##     CONFIG.PCW_SMC_CYCLE_T0 {NA} \
+##     CONFIG.PCW_SMC_CYCLE_T1 {NA} \
+##     CONFIG.PCW_SMC_CYCLE_T2 {NA} \
+##     CONFIG.PCW_SMC_CYCLE_T3 {NA} \
+##     CONFIG.PCW_SMC_CYCLE_T4 {NA} \
+##     CONFIG.PCW_SMC_CYCLE_T5 {NA} \
+##     CONFIG.PCW_SMC_CYCLE_T6 {NA} \
+##     CONFIG.PCW_SMC_PERIPHERAL_CLKSRC {IO PLL} \
+##     CONFIG.PCW_SMC_PERIPHERAL_VALID {0} \
+##     CONFIG.PCW_SPI0_PERIPHERAL_ENABLE {0} \
+##     CONFIG.PCW_SPI1_PERIPHERAL_ENABLE {0} \
+##     CONFIG.PCW_SPI_PERIPHERAL_CLKSRC {IO PLL} \
+##     CONFIG.PCW_SPI_PERIPHERAL_VALID {0} \
+##     CONFIG.PCW_TPIU_PERIPHERAL_CLKSRC {External} \
+##     CONFIG.PCW_TRACE_INTERNAL_WIDTH {2} \
+##     CONFIG.PCW_TRACE_PERIPHERAL_ENABLE {0} \
+##     CONFIG.PCW_TTC0_CLK0_PERIPHERAL_CLKSRC {CPU_1X} \
+##     CONFIG.PCW_TTC0_CLK0_PERIPHERAL_DIVISOR0 {1} \
+##     CONFIG.PCW_TTC0_CLK1_PERIPHERAL_CLKSRC {CPU_1X} \
+##     CONFIG.PCW_TTC0_CLK1_PERIPHERAL_DIVISOR0 {1} \
+##     CONFIG.PCW_TTC0_CLK2_PERIPHERAL_CLKSRC {CPU_1X} \
+##     CONFIG.PCW_TTC0_CLK2_PERIPHERAL_DIVISOR0 {1} \
+##     CONFIG.PCW_TTC0_PERIPHERAL_ENABLE {0} \
+##     CONFIG.PCW_TTC1_CLK0_PERIPHERAL_CLKSRC {CPU_1X} \
+##     CONFIG.PCW_TTC1_CLK0_PERIPHERAL_DIVISOR0 {1} \
+##     CONFIG.PCW_TTC1_CLK1_PERIPHERAL_CLKSRC {CPU_1X} \
+##     CONFIG.PCW_TTC1_CLK1_PERIPHERAL_DIVISOR0 {1} \
+##     CONFIG.PCW_TTC1_CLK2_PERIPHERAL_CLKSRC {CPU_1X} \
+##     CONFIG.PCW_TTC1_CLK2_PERIPHERAL_DIVISOR0 {1} \
+##     CONFIG.PCW_TTC1_PERIPHERAL_ENABLE {0} \
+##     CONFIG.PCW_UART0_BASEADDR {0xE0000000} \
+##     CONFIG.PCW_UART0_BAUD_RATE {115200} \
+##     CONFIG.PCW_UART0_GRP_FULL_ENABLE {0} \
+##     CONFIG.PCW_UART0_HIGHADDR {0xE0000FFF} \
+##     CONFIG.PCW_UART0_PERIPHERAL_ENABLE {1} \
+##     CONFIG.PCW_UART0_UART0_IO {MIO 14 .. 15} \
+##     CONFIG.PCW_UART1_PERIPHERAL_ENABLE {0} \
+##     CONFIG.PCW_UART_PERIPHERAL_CLKSRC {IO PLL} \
+##     CONFIG.PCW_UART_PERIPHERAL_FREQMHZ {100} \
+##     CONFIG.PCW_UART_PERIPHERAL_VALID {1} \
+##     CONFIG.PCW_UIPARAM_ACT_DDR_FREQ_MHZ {533.333374} \
+##     CONFIG.PCW_UIPARAM_DDR_ADV_ENABLE {0} \
+##     CONFIG.PCW_UIPARAM_DDR_AL {0} \
+##     CONFIG.PCW_UIPARAM_DDR_BL {8} \
+##     CONFIG.PCW_UIPARAM_DDR_BOARD_DELAY0 {0.25} \
+##     CONFIG.PCW_UIPARAM_DDR_BOARD_DELAY1 {0.25} \
+##     CONFIG.PCW_UIPARAM_DDR_BOARD_DELAY2 {0.25} \
+##     CONFIG.PCW_UIPARAM_DDR_BOARD_DELAY3 {0.25} \
+##     CONFIG.PCW_UIPARAM_DDR_BUS_WIDTH {32 Bit} \
+##     CONFIG.PCW_UIPARAM_DDR_CLOCK_0_LENGTH_MM {0} \
+##     CONFIG.PCW_UIPARAM_DDR_CLOCK_0_PACKAGE_LENGTH {80.4535} \
+##     CONFIG.PCW_UIPARAM_DDR_CLOCK_0_PROPOGATION_DELAY {160} \
+##     CONFIG.PCW_UIPARAM_DDR_CLOCK_1_LENGTH_MM {0} \
+##     CONFIG.PCW_UIPARAM_DDR_CLOCK_1_PACKAGE_LENGTH {80.4535} \
+##     CONFIG.PCW_UIPARAM_DDR_CLOCK_1_PROPOGATION_DELAY {160} \
+##     CONFIG.PCW_UIPARAM_DDR_CLOCK_2_LENGTH_MM {0} \
+##     CONFIG.PCW_UIPARAM_DDR_CLOCK_2_PACKAGE_LENGTH {80.4535} \
+##     CONFIG.PCW_UIPARAM_DDR_CLOCK_2_PROPOGATION_DELAY {160} \
+##     CONFIG.PCW_UIPARAM_DDR_CLOCK_3_LENGTH_MM {0} \
+##     CONFIG.PCW_UIPARAM_DDR_CLOCK_3_PACKAGE_LENGTH {80.4535} \
+##     CONFIG.PCW_UIPARAM_DDR_CLOCK_3_PROPOGATION_DELAY {160} \
+##     CONFIG.PCW_UIPARAM_DDR_CLOCK_STOP_EN {0} \
+##     CONFIG.PCW_UIPARAM_DDR_DQS_0_LENGTH_MM {0} \
+##     CONFIG.PCW_UIPARAM_DDR_DQS_0_PACKAGE_LENGTH {105.056} \
+##     CONFIG.PCW_UIPARAM_DDR_DQS_0_PROPOGATION_DELAY {160} \
+##     CONFIG.PCW_UIPARAM_DDR_DQS_1_LENGTH_MM {0} \
+##     CONFIG.PCW_UIPARAM_DDR_DQS_1_PACKAGE_LENGTH {66.904} \
+##     CONFIG.PCW_UIPARAM_DDR_DQS_1_PROPOGATION_DELAY {160} \
+##     CONFIG.PCW_UIPARAM_DDR_DQS_2_LENGTH_MM {0} \
+##     CONFIG.PCW_UIPARAM_DDR_DQS_2_PACKAGE_LENGTH {89.1715} \
+##     CONFIG.PCW_UIPARAM_DDR_DQS_2_PROPOGATION_DELAY {160} \
+##     CONFIG.PCW_UIPARAM_DDR_DQS_3_LENGTH_MM {0} \
+##     CONFIG.PCW_UIPARAM_DDR_DQS_3_PACKAGE_LENGTH {113.63} \
+##     CONFIG.PCW_UIPARAM_DDR_DQS_3_PROPOGATION_DELAY {160} \
+##     CONFIG.PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 {0.0} \
+##     CONFIG.PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 {0.0} \
+##     CONFIG.PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 {0.0} \
+##     CONFIG.PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 {0.0} \
+##     CONFIG.PCW_UIPARAM_DDR_DQ_0_LENGTH_MM {0} \
+##     CONFIG.PCW_UIPARAM_DDR_DQ_0_PACKAGE_LENGTH {98.503} \
+##     CONFIG.PCW_UIPARAM_DDR_DQ_0_PROPOGATION_DELAY {160} \
+##     CONFIG.PCW_UIPARAM_DDR_DQ_1_LENGTH_MM {0} \
+##     CONFIG.PCW_UIPARAM_DDR_DQ_1_PACKAGE_LENGTH {68.5855} \
+##     CONFIG.PCW_UIPARAM_DDR_DQ_1_PROPOGATION_DELAY {160} \
+##     CONFIG.PCW_UIPARAM_DDR_DQ_2_LENGTH_MM {0} \
+##     CONFIG.PCW_UIPARAM_DDR_DQ_2_PACKAGE_LENGTH {90.295} \
+##     CONFIG.PCW_UIPARAM_DDR_DQ_2_PROPOGATION_DELAY {160} \
+##     CONFIG.PCW_UIPARAM_DDR_DQ_3_LENGTH_MM {0} \
+##     CONFIG.PCW_UIPARAM_DDR_DQ_3_PACKAGE_LENGTH {103.977} \
+##     CONFIG.PCW_UIPARAM_DDR_DQ_3_PROPOGATION_DELAY {160} \
+##     CONFIG.PCW_UIPARAM_DDR_ENABLE {1} \
+##     CONFIG.PCW_UIPARAM_DDR_FREQ_MHZ {533.3333333333333} \
+##     CONFIG.PCW_UIPARAM_DDR_HIGH_TEMP {Normal (0-85)} \
+##     CONFIG.PCW_UIPARAM_DDR_MEMORY_TYPE {DDR 3 (Low Voltage)} \
+##     CONFIG.PCW_UIPARAM_DDR_PARTNO {MT41K256M16 RE-125} \
+##     CONFIG.PCW_UIPARAM_DDR_TRAIN_DATA_EYE {1} \
+##     CONFIG.PCW_UIPARAM_DDR_TRAIN_READ_GATE {1} \
+##     CONFIG.PCW_UIPARAM_DDR_TRAIN_WRITE_LEVEL {1} \
+##     CONFIG.PCW_UIPARAM_DDR_USE_INTERNAL_VREF {0} \
+##     CONFIG.PCW_UIPARAM_GENERATE_SUMMARY {NA} \
+##     CONFIG.PCW_USB0_PERIPHERAL_ENABLE {0} \
+##     CONFIG.PCW_USB1_BASEADDR {0xE0103000} \
+##     CONFIG.PCW_USB1_HIGHADDR {0xE0103fff} \
+##     CONFIG.PCW_USB1_PERIPHERAL_ENABLE {1} \
+##     CONFIG.PCW_USB1_USB1_IO {MIO 40 .. 51} \
+##     CONFIG.PCW_USB_RESET_POLARITY {Active Low} \
+##     CONFIG.PCW_USE_AXI_FABRIC_IDLE {0} \
+##     CONFIG.PCW_USE_AXI_NONSECURE {0} \
+##     CONFIG.PCW_USE_CORESIGHT {0} \
+##     CONFIG.PCW_USE_CROSS_TRIGGER {0} \
+##     CONFIG.PCW_USE_CR_FABRIC {1} \
+##     CONFIG.PCW_USE_DDR_BYPASS {0} \
+##     CONFIG.PCW_USE_DEBUG {0} \
+##     CONFIG.PCW_USE_DMA0 {0} \
+##     CONFIG.PCW_USE_DMA1 {0} \
+##     CONFIG.PCW_USE_DMA2 {0} \
+##     CONFIG.PCW_USE_DMA3 {0} \
+##     CONFIG.PCW_USE_EXPANDED_IOP {0} \
+##     CONFIG.PCW_USE_FABRIC_INTERRUPT {0} \
+##     CONFIG.PCW_USE_HIGH_OCM {0} \
+##     CONFIG.PCW_USE_M_AXI_GP0 {1} \
+##     CONFIG.PCW_USE_M_AXI_GP1 {0} \
+##     CONFIG.PCW_USE_PROC_EVENT_BUS {0} \
+##     CONFIG.PCW_USE_PS_SLCR_REGISTERS {0} \
+##     CONFIG.PCW_USE_S_AXI_ACP {0} \
+##     CONFIG.PCW_USE_S_AXI_GP0 {0} \
+##     CONFIG.PCW_USE_S_AXI_GP1 {0} \
+##     CONFIG.PCW_USE_S_AXI_HP0 {1} \
+##     CONFIG.PCW_USE_S_AXI_HP1 {0} \
+##     CONFIG.PCW_USE_S_AXI_HP2 {0} \
+##     CONFIG.PCW_USE_S_AXI_HP3 {0} \
+##     CONFIG.PCW_USE_TRACE {0} \
+##     CONFIG.PCW_VALUE_SILVERSION {3} \
+##     CONFIG.PCW_WDT_PERIPHERAL_CLKSRC {CPU_1X} \
+##     CONFIG.PCW_WDT_PERIPHERAL_DIVISOR0 {1} \
+##     CONFIG.PCW_WDT_PERIPHERAL_ENABLE {0} \
+##   ] $ps7
+## 
+## 
+##   # Create instance: rst, and set properties
+##   set rst [ create_bd_cell -type ip -vlnv xilinx.com:ip:proc_sys_reset:5.0 rst ]
+## 
+##   # Create instance: one, and set properties
+##   set one [ create_bd_cell -type ip -vlnv xilinx.com:ip:xlconstant:1.1 one ]
+##   set_property CONFIG.CONST_VAL {1} $one
+## 
+## 
+##   # Create instance: dma, and set properties
+##   set dma [ create_bd_cell -type ip -vlnv xilinx.com:ip:axi_dma:7.1 dma ]
+##   set_property -dict [list \
+##     CONFIG.c_include_mm2s {0} \
+##     CONFIG.c_include_s2mm_dre {0} \
+##     CONFIG.c_include_sg {0} \
+##     CONFIG.c_s_axis_s2mm_tdata_width {32} \
+##     CONFIG.c_sg_length_width {23} \
+##   ] $dma
+## 
+## 
+##   # Create instance: gpio, and set properties
+##   set gpio [ create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 gpio ]
+##   set_property -dict [list \
+##     CONFIG.C_ALL_INPUTS_2 {1} \
+##     CONFIG.C_ALL_OUTPUTS {1} \
+##     CONFIG.C_GPIO2_WIDTH {32} \
+##     CONFIG.C_GPIO_WIDTH {32} \
+##     CONFIG.C_IS_DUAL {1} \
+##   ] $gpio
+## 
+## 
+##   # Create instance: cfg_ic, and set properties
+##   set cfg_ic [ create_bd_cell -type ip -vlnv xilinx.com:ip:axi_interconnect:2.1 cfg_ic ]
+##   set_property CONFIG.NUM_MI {5} $cfg_ic
+## 
+## 
+##   # Create instance: mem_ic, and set properties
+##   set mem_ic [ create_bd_cell -type ip -vlnv xilinx.com:ip:axi_interconnect:2.1 mem_ic ]
+##   set_property CONFIG.NUM_MI {1} $mem_ic
+## 
+## 
+##   # Create instance: camera_gpio, and set properties
+##   set camera_gpio [ create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 camera_gpio ]
+##   set_property -dict [list \
+##     CONFIG.C_ALL_INPUTS_2 {1} \
+##     CONFIG.C_ALL_OUTPUTS {1} \
+##     CONFIG.C_GPIO2_WIDTH {32} \
+##     CONFIG.C_GPIO_WIDTH {32} \
+##     CONFIG.C_IS_DUAL {1} \
+##   ] $camera_gpio
+## 
+## 
+##   # Create instance: direction_gpio, and set properties
+##   set direction_gpio [ create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 direction_gpio ]
+##   set_property -dict [list \
+##     CONFIG.C_ALL_OUTPUTS {1} \
+##     CONFIG.C_GPIO_WIDTH {32} \
+##     CONFIG.C_IS_DUAL {0} \
+##   ] $direction_gpio
+## 
+## 
+##   # Create instance: car_gpio, and set properties
+##   set car_gpio [ create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 car_gpio ]
+##   set_property -dict [list \
+##     CONFIG.C_ALL_INPUTS_2 {1} \
+##     CONFIG.C_ALL_OUTPUTS {1} \
+##     CONFIG.C_GPIO2_WIDTH {32} \
+##     CONFIG.C_GPIO_WIDTH {32} \
+##     CONFIG.C_IS_DUAL {1} \
+##   ] $car_gpio
+## 
+## 
+##   # Create interface connections
+##   connect_bd_intf_net -intf_net cfg_ic_M00_AXI [get_bd_intf_pins cfg_ic/M00_AXI] [get_bd_intf_pins dma/S_AXI_LITE]
+##   connect_bd_intf_net -intf_net cfg_ic_M01_AXI [get_bd_intf_pins cfg_ic/M01_AXI] [get_bd_intf_pins gpio/S_AXI]
+##   connect_bd_intf_net -intf_net cfg_ic_M02_AXI [get_bd_intf_pins cfg_ic/M02_AXI] [get_bd_intf_pins camera_gpio/S_AXI]
+##   connect_bd_intf_net -intf_net cfg_ic_M03_AXI [get_bd_intf_pins cfg_ic/M03_AXI] [get_bd_intf_pins direction_gpio/S_AXI]
+##   connect_bd_intf_net -intf_net cfg_ic_M04_AXI [get_bd_intf_pins cfg_ic/M04_AXI] [get_bd_intf_pins car_gpio/S_AXI]
+##   connect_bd_intf_net -intf_net dma_M_AXI_S2MM [get_bd_intf_pins dma/M_AXI_S2MM] [get_bd_intf_pins mem_ic/S00_AXI]
+##   connect_bd_intf_net -intf_net mem_ic_M00_AXI [get_bd_intf_pins mem_ic/M00_AXI] [get_bd_intf_pins ps7/S_AXI_HP0]
+##   connect_bd_intf_net -intf_net mic_axis_1 [get_bd_intf_ports mic_axis] [get_bd_intf_pins dma/S_AXIS_S2MM]
+##   connect_bd_intf_net -intf_net ps7_DDR [get_bd_intf_ports DDR] [get_bd_intf_pins ps7/DDR]
+##   connect_bd_intf_net -intf_net ps7_FIXED_IO [get_bd_intf_ports FIXED_IO] [get_bd_intf_pins ps7/FIXED_IO]
+##   connect_bd_intf_net -intf_net ps7_M_AXI_GP0 [get_bd_intf_pins ps7/M_AXI_GP0] [get_bd_intf_pins cfg_ic/S00_AXI]
+## 
+##   # Create port connections
+##   connect_bd_net -net camera_gpio_gpio_io_o  [get_bd_pins camera_gpio/gpio_io_o] \
+##   [get_bd_ports camera_control]
+##   connect_bd_net -net camera_status_1  [get_bd_ports camera_status] \
+##   [get_bd_pins camera_gpio/gpio2_io_i]
+##   connect_bd_net -net car_gpio_gpio_io_o  [get_bd_pins car_gpio/gpio_io_o] \
+##   [get_bd_ports car_control]
+##   connect_bd_net -net car_status_1  [get_bd_ports car_status] \
+##   [get_bd_pins car_gpio/gpio2_io_i]
+##   connect_bd_net -net clk_100_1  [get_bd_ports clk_100] \
+##   [get_bd_pins ps7/M_AXI_GP0_ACLK] \
+##   [get_bd_pins ps7/S_AXI_HP0_ACLK] \
+##   [get_bd_pins rst/slowest_sync_clk] \
+##   [get_bd_pins dma/s_axi_lite_aclk] \
+##   [get_bd_pins dma/m_axi_s2mm_aclk] \
+##   [get_bd_pins gpio/s_axi_aclk] \
+##   [get_bd_pins cfg_ic/ACLK] \
+##   [get_bd_pins cfg_ic/S00_ACLK] \
+##   [get_bd_pins cfg_ic/M00_ACLK] \
+##   [get_bd_pins cfg_ic/M01_ACLK] \
+##   [get_bd_pins mem_ic/ACLK] \
+##   [get_bd_pins mem_ic/S00_ACLK] \
+##   [get_bd_pins mem_ic/M00_ACLK] \
+##   [get_bd_pins camera_gpio/s_axi_aclk] \
+##   [get_bd_pins cfg_ic/M02_ACLK] \
+##   [get_bd_pins direction_gpio/s_axi_aclk] \
+##   [get_bd_pins cfg_ic/M03_ACLK] \
+##   [get_bd_pins car_gpio/s_axi_aclk] \
+##   [get_bd_pins cfg_ic/M04_ACLK]
+##   connect_bd_net -net direction_gpio_gpio_io_o  [get_bd_pins direction_gpio/gpio_io_o] \
+##   [get_bd_ports direction_control]
+##   connect_bd_net -net gpio_gpio_io_o  [get_bd_pins gpio/gpio_io_o] \
+##   [get_bd_ports control]
+##   connect_bd_net -net one_dout  [get_bd_pins one/dout] \
+##   [get_bd_pins rst/dcm_locked]
+##   connect_bd_net -net ps7_FCLK_RESET0_N  [get_bd_pins ps7/FCLK_RESET0_N] \
+##   [get_bd_pins rst/ext_reset_in]
+##   connect_bd_net -net rst_peripheral_aresetn  [get_bd_pins rst/peripheral_aresetn] \
+##   [get_bd_ports resetn] \
+##   [get_bd_pins dma/axi_resetn] \
+##   [get_bd_pins gpio/s_axi_aresetn] \
+##   [get_bd_pins cfg_ic/ARESETN] \
+##   [get_bd_pins cfg_ic/S00_ARESETN] \
+##   [get_bd_pins cfg_ic/M00_ARESETN] \
+##   [get_bd_pins cfg_ic/M01_ARESETN] \
+##   [get_bd_pins mem_ic/ARESETN] \
+##   [get_bd_pins mem_ic/S00_ARESETN] \
+##   [get_bd_pins mem_ic/M00_ARESETN] \
+##   [get_bd_pins camera_gpio/s_axi_aresetn] \
+##   [get_bd_pins cfg_ic/M02_ARESETN] \
+##   [get_bd_pins direction_gpio/s_axi_aresetn] \
+##   [get_bd_pins cfg_ic/M03_ARESETN] \
+##   [get_bd_pins car_gpio/s_axi_aresetn] \
+##   [get_bd_pins cfg_ic/M04_ARESETN]
+##   connect_bd_net -net status_1  [get_bd_ports status] \
+##   [get_bd_pins gpio/gpio2_io_i]
+## 
+##   # Create address segments
+##   assign_bd_address -offset 0x41210000 -range 0x00010000 -target_address_space [get_bd_addr_spaces ps7/Data] [get_bd_addr_segs camera_gpio/S_AXI/Reg] -force
+##   assign_bd_address -offset 0x41230000 -range 0x00010000 -target_address_space [get_bd_addr_spaces ps7/Data] [get_bd_addr_segs car_gpio/S_AXI/Reg] -force
+##   assign_bd_address -offset 0x41220000 -range 0x00010000 -target_address_space [get_bd_addr_spaces ps7/Data] [get_bd_addr_segs direction_gpio/S_AXI/Reg] -force
+##   assign_bd_address -offset 0x40400000 -range 0x00010000 -target_address_space [get_bd_addr_spaces ps7/Data] [get_bd_addr_segs dma/S_AXI_LITE/Reg] -force
+##   assign_bd_address -offset 0x41200000 -range 0x00010000 -target_address_space [get_bd_addr_spaces ps7/Data] [get_bd_addr_segs gpio/S_AXI/Reg] -force
+##   assign_bd_address -offset 0x00000000 -range 0x40000000 -target_address_space [get_bd_addr_spaces dma/Data_S2MM] [get_bd_addr_segs ps7/S_AXI_HP0/HP0_DDR_LOWOCM] -force
+## 
+## 
+##   # Restore current instance
+##   current_bd_instance $oldCurInst
+## 
+##   validate_bd_design
+##   save_bd_design
+## }
+## create_root_design ""
+INFO: [BD 5-1043] It is recommended to use inline hdl version xilinx.com:inline_hdl:ilconstant:1.0 for the IP type xilinx.com:ip:xlconstant:1.1 for improved performance and reduced disk space. IPs with VLNV xilinx.com:ip:xlconstant:1.1 will not be supported from release 2025.2. More information on inline hdl IP is available in UG994 
+WARNING: [BD 41-1306] The connection to interface pin </camera_gpio/gpio_io_o> is being overridden by the user with net <camera_gpio_gpio_io_o>. This pin will not be connected as a part of interface connection <GPIO>, and might not recreate the connectivity as expected using the writ_bd_tcl command.
+WARNING: [BD 41-1306] The connection to interface pin </camera_gpio/gpio2_io_i> is being overridden by the user with net <camera_status_1>. This pin will not be connected as a part of interface connection <GPIO2>, and might not recreate the connectivity as expected using the writ_bd_tcl command.
+WARNING: [BD 41-1306] The connection to interface pin </car_gpio/gpio_io_o> is being overridden by the user with net <car_gpio_gpio_io_o>. This pin will not be connected as a part of interface connection <GPIO>, and might not recreate the connectivity as expected using the writ_bd_tcl command.
+WARNING: [BD 41-1306] The connection to interface pin </car_gpio/gpio2_io_i> is being overridden by the user with net <car_status_1>. This pin will not be connected as a part of interface connection <GPIO2>, and might not recreate the connectivity as expected using the writ_bd_tcl command.
+WARNING: [BD 41-1306] The connection to interface pin </direction_gpio/gpio_io_o> is being overridden by the user with net <direction_gpio_gpio_io_o>. This pin will not be connected as a part of interface connection <GPIO>, and might not recreate the connectivity as expected using the writ_bd_tcl command.
+WARNING: [BD 41-1306] The connection to interface pin </gpio/gpio_io_o> is being overridden by the user with net <gpio_gpio_io_o>. This pin will not be connected as a part of interface connection <GPIO>, and might not recreate the connectivity as expected using the writ_bd_tcl command.
+WARNING: [BD 41-1306] The connection to interface pin </gpio/gpio2_io_i> is being overridden by the user with net <status_1>. This pin will not be connected as a part of interface connection <GPIO2>, and might not recreate the connectivity as expected using the writ_bd_tcl command.
+Slave segment '/camera_gpio/S_AXI/Reg' is being assigned into address space '/ps7/Data' at <0x4121_0000 [ 64K ]>.
+Slave segment '/car_gpio/S_AXI/Reg' is being assigned into address space '/ps7/Data' at <0x4123_0000 [ 64K ]>.
+Slave segment '/direction_gpio/S_AXI/Reg' is being assigned into address space '/ps7/Data' at <0x4122_0000 [ 64K ]>.
+Slave segment '/dma/S_AXI_LITE/Reg' is being assigned into address space '/ps7/Data' at <0x4040_0000 [ 64K ]>.
+Slave segment '/gpio/S_AXI/Reg' is being assigned into address space '/ps7/Data' at <0x4120_0000 [ 64K ]>.
+Slave segment '/ps7/S_AXI_HP0/HP0_DDR_LOWOCM' is being assigned into address space '/dma/Data_S2MM' at <0x0000_0000 [ 1G ]>.
+Wrote  : <D:\Xilinx\project\My_FPGA\boot_qspi\init_hw\clean_project\boot_init.srcs\sources_1\bd\system\system.bd> 
+# set before [list_property [get_bd_cells ps7]]
+# array set saved {}
+# foreach key $before {if {[string match CONFIG.* $key]} {set saved($key) [get_property $key [get_bd_cells ps7]]}}
+# set_property -dict [list CONFIG.PCW_QSPI_PERIPHERAL_ENABLE {1} CONFIG.PCW_QSPI_QSPI_IO {MIO 1 .. 6} CONFIG.PCW_QSPI_GRP_IO1_ENABLE {1} CONFIG.PCW_QSPI_GRP_IO1_IO {MIO 0 9 .. 13} CONFIG.PCW_DUAL_PARALLEL_QSPI_DATA_MODE {x8} CONFIG.PCW_QSPI_GRP_SINGLE_SS_ENABLE {0} CONFIG.PCW_QSPI_GRP_SS1_ENABLE {0} CONFIG.PCW_QSPI_GRP_FBCLK_ENABLE {0} CONFIG.PCW_QSPI_PERIPHERAL_FREQMHZ {150}] [get_bd_cells ps7]
+# set changes [open [file join $out ps_config_changes.txt] w]
+# foreach key [lsort [array names saved]] {
+#  set now [get_property $key [get_bd_cells ps7]]
+#  if {$saved($key) ne $now} {puts $changes "$key: $saved($key) -> $now"}
+# }
+# close $changes
+# validate_bd_design
+# save_bd_design
+Wrote  : <D:\Xilinx\project\My_FPGA\boot_qspi\init_hw\clean_project\boot_init.srcs\sources_1\bd\system\system.bd> 
+# generate_target all [get_files system.bd]
+INFO: [BD 41-1662] The design 'system.bd' is already validated. Therefore parameter propagation will not be re-run.
+Verilog Output written to : D:/Xilinx/project/My_FPGA/boot_qspi/init_hw/clean_project/boot_init.gen/sources_1/bd/system/synth/system.v
+Verilog Output written to : D:/Xilinx/project/My_FPGA/boot_qspi/init_hw/clean_project/boot_init.gen/sources_1/bd/system/sim/system.v
+Verilog Output written to : D:/Xilinx/project/My_FPGA/boot_qspi/init_hw/clean_project/boot_init.gen/sources_1/bd/system/hdl/system_wrapper.v
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI_GP0'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI_HP0'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block one .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dma .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block gpio .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block cfg_ic/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_gpio .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block direction_gpio .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block car_gpio .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/Xilinx/project/My_FPGA/boot_qspi/init_hw/clean_project/boot_init.gen/sources_1/bd/system/ip/system_cfg_ic_imp_auto_pc_0/system_cfg_ic_imp_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block cfg_ic/s00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/Xilinx/project/My_FPGA/boot_qspi/init_hw/clean_project/boot_init.gen/sources_1/bd/system/ip/system_mem_ic_imp_auto_pc_0/system_mem_ic_imp_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mem_ic/s00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/Xilinx/project/My_FPGA/boot_qspi/init_hw/clean_project/boot_init.gen/sources_1/bd/system/ip/system_mem_ic_imp_auto_us_0/system_mem_ic_imp_auto_us_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mem_ic/s00_couplers/auto_us .
+Exporting to file D:/Xilinx/project/My_FPGA/boot_qspi/init_hw/clean_project/boot_init.gen/sources_1/bd/system/hw_handoff/system.hwh
+Generated Hardware Definition File D:/Xilinx/project/My_FPGA/boot_qspi/init_hw/clean_project/boot_init.gen/sources_1/bd/system/synth/system.hwdef
+INFO: [BD 41-3262] Generated VHDL Instantiation Template file d:/Xilinx/project/My_FPGA/boot_qspi/init_hw/clean_project/boot_init.gen/sources_1/bd/system/system.vho
+INFO: [BD 41-3262] Generated Verilog Instantiation Template file d:/Xilinx/project/My_FPGA/boot_qspi/init_hw/clean_project/boot_init.gen/sources_1/bd/system/system.veo
+INFO: [BD 41-3262] Generated System Verilog Instantiation Template file d:/Xilinx/project/My_FPGA/boot_qspi/init_hw/clean_project/boot_init.gen/sources_1/bd/system/system_sv.sveo
+generate_target: Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 823.965 ; gain = 41.551
+# write_hw_platform -fixed -force -file [file join $out boot_init.xsa]
+INFO: [Projectvivado 1-1918] Creating Hardware Platform: D:/Xilinx/project/My_FPGA/boot_qspi/boot_init.xsa ...
+INFO: [Projectvivado 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Projectvivado 1-1941] Successfully created Hardware Platform: D:/Xilinx/project/My_FPGA/boot_qspi/boot_init.xsa
+INFO: [Hsi 55-2053] elapsed time for repository (D:/Xilinx/Install/2025.2/Vivado/data/embeddedsw) loading 0 seconds
+# puts "QSPI_BOOT_HW_READY: QSPI x8 parallel enabled; original CAR1 project and bitstream unchanged"
+QSPI_BOOT_HW_READY: QSPI x8 parallel enabled; original CAR1 project and bitstream unchanged
+# close_project
+INFO: [Common 17-206] Exiting Vivado at Sun Oct 18 10:14:31 2026...

@@ -1,0 +1,14 @@
+create libxil.a
+addlib D:/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_platform/ps7_cortexa9_0/standalone_a9/bsp/libsrc/build_configs/gen_bsp/libsrc/xadcps/src/libxadcps.a
+addlib D:/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_platform/ps7_cortexa9_0/standalone_a9/bsp/libsrc/build_configs/gen_bsp/libsrc/usbps/src/libusbps.a
+addlib D:/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_platform/ps7_cortexa9_0/standalone_a9/bsp/libsrc/build_configs/gen_bsp/libsrc/uartps/src/libuartps.a
+addlib D:/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_platform/ps7_cortexa9_0/standalone_a9/bsp/libsrc/build_configs/gen_bsp/libsrc/scuwdt/src/libscuwdt.a
+addlib D:/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_platform/ps7_cortexa9_0/standalone_a9/bsp/libsrc/build_configs/gen_bsp/libsrc/scutimer/src/libscutimer.a
+addlib D:/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_platform/ps7_cortexa9_0/standalone_a9/bsp/libsrc/build_configs/gen_bsp/libsrc/scugic/src/libscugic.a
+addlib D:/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_platform/ps7_cortexa9_0/standalone_a9/bsp/libsrc/build_configs/gen_bsp/libsrc/gpio/src/libgpio.a
+addlib D:/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_platform/ps7_cortexa9_0/standalone_a9/bsp/libsrc/build_configs/gen_bsp/libsrc/dmaps/src/libdmaps.a
+addlib D:/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_platform/ps7_cortexa9_0/standalone_a9/bsp/libsrc/build_configs/gen_bsp/libsrc/devcfg/src/libdevcfg.a
+addlib D:/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_platform/ps7_cortexa9_0/standalone_a9/bsp/libsrc/build_configs/gen_bsp/libsrc/coresightps_dcc/src/libcoresightps_dcc.a
+addlib D:/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_platform/ps7_cortexa9_0/standalone_a9/bsp/libsrc/build_configs/gen_bsp/libsrc/axidma/src/libaxidma.a
+save
+end

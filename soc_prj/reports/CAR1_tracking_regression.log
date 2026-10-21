@@ -1,0 +1,11 @@
+PASS: 12-bit control/status, asymmetric limits, auto-start, delayed acquisition, jitter rejection, confirmed reversal, loss/reacquisition, fault-off, clock wrap and 35 closed-loop scenarios
+PASS: staggered startup 300+600ms, centers 1500/1600, observations ignored while settling, faults abort both stages
+PASS: alpha-beta common track, paired-outlier rejection, bounded relocation, no stale motion, quality/continuation, irregular timing, projection and wrap; motion lag 0.500deg, stop settling <0.6deg in three updates
+PASS: alpha-beta common track, paired-outlier rejection, bounded relocation, no stale motion, quality/continuation, irregular timing, projection and wrap; motion lag 0.500deg, stop settling <0.6deg in three updates
+PASS: snapshot replay D:\Xilinx\project\My_FPGA\soc_prj\reports\marker_trace_background.csv rows=64 candidates=6 visible=0 accepted=0 motions=0 (not an acoustic accuracy test)
+PASS: snapshot replay D:\Xilinx\project\My_FPGA\soc_prj\reports\marker_trace_fixed_source.csv rows=64 candidates=37 visible=46 accepted=25 motions=19 (not an acoustic accuracy test)
+PASS: coupled motion/step plant model, 15deg/s pursuit max error 6.125deg
+PASS: powered-background percentile, invalid calibration data, right/down quiet rejection, separated spikes, weak source acquisition, unchanged P gain, trajectory-authorized servo, loss hold; noisy-motion max error 1.187deg max step 1.725deg
+RESPONSE_METRICS strong_onset_ms=240 moderate_speech_onset_ms=240 voice_visible_blocks=27/30 voice_acquire_ms=480 voice_dropouts=0 moving_accepted=12/12 resume_after_one_dip=1
+PASS: fast confirmed acquisition, moderate/interrupted voice, moving acoustic continuity, short-dip recovery, weak-bridge expiry, paired-echo rejection, no quality-gate bypass
+NONPID_TRACKING_TESTS_OK

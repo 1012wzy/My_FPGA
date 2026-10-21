@@ -1,0 +1,33 @@
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Install/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe work.tb_camera_display work.glbl -L unisims_ver -L secureip -s tb_camera_display -debug typical 
+Multi-threading is on. Using 22 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.camera_display_clocks
+Compiling module work.camera_xclk_ip
+Compiling module unisims_ver.ODDR(DDR_CLK_EDGE="SAME_EDGE")
+Compiling module work.xpm_cdc_single(DEST_SYNC_FF=2,IN...
+Compiling module work.xpm_cdc_handshake(DEST_SYNC_FF=2...
+Compiling module work.camera_frame_store_default
+Compiling module work.xpm_cdc_handshake(DEST_EXT_HSK=0...
+Compiling module work.sound_marker_cdc
+Compiling module work.xpm_cdc_handshake(DEST_EXT_HSK=0...
+Compiling module work.sound_direction_cdc
+Compiling module work.sound_overlay
+Compiling module work.dvi_encode
+Compiling module unisims_ver.OSERDESE2(DATA_RATE_TQ="SDR",DAT...
+Compiling module unisims_ver.OSERDESE2(DATA_RATE_TQ="SDR",DAT...
+Compiling module work.dvi_serialize
+Compiling module unisims_ver.OBUFDS
+Compiling module work.xpm_cdc_gray(DEST_SYNC_FF=2,INIT...
+Compiling module work.xpm_cdc_array_single(DEST_SYNC_F...
+Compiling module work.camera_display
+Compiling module work.tb_camera_display
+Compiling module work.glbl
+Built simulation snapshot tb_camera_display

@@ -1,0 +1,20 @@
+{
+  "soc_sdk/src/background.c": "a38db174d1042b0031e1ae75c0da9ae0a626a351f84fd26eb5425ecf341d6c42",
+  "soc_sdk/src/background.h": "78f33e95a32811160654179bbeee557fdacc855e3520b0e6a38cc8c10e8bd703",
+  "soc_sdk/src/camera.c": "98b8183410a0a66c5c33cc9b16dfd5614f9a210c1ff5d35760fa5ee26674ee2e",
+  "soc_sdk/src/camera.h": "3e78af956b10f66fda963e38be13f34d6675412f0a48a1d149d65e45630cea62",
+  "soc_sdk/src/camera_regs.h": "c87c2c0e2b58adb4223f410506d24890af5ba46c1ede5ca4bd5a30f2bdaed60c",
+  "soc_sdk/src/car.c": "171b587e6a39e3fa3670cf48500a423525f281a21ac96061113e17e6944b3972",
+  "soc_sdk/src/car.h": "e306880577e18fa7bb4b2b7d75ef3c87e49274d4ec00f876cdf9645faa7b88e4",
+  "soc_sdk/src/doa.c": "96f7e40c761c32e32cc51e499dcd6648a6aea1b86db1a9de8e3bda8eee197bc2",
+  "soc_sdk/src/doa.h": "4ac7fea1f680abdf9be22c0aad584540d31d938e6557c9cf14e73dbbed58c01a",
+  "soc_sdk/src/main.c": "a23ef040d328116222bbef952231bd470114ac07c31904add3032f38e98ec60a",
+  "soc_sdk/src/servo.c": "b3bc35335fd3b1a4514afab44ad45acf6df6bc882a12e1914986afbce34077e3",
+  "soc_sdk/src/servo.h": "5f5678e644893ea07f6569be4e293e0770cb62283b99592451df84b9314ddf2c",
+  "soc_sdk/src/servo_startup.c": "d6bc7598b6fbd2b626e5d4995ac374de8087f1158a897fec0689f21108610480",
+  "soc_sdk/src/servo_startup.h": "b51e63ac5a8c8b6f6302ece040407ea32b34ad924ddc9488e31b42bf1522fa23",
+  "soc_sdk/src/sound_marker.c": "c262c8e1c051c5714b64831f4f7e5d6210ab8ac998ddaf97f44f3aa8ba887b92",
+  "soc_sdk/src/sound_marker.h": "8d90424e56441bf671eea5545e8c6bf5818a225d2ba9422ff13233f0ed56ecb7",
+  "soc_sdk/src/sound_marker_config.h": "cd161718c8cbb7f89152b07e938c4f895838bd01083549cdb24c71192f4b25b8",
+  "soc_sdk/workspace/mic_angle/build/mic_angle.elf": "983f5e6fa1f3cbb01b3b48503df823ee5e27487d4b22ca7bd623ec52646ee643"
+}

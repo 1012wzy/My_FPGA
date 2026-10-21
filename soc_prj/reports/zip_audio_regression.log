@@ -1,0 +1,348 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/project/My_FPGA/soc_prj/SXCX.srcs/sources_1/new/mic_i2s_clock.v" into library work
+INFO: [VRFC 10-311] analyzing module mic_i2s_clock
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/project/My_FPGA/soc_prj/SXCX.srcs/sources_1/new/i2s_rx_pair.v" into library work
+INFO: [VRFC 10-311] analyzing module i2s_rx_pair
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/project/My_FPGA/soc_prj/SXCX.srcs/sources_1/new/mic_pair_top.v" into library work
+INFO: [VRFC 10-311] analyzing module mic_pair_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/project/My_FPGA/soc_prj/SXCX.srcs/sources_1/new/mic_array_top.v" into library work
+INFO: [VRFC 10-311] analyzing module mic_array_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/project/My_FPGA/soc_prj/SXCX.srcs/sources_1/new/mic_capture_control.v" into library work
+INFO: [VRFC 10-311] analyzing module mic_capture_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/project/My_FPGA/soc_prj/SXCX.srcs/sources_1/new/mic_board_top.v" into library work
+INFO: [VRFC 10-311] analyzing module mic_board_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/project/My_FPGA/soc_prj/SXCX.srcs/sources_1/new/mic_axis_packet.v" into library work
+INFO: [VRFC 10-311] analyzing module mic_axis_packet
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/project/My_FPGA/soc_prj/SXCX.srcs/sources_1/new/mic_soc_top.v" into library work
+INFO: [VRFC 10-311] analyzing module mic_soc_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/project/My_FPGA/soc_prj/SXCX.srcs/sources_1/new/car_motor.v" into library work
+INFO: [VRFC 10-311] analyzing module car_motor
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/project/My_FPGA/soc_prj/SXCX.srcs/sources_1/new/servo_pwm.v" into library work
+INFO: [VRFC 10-311] analyzing module servo_pwm
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/project/My_FPGA/soc_prj/scripts/test_support/board_debug_models.v" into library work
+INFO: [VRFC 10-311] analyzing module IBUFDS
+INFO: [VRFC 10-311] analyzing module BUFG
+INFO: [VRFC 10-311] analyzing module vio_mic_control
+INFO: [VRFC 10-311] analyzing module ila_mic_raw
+INFO: [VRFC 10-311] analyzing module ila_mic_samples
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/project/My_FPGA/soc_prj/scripts/test_support/system_wrapper_stub.v" into library work
+INFO: [VRFC 10-311] analyzing module system_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/project/My_FPGA/soc_prj/scripts/test_support/camera_display_stub.v" into library work
+INFO: [VRFC 10-311] analyzing module camera_display
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/project/My_FPGA/soc_prj/SXCX.srcs/sim_1/new/tb_mic_i2s_clock.v" into library work
+INFO: [VRFC 10-311] analyzing module tb_mic_i2s_clock
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/project/My_FPGA/soc_prj/SXCX.srcs/sim_1/new/tb_i2s_rx_pair.v" into library work
+INFO: [VRFC 10-311] analyzing module tb_i2s_rx_pair
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Xilinx/project/My_FPGA/soc_prj/SXCX.srcs/sim_1/new/i2s_mic_array_model.sv" into library work
+INFO: [VRFC 10-311] analyzing module i2s_mic_array_model
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Xilinx/project/My_FPGA/soc_prj/SXCX.srcs/sim_1/new/tb_mic_array_top.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_mic_array_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Xilinx/project/My_FPGA/soc_prj/SXCX.srcs/sim_1/new/tb_mic_capture_control.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_mic_capture_control
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Xilinx/project/My_FPGA/soc_prj/scripts/test_support/tb_mic_board_power.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_mic_board_power
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Xilinx/project/My_FPGA/soc_prj/scripts/test_support/tb_mic_axis_packet.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_mic_axis_packet
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Xilinx/project/My_FPGA/soc_prj/scripts/test_support/tb_mic_soc_stream.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_mic_soc_stream
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Xilinx/project/My_FPGA/soc_prj/scripts/test_support/tb_servo_pwm.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_servo_pwm
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Install/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe work.tb_mic_i2s_clock -s tb_mic_i2s_clock -debug typical 
+Multi-threading is on. Using 22 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.mic_i2s_clock
+Compiling module work.tb_mic_i2s_clock
+Built simulation snapshot tb_mic_i2s_clock
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Fri Oct 16 23:06:49 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/tb_mic_i2s_clock/xsim_script.tcl
+# xsim {tb_mic_i2s_clock} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS: BCLK 320 ns, WS 20.48 us, 32 BCLK cycles per slot.
+$finish called at time : 100100 ns : File "D:/Xilinx/project/My_FPGA/soc_prj/SXCX.srcs/sim_1/new/tb_mic_i2s_clock.v" Line 42
+exit
+INFO: [Common 17-206] Exiting xsim at Fri Oct 16 23:06:51 2026...
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Install/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe work.tb_i2s_rx_pair -s tb_i2s_rx_pair -debug typical 
+Multi-threading is on. Using 22 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.i2s_rx_pair
+Compiling module work.tb_i2s_rx_pair
+Built simulation snapshot tb_i2s_rx_pair
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Fri Oct 16 23:06:53 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/tb_i2s_rx_pair/xsim_script.tcl
+# xsim {tb_i2s_rx_pair} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PAIR 1 PASS: left=800001 (-8388607), right=7ffffe (8388606)
+PAIR 2 PASS: left=000000 (0), right=ffffff (-1)
+PAIR 3 PASS: left=a5c39e (-5913698), right=123457 (1193047)
+PAIR 4 PASS: left=800000 (-8388608), right=000001 (1)
+PAIR 5 PASS: left=123456 (1193046), right=abcdef (-5517841)
+PASS: five exact sample pairs; final-bit preservation; startup suppression; one-cycle valid; mid-left and mid-right reset recovery.
+$finish called at time : 164 us : File "D:/Xilinx/project/My_FPGA/soc_prj/SXCX.srcs/sim_1/new/tb_i2s_rx_pair.v" Line 145
+exit
+INFO: [Common 17-206] Exiting xsim at Fri Oct 16 23:06:55 2026...
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Install/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe work.tb_mic_array_top -s tb_mic_array_top -debug typical 
+Multi-threading is on. Using 22 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.mic_i2s_clock
+Compiling module work.i2s_rx_pair
+Compiling module work.mic_array_top_default
+Compiling module work.mic_pair_top
+Compiling module work.i2s_mic_array_model
+Compiling module work.tb_mic_array_top
+Built simulation snapshot tb_mic_array_top
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Fri Oct 16 23:06:58 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/tb_mic_array_top/xsim_script.tcl
+# xsim {tb_mic_array_top} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+FRAME 1 PASS epoch=0 id=1 D3_RIGHT=adccef
+FRAME 2 PASS epoch=0 id=2 D3_RIGHT=000000
+FRAME 3 PASS epoch=0 id=3 D3_RIGHT=ffffff
+FRAME 4 PASS epoch=0 id=4 D3_RIGHT=800000
+FRAME 5 PASS epoch=0 id=5 D3_RIGHT=7fffff
+FRAME 6 PASS epoch=0 id=6 D3_RIGHT=000001
+FRAME 7 PASS epoch=1 id=1 D3_RIGHT=000000
+FRAME 8 PASS epoch=1 id=2 D3_RIGHT=ffffff
+FRAME 9 PASS epoch=1 id=3 D3_RIGHT=800000
+FRAME 10 PASS epoch=1 id=4 D3_RIGHT=7fffff
+FRAME 11 PASS epoch=2 id=1 D3_RIGHT=ffffff
+FRAME 12 PASS epoch=2 id=2 D3_RIGHT=800000
+FRAME 13 PASS epoch=2 id=3 D3_RIGHT=7fffff
+FRAME 14 PASS epoch=2 id=4 D3_RIGHT=000001
+FRAME 15 PASS epoch=3 id=1 D3_RIGHT=800000
+FRAME 16 PASS epoch=3 id=2 D3_RIGHT=7fffff
+FRAME 17 PASS epoch=3 id=3 D3_RIGHT=000001
+FRAME 18 PASS epoch=3 id=4 D3_RIGHT=fffffe
+PASS: four data lines / seven channels; 18 atomic frames; 21 single-line pairs; correct D3 RIGHT; unused D3 LEFT Hi-Z; varying input delays; reset recovery; sticky lane-error protection.
+$finish called at time : 529460 ns : File "D:/Xilinx/project/My_FPGA/soc_prj/SXCX.srcs/sim_1/new/tb_mic_array_top.sv" Line 167
+exit
+INFO: [Common 17-206] Exiting xsim at Fri Oct 16 23:06:59 2026...
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Install/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe work.tb_mic_capture_control -s tb_mic_capture_control -debug typical 
+Multi-threading is on. Using 22 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.mic_capture_control(STARTUP_CYCL...
+Compiling module work.tb_mic_capture_control
+Built simulation snapshot tb_mic_capture_control
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Fri Oct 16 23:07:02 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/tb_mic_capture_control/xsim_script.tcl
+# xsim {tb_mic_capture_control} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS: configuration startup hold, VIO stop, indefinite hold and restart
+$finish called at time : 496 ns : File "D:/Xilinx/project/My_FPGA/soc_prj/SXCX.srcs/sim_1/new/tb_mic_capture_control.sv" Line 31
+exit
+INFO: [Common 17-206] Exiting xsim at Fri Oct 16 23:07:03 2026...
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Install/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe work.tb_mic_board_power -s tb_mic_board_power -debug typical 
+Multi-threading is on. Using 22 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.IBUFDS
+Compiling module work.BUFG
+Compiling module work.mic_capture_control_default
+Compiling module work.mic_i2s_clock
+Compiling module work.i2s_rx_pair
+Compiling module work.mic_array_top_default
+Compiling module work.vio_mic_control
+Compiling module work.ila_mic_raw
+Compiling module work.ila_mic_samples
+Compiling module work.mic_board_top
+Compiling module work.tb_mic_board_power
+Built simulation snapshot tb_mic_board_power
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Fri Oct 16 23:07:06 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/tb_mic_board_power/xsim_script.tcl
+# xsim {tb_mic_board_power} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS: CEP power enabled; actual 100ms default guard; manual start; frames; stop preserves power; restart
+$finish called at time : 100082986 ns : File "D:/Xilinx/project/My_FPGA/soc_prj/scripts/test_support/tb_mic_board_power.sv" Line 47
+exit
+INFO: [Common 17-206] Exiting xsim at Fri Oct 16 23:07:12 2026...
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Install/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe work.tb_mic_axis_packet -s tb_mic_axis_packet -debug typical 
+Multi-threading is on. Using 22 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.mic_axis_packet(FRAMES=8)
+Compiling module work.tb_mic_axis_packet
+Built simulation snapshot tb_mic_axis_packet
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Fri Oct 16 23:07:15 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/tb_mic_axis_packet/xsim_script.tcl
+# xsim {tb_mic_axis_packet} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS: AXIS signed/channel order, sequence, stalls, TLAST, overflow, abort, rearm
+$finish called at time : 7130 ns : File "D:/Xilinx/project/My_FPGA/soc_prj/scripts/test_support/tb_mic_axis_packet.sv" Line 45
+exit
+INFO: [Common 17-206] Exiting xsim at Fri Oct 16 23:07:17 2026...
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Install/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe work.tb_mic_soc_stream -s tb_mic_soc_stream -debug typical 
+Multi-threading is on. Using 22 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3645] port 'DDR_addr' remains unconnected for this instance [D:/Xilinx/project/My_FPGA/soc_prj/scripts/test_support/tb_mic_soc_stream.sv:14]
+WARNING: [VRFC 10-5021] port 'camera_pclk' is not connected on this instance [D:/Xilinx/project/My_FPGA/soc_prj/scripts/test_support/tb_mic_soc_stream.sv:14]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.IBUFDS
+Compiling module work.BUFG
+Compiling module work.mic_capture_control(STARTUP_CYCL...
+Compiling module work.mic_i2s_clock
+Compiling module work.i2s_rx_pair
+Compiling module work.mic_array_top_default
+Compiling module work.mic_axis_packet
+Compiling module work.car_motor_default
+Compiling module work.servo_pwm
+Compiling module work.camera_display
+Compiling module work.system_wrapper
+Compiling module work.mic_soc_top
+Compiling module work.i2s_mic_array_model
+Compiling module work.tb_mic_soc_stream
+Built simulation snapshot tb_mic_soc_stream
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Fri Oct 16 23:07:20 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/tb_mic_soc_stream/xsim_script.tcl
+# xsim {tb_mic_soc_stream} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS: concurrent two-axis PWM and real SoC top, 2 x 2048 serial frames, seven signed channels, random AXIS stalls, sequence/TLAST, continuous microphone clocks between blocks
+$finish called at time : 84107410 ns : File "D:/Xilinx/project/My_FPGA/soc_prj/scripts/test_support/tb_mic_soc_stream.sv" Line 60
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 226.742 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting xsim at Fri Oct 16 23:07:28 2026...
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Install/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe work.tb_servo_pwm -s tb_servo_pwm -debug typical 
+Multi-threading is on. Using 22 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.servo_pwm(CLOCKS_PER_US=1,WATCHD...
+Compiling module work.tb_servo_pwm
+Built simulation snapshot tb_servo_pwm
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Fri Oct 16 23:07:30 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/tb_servo_pwm/xsim_script.tcl
+# xsim {tb_servo_pwm} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS: 12-bit 500..2500/1350..2500, PWM period/width, acceleration/speed, ramp arrival/reversal, atomic writes, hold, independent enable, watchdog
+$finish called at time : 136800070 ns : File "D:/Xilinx/project/My_FPGA/soc_prj/scripts/test_support/tb_servo_pwm.sv" Line 56
+exit
+INFO: [Common 17-206] Exiting xsim at Fri Oct 16 23:07:37 2026...
+ALL_REQUESTED_CHECKS_PASSED

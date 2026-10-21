@@ -1,0 +1,7 @@
+{
+  "soc_hw/debug_symbols.tcl": "9e1cea55e3fefae448e0b931bc0d360ad079229bd2392bf643b3eb900ff2f940",
+  "soc_hw/system_wrapper.xsa": "c183b310dd407e1fe789dd4ad25f568f28a4e914c3223594cd987d9fb70ceb5b",
+  "soc_hw/mic_soc_top.bit": "4c0241a09f39d5cb438e1e671f343da7b2c0a4a12fe69e5a4385a4fe43a88501",
+  "soc_hw/ps7_init.tcl": "4921dd99d23c30389d7a9faea95621eaeab7fb75f038936996316bd3320bd6e6",
+  "soc_sdk/workspace/mic_angle/build/mic_angle.elf": "983f5e6fa1f3cbb01b3b48503df823ee5e27487d4b22ca7bd623ec52646ee643"
+}

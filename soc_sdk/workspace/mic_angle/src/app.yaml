@@ -1,0 +1,4 @@
+domain_path: D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\export\mic_platform\sw\standalone_a9
+app_src_dir: D:\Xilinx\Install\2025.2\Vitis\data\embeddedsw\lib\sw_apps\empty_application
+template: empty_application
+lang: c

@@ -1,0 +1,2 @@
+PASS: repeated 900ms speech gaps remain driven; 500ms stale samples cannot restart
+PASS: CAR rolling +/-180 bearing sweep, 10deg deadband/50deg saturation, both wheels forward, 1199ms hold/1200ms stop, lease/auto recovery, mode/key/fault/center interlocks and time wrap

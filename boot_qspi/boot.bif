@@ -1,0 +1,6 @@
+the_ROM_image:
+{
+    [bootloader] fsbl.elf
+    ../soc_hw/mic_soc_top.bit
+    ../soc_sdk/workspace/mic_angle/build/mic_angle.elf
+}

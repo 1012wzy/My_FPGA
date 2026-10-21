@@ -1,0 +1,2 @@
+RESPONSE_METRICS strong_onset_ms=360 moderate_speech_onset_ms=0 voice_visible_blocks=0/30 voice_acquire_ms=0 voice_dropouts=0 moving_accepted=10/12 resume_after_one_dip=0
+SOS2_BASELINE_MEASURED

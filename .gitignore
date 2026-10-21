@@ -1,0 +1,41 @@
+# Vivado products regenerated from SXCX.xpr and the checked-in sources.
+.Xil/
+**/.Xil/
+/soc_prj/SXCX.cache/
+/soc_prj/SXCX.gen/
+/soc_prj/SXCX.hw/
+/soc_prj/SXCX.runs/
+/soc_prj/SXCX.sim/
+*.jou
+*.str
+*.wdb
+*.wcfg
+
+# Vitis IDE state, generated build files and local compilation databases.
+**/_ide/
+**/.rigel_lopper/
+**/compile_commands.json
+**/build/
+**/logs/
+*.o
+*.obj
+*.d
+*.a
+*.lock
+
+# Local tools, credentials and editor state.
+__pycache__/
+*.pyc
+.venv/
+.vscode/
+.idea/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+Thumbs.db
+.DS_Store
+
+# A matching application ELF is intentionally force-added for release checks.
+# Hardware artifacts, boot images and soc_prj/reports are also retained.

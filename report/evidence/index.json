@@ -1,0 +1,56 @@
+[
+  {
+    "source": "soc_prj/reports/soc/utilization.rpt",
+    "sha256": "d88ff58524f4320eaf8f85c5acb941cf45ae65227599f88efdbcc73f8b179d8f",
+    "report_usage": "资源占用与实现结果",
+    "evidence_type": "综合/实现工具报告"
+  },
+  {
+    "source": "soc_prj/reports/soc/timing.rpt",
+    "sha256": "89f0f22593626d18c5b56579d725dbc186d265510bb20b02c3a2f178a4498482",
+    "report_usage": "时序约束与收敛情况",
+    "evidence_type": "实现工具报告"
+  },
+  {
+    "source": "soc_prj/reports/car_host_test.log",
+    "sha256": "b2be40ba383f7d30035e25d8ee8bfc46397a9298c926044985948f134bc696cb",
+    "report_usage": "差速、死区、饱和和失声保持逻辑",
+    "evidence_type": "主机软件测试"
+  },
+  {
+    "source": "soc_prj/reports/car_presence_test.log",
+    "sha256": "943ca9113a300d5a91ebf55e19fc5f97873ad191e1ef779d47cadde19d04a002",
+    "report_usage": "声源有效性与小车启停逻辑",
+    "evidence_type": "主机软件测试"
+  },
+  {
+    "source": "soc_prj/reports/sound_marker_host_test.log",
+    "sha256": "cd5a5d582624f02462319a7a04f50e92db7643f8590d7c7d807fff99580597b1",
+    "report_usage": "声源标记算法与轨迹处理",
+    "evidence_type": "主机软件测试"
+  },
+  {
+    "source": "soc_prj/reports/tb_car_motor.log",
+    "sha256": "1f630b3155e9a84009fbf87692ff3cef521e0dfa110ca7a5f8f6375f72e1a898",
+    "report_usage": "电机 PWM 与方向接口",
+    "evidence_type": "RTL 仿真"
+  },
+  {
+    "source": "soc_prj/reports/tb_servo_car.log",
+    "sha256": "8d34d4f2a27cdd385ace4456a05b084ad1140c0fc82f22d9af235c279ab62a3f",
+    "report_usage": "模式切换与舵机/小车互锁",
+    "evidence_type": "RTL 仿真"
+  },
+  {
+    "source": "soc_prj/reports/tb_car_lease.log",
+    "sha256": "d36cb5431d668f7af0efcd5de4f87c300d82e9489b7ae93001579f78a79c09f9",
+    "report_usage": "电机指令有效期与超时处理",
+    "evidence_type": "RTL 仿真"
+  },
+  {
+    "source": "soc_prj/reports/restore18_boot_check.log",
+    "sha256": "c1a0434c057d0f6431c784c0712a4084a3eb13f5b1e9adeb1dc39fb4221ffa7d",
+    "report_usage": "启动包与配套产物一致性",
+    "evidence_type": "离线包检查"
+  }
+]
