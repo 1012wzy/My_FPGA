@@ -2,7 +2,7 @@
 
 **Zynq-Based Disaster Rescue System**
 
-公开仓库 / Repository: [wangzeyang1012/My_FPGA](https://github.com/wangzeyang1012/My_FPGA)
+公开仓库 / Repository: [1012wzy/My_FPGA](https://github.com/1012wzy/My_FPGA)
 
 本项目集成七路麦克风阵列、双轴云台、OV5640 摄像头与移动小车，通过
 FPGA 音视频采集及 ARM 声源方位估计，实现云台跟踪、HDMI SOS 标记和
