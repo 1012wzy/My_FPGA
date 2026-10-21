@@ -36,7 +36,7 @@ AMD 自主选题高级组。工程平台为 MLK-H3 / CZ08，器件 XC7Z100FFG900
 |---|---|---|
 | RTL 源码 | soc_prj/SXCX.srcs/sources_1/new | 麦克风、数据流、视频、叠加、舵机和电机逻辑 |
 | 约束与系统设计 | soc_prj/SXCX.srcs/constrs_1/new、soc_prj/SXCX.srcs/sources_1/bd | 引脚、时序、PS 与 AXI 系统 |
-| Vivado 工程 | soc_prj/SXCX.xpr | 打开硬件工程；生成目录和布局布线结果保留以便继续开发 |
+| Vivado 工程 | soc_prj/SXCX.xpr | 打开硬件工程；生成目录可重建，配套硬件产物见 soc_hw |
 | PS 软件 | soc_sdk/src | 定位、背景判定、标记、云台和小车控制；维护此处源码 |
 | Vitis 工程 | soc_sdk/workspace | 平台、驱动、导入副本及编译后的 ELF |
 | 仿真与验证 | soc_prj/SXCX.srcs/sim_1、soc_sdk/tests、soc_prj/reports | 测试源码、原始结果、资源与时序报告 |
