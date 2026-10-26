@@ -3,7 +3,7 @@
   **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
   **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
   **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
-  **** Start of session at: Sun Oct 18 19:32:06 2026
+  **** Start of session at: Sun Oct 25 12:02:10 2026
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 
@@ -14,4 +14,4 @@ run -all
 PASS: mode1 pan/tilt, mode2 independent pan center under hold, tilt tracking, return to display mode
 $finish called at time : 41000036 ns : File "D:/Xilinx/project/My_FPGA/soc_prj/scripts/test_support/tb_servo_car.sv" Line 20
 exit
-INFO: [Common 17-206] Exiting xsim at Sun Oct 18 19:32:09 2026...
+INFO: [Common 17-206] Exiting xsim at Sun Oct 25 12:02:14 2026...

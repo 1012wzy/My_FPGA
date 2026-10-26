@@ -163,6 +163,6 @@ foreach {name expected} {clk_out1_camera_display_clocks 13.468 clk_out2_camera_d
 }
 source [file join $root scripts check_camera_pins.tcl]
 source [file join $root scripts check_car_pins.tcl]
-puts [exec {C:/Users/30831/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe} -I -X utf8 [file join $root .. scripts record_hardware.py]]
+puts [exec [file join $::env(XILINX_VIVADO) .. tps win64 python-3.13.0 python.exe] -I -X utf8 [file join $root .. scripts record_hardware.py]]
 puts SOC_BUILD_OK
 close_project

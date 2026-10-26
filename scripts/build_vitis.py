@@ -1,8 +1,10 @@
 """Run with Vitis 2025.2: vitis.bat -s scripts/build_vitis.py."""
 import vitis, pathlib, hashlib, zipfile, json, struct
 root=pathlib.Path(__file__).resolve().parents[1]
-for name,digest in json.loads((root/'soc_hw/hardware_sources.json').read_text()).items():
- if hashlib.sha256((root/name).read_bytes()).hexdigest()!=digest:raise RuntimeError('Hardware/source mismatch: '+name+'; rebuild Vivado first')
+import sys
+sys.path.insert(0,str(root/'scripts'))
+from hardware_receipt import validate_hardware_receipt
+validate_hardware_receipt(root)
 workspace=root/'soc_sdk/workspace' 
 xsa=root/'soc_hw/system_wrapper.xsa'
 digest=hashlib.sha256(xsa.read_bytes()).hexdigest()

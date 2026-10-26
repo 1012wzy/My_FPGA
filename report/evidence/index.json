@@ -31,19 +31,19 @@
   },
   {
     "source": "soc_prj/reports/tb_car_motor.log",
-    "sha256": "1f630b3155e9a84009fbf87692ff3cef521e0dfa110ca7a5f8f6375f72e1a898",
+    "sha256": "89783c59493e9259e3d65b65b5a19979e7178a656f3f66eb015250a4ffb45a0c",
     "report_usage": "电机 PWM 与方向接口",
     "evidence_type": "RTL 仿真"
   },
   {
     "source": "soc_prj/reports/tb_servo_car.log",
-    "sha256": "8d34d4f2a27cdd385ace4456a05b084ad1140c0fc82f22d9af235c279ab62a3f",
+    "sha256": "ef1fd65017c488c6a183369c2dcda802d9d53c4359d7d620d88023c05082594e",
     "report_usage": "模式切换与舵机/小车互锁",
     "evidence_type": "RTL 仿真"
   },
   {
     "source": "soc_prj/reports/tb_car_lease.log",
-    "sha256": "d36cb5431d668f7af0efcd5de4f87c300d82e9489b7ae93001579f78a79c09f9",
+    "sha256": "3b09eab2d40ea41fb7e37fed7f10afab99a7f16b8a1ff5288420105dab8f0c5c",
     "report_usage": "电机指令有效期与超时处理",
     "evidence_type": "RTL 仿真"
   },

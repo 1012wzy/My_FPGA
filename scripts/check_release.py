@@ -76,8 +76,9 @@ current=current.replace("pan_center?12'd1500:pan_us",'pan_us')
 current=current.replace('(pan_center || !hold_position)','!hold_position')
 check_segment('servo_pwm_without_pan_override',current)
 print('SOS3_BASELINE_PRESERVED: camera, SOS, DOA, P servo; only independent pan-centre override added to servo PWM')
-for n,h in json.loads((root/'soc_hw/hardware_sources.json').read_text()).items():
- assert hashlib.sha256((root/n).read_bytes()).hexdigest()==h,'Hardware receipt mismatch: '+n
+from hardware_receipt import validate_hardware_receipt
+for amended in validate_hardware_receipt(root):
+ print('BUILD_RECIPE_PORTABILITY_OK: '+amended+'; original hardware receipt retained')
 for n in ('car_host_test.log','car_presence_test.log','tb_car_motor.log','tb_servo_car.log'):
  t=log(n);assert 'PASS:' in t and not re.search(r'Fatal:|FATAL|ERROR:|Assertion',t),n
 assert 'CAR_PIN_CHECK_OK' in log('zip_camera_build_console.log')

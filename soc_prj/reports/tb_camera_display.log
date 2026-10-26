@@ -3,7 +3,7 @@
   **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
   **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
   **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
-  **** Start of session at: Fri Oct 16 13:06:17 2026
+  **** Start of session at: Sun Oct 25 12:02:33 2026
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 
@@ -27,7 +27,7 @@ Capture line 400 time          32763192000
 Capture done          34690416000
 PASS: 800x450 triple-BRAM source; 1280x720 raster, 180-degree rotation, two complete frames including bank2 above1M words, all 916480 visible image pixels, RGB565, timing and differential outputs
 $finish called at time : 66022535304 ps : File "D:/Xilinx/project/My_FPGA/soc_prj/scripts/test_support/tb_camera_display.sv" Line 46
-run: Time (s): cpu = 00:00:00 ; elapsed = 00:02:19 . Memory (MB): peak = 227.074 ; gain = 0.000
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:02:16 . Memory (MB): peak = 227.711 ; gain = 0.000
 exit
-INFO: xsimkernel Simulation Memory Usage: 20800 KB (Peak: 20800 KB), Simulation CPU Usage: 136655 ms
-INFO: [Common 17-206] Exiting xsim at Fri Oct 16 13:08:38 2026...
+INFO: xsimkernel Simulation Memory Usage: 21044 KB (Peak: 21044 KB), Simulation CPU Usage: 131687 ms
+INFO: [Common 17-206] Exiting xsim at Sun Oct 25 12:04:51 2026...

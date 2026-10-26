@@ -65,7 +65,7 @@ Built simulation snapshot tb_mic_i2s_clock
   **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
   **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
   **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
-  **** Start of session at: Fri Oct 16 23:06:49 2026
+  **** Start of session at: Sun Oct 25 12:03:13 2026
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 
@@ -76,7 +76,7 @@ run -all
 PASS: BCLK 320 ns, WS 20.48 us, 32 BCLK cycles per slot.
 $finish called at time : 100100 ns : File "D:/Xilinx/project/My_FPGA/soc_prj/SXCX.srcs/sim_1/new/tb_mic_i2s_clock.v" Line 42
 exit
-INFO: [Common 17-206] Exiting xsim at Fri Oct 16 23:06:51 2026...
+INFO: [Common 17-206] Exiting xsim at Sun Oct 25 12:03:15 2026...
 Vivado Simulator v2025.2
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
@@ -96,7 +96,7 @@ Built simulation snapshot tb_i2s_rx_pair
   **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
   **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
   **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
-  **** Start of session at: Fri Oct 16 23:06:53 2026
+  **** Start of session at: Sun Oct 25 12:03:17 2026
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 
@@ -112,7 +112,7 @@ PAIR 5 PASS: left=123456 (1193046), right=abcdef (-5517841)
 PASS: five exact sample pairs; final-bit preservation; startup suppression; one-cycle valid; mid-left and mid-right reset recovery.
 $finish called at time : 164 us : File "D:/Xilinx/project/My_FPGA/soc_prj/SXCX.srcs/sim_1/new/tb_i2s_rx_pair.v" Line 145
 exit
-INFO: [Common 17-206] Exiting xsim at Fri Oct 16 23:06:55 2026...
+INFO: [Common 17-206] Exiting xsim at Sun Oct 25 12:03:19 2026...
 Vivado Simulator v2025.2
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
@@ -136,7 +136,7 @@ Built simulation snapshot tb_mic_array_top
   **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
   **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
   **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
-  **** Start of session at: Fri Oct 16 23:06:58 2026
+  **** Start of session at: Sun Oct 25 12:03:22 2026
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 
@@ -165,7 +165,7 @@ FRAME 18 PASS epoch=3 id=4 D3_RIGHT=fffffe
 PASS: four data lines / seven channels; 18 atomic frames; 21 single-line pairs; correct D3 RIGHT; unused D3 LEFT Hi-Z; varying input delays; reset recovery; sticky lane-error protection.
 $finish called at time : 529460 ns : File "D:/Xilinx/project/My_FPGA/soc_prj/SXCX.srcs/sim_1/new/tb_mic_array_top.sv" Line 167
 exit
-INFO: [Common 17-206] Exiting xsim at Fri Oct 16 23:06:59 2026...
+INFO: [Common 17-206] Exiting xsim at Sun Oct 25 12:03:23 2026...
 Vivado Simulator v2025.2
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
@@ -185,7 +185,7 @@ Built simulation snapshot tb_mic_capture_control
   **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
   **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
   **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
-  **** Start of session at: Fri Oct 16 23:07:02 2026
+  **** Start of session at: Sun Oct 25 12:03:26 2026
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 
@@ -196,7 +196,7 @@ run -all
 PASS: configuration startup hold, VIO stop, indefinite hold and restart
 $finish called at time : 496 ns : File "D:/Xilinx/project/My_FPGA/soc_prj/SXCX.srcs/sim_1/new/tb_mic_capture_control.sv" Line 31
 exit
-INFO: [Common 17-206] Exiting xsim at Fri Oct 16 23:07:03 2026...
+INFO: [Common 17-206] Exiting xsim at Sun Oct 25 12:03:27 2026...
 Vivado Simulator v2025.2
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
@@ -225,7 +225,7 @@ Built simulation snapshot tb_mic_board_power
   **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
   **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
   **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
-  **** Start of session at: Fri Oct 16 23:07:06 2026
+  **** Start of session at: Sun Oct 25 12:03:30 2026
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 
@@ -235,8 +235,9 @@ Time resolution is 1 ps
 run -all
 PASS: CEP power enabled; actual 100ms default guard; manual start; frames; stop preserves power; restart
 $finish called at time : 100082986 ns : File "D:/Xilinx/project/My_FPGA/soc_prj/scripts/test_support/tb_mic_board_power.sv" Line 47
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 226.672 ; gain = 0.000
 exit
-INFO: [Common 17-206] Exiting xsim at Fri Oct 16 23:07:12 2026...
+INFO: [Common 17-206] Exiting xsim at Sun Oct 25 12:03:37 2026...
 Vivado Simulator v2025.2
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
@@ -256,7 +257,7 @@ Built simulation snapshot tb_mic_axis_packet
   **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
   **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
   **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
-  **** Start of session at: Fri Oct 16 23:07:15 2026
+  **** Start of session at: Sun Oct 25 12:03:39 2026
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 
@@ -267,7 +268,7 @@ run -all
 PASS: AXIS signed/channel order, sequence, stalls, TLAST, overflow, abort, rearm
 $finish called at time : 7130 ns : File "D:/Xilinx/project/My_FPGA/soc_prj/scripts/test_support/tb_mic_axis_packet.sv" Line 45
 exit
-INFO: [Common 17-206] Exiting xsim at Fri Oct 16 23:07:17 2026...
+INFO: [Common 17-206] Exiting xsim at Sun Oct 25 12:03:41 2026...
 Vivado Simulator v2025.2
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
@@ -301,7 +302,7 @@ Built simulation snapshot tb_mic_soc_stream
   **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
   **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
   **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
-  **** Start of session at: Fri Oct 16 23:07:20 2026
+  **** Start of session at: Sun Oct 25 12:03:44 2026
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 
@@ -311,9 +312,9 @@ Time resolution is 1 ps
 run -all
 PASS: concurrent two-axis PWM and real SoC top, 2 x 2048 serial frames, seven signed channels, random AXIS stalls, sequence/TLAST, continuous microphone clocks between blocks
 $finish called at time : 84107410 ns : File "D:/Xilinx/project/My_FPGA/soc_prj/scripts/test_support/tb_mic_soc_stream.sv" Line 60
-run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 226.742 ; gain = 0.000
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 226.695 ; gain = 0.000
 exit
-INFO: [Common 17-206] Exiting xsim at Fri Oct 16 23:07:28 2026...
+INFO: [Common 17-206] Exiting xsim at Sun Oct 25 12:03:53 2026...
 Vivado Simulator v2025.2
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
@@ -333,7 +334,7 @@ Built simulation snapshot tb_servo_pwm
   **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
   **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
   **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
-  **** Start of session at: Fri Oct 16 23:07:30 2026
+  **** Start of session at: Sun Oct 25 12:03:56 2026
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 
@@ -343,6 +344,7 @@ Time resolution is 1 ps
 run -all
 PASS: 12-bit 500..2500/1350..2500, PWM period/width, acceleration/speed, ramp arrival/reversal, atomic writes, hold, independent enable, watchdog
 $finish called at time : 136800070 ns : File "D:/Xilinx/project/My_FPGA/soc_prj/scripts/test_support/tb_servo_pwm.sv" Line 56
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 227.023 ; gain = 0.000
 exit
-INFO: [Common 17-206] Exiting xsim at Fri Oct 16 23:07:37 2026...
+INFO: [Common 17-206] Exiting xsim at Sun Oct 25 12:04:03 2026...
 ALL_REQUESTED_CHECKS_PASSED

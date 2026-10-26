@@ -1,33 +1,13 @@
 # 基于 Zynq 的灾害救援系统
 
-**Zynq-Based Disaster Rescue System**
-
-公开仓库 / Repository: [1012wzy/My_FPGA](https://github.com/1012wzy/My_FPGA)
-
-本项目集成七路麦克风阵列、双轴云台、OV5640 摄像头与移动小车，通过
-FPGA 音视频采集及 ARM 声源方位估计，实现云台跟踪、HDMI SOS 标记和
-小车声源跟随。
-
-A Zynq XC7Z100 system combining a seven-channel microphone array, a two-axis
-pan–tilt unit, an OV5640 camera, and a mobile robot. FPGA logic handles audio
-acquisition, video display, and PWM output; bare-metal ARM software estimates
-sound-source direction using GCC-PHAT cross-correlation and spatial search.
-The system supports stationary acoustic tracking and mobile sound-source
-following, with SOS overlays and direction visualization over HDMI.
-
-原创部分采用 [MIT License](LICENSE)。第三方代码、IP 和硬件参考资料保留
-各自条款，见 [第三方资料说明](THIRD_PARTY_NOTICES.md)。Git 仓库排除可再生成的
-Vivado 缓存、实现目录与 Vitis 临时构建文件，保留配套 bit/XSA/ELF、启动包和
-验证记录；首次修改硬件后按下文重建。
-
 AMD 自主选题高级组。工程平台为 MLK-H3 / CZ08，器件 XC7Z100FFG900-2，开发工具为 Vivado 2025.2、Vitis 2025.2，PS 采用裸机程序。
 
 ## 功能与版本
 
 - 模式 1：七路麦克风定位、双轴云台跟踪、OV5640 视频、HDMI 上的 SOS 标记和右下方向窗口。车轮关闭。
-- 模式 2：BUT1 短按松开后进入，左右舵机保持 1500 μs，俯仰舵机继续跟踪；小车根据同一声源判断边走边转。再次按 BUT1 返回模式 1。
-- 短暂失声保持时间为 1200 ms，旧采样年龄限制仍为 500 ms。
-- 小车基础占空比 64/256，最大单侧差速 38/256，死区 10°，满转角 50°。这是开环 PWM，不代表实际车速；
+- 模式 2：BUT1 短按松开后进入，水平舵机保持 1500 μs，俯仰舵机继续跟踪；小车根据同一声源判断边走边转。再次按 BUT1 返回模式 1。
+- 短暂失声保持时间为 1200 ms，旧采样年龄限制仍为 500 ms。未增加另一套小车专用声源判决。
+- 小车基础占空比 64/256，最大单侧差速 38/256，死区 10°，满转角 50°。这是开环 PWM，不代表实际车速；没有测距、避障或到达停车功能。
 - 摄像头输入为 800×450 RGB565，HDMI 输出为 1280×720；采用片上三帧缓存，输入并非原生 720p。
 
 ## 文件入口与目录对照
@@ -36,7 +16,7 @@ AMD 自主选题高级组。工程平台为 MLK-H3 / CZ08，器件 XC7Z100FFG900
 |---|---|---|
 | RTL 源码 | soc_prj/SXCX.srcs/sources_1/new | 麦克风、数据流、视频、叠加、舵机和电机逻辑 |
 | 约束与系统设计 | soc_prj/SXCX.srcs/constrs_1/new、soc_prj/SXCX.srcs/sources_1/bd | 引脚、时序、PS 与 AXI 系统 |
-| Vivado 工程 | soc_prj/SXCX.xpr | 打开硬件工程；生成目录可重建，配套硬件产物见 soc_hw |
+| Vivado 工程 | soc_prj/SXCX.xpr | 打开硬件工程；生成目录和布局布线结果保留以便继续开发 |
 | PS 软件 | soc_sdk/src | 定位、背景判定、标记、云台和小车控制；维护此处源码 |
 | Vitis 工程 | soc_sdk/workspace | 平台、驱动、导入副本及编译后的 ELF |
 | 仿真与验证 | soc_prj/SXCX.srcs/sim_1、soc_sdk/tests、soc_prj/reports | 测试源码、原始结果、资源与时序报告 |
@@ -49,7 +29,7 @@ AMD 自主选题高级组。工程平台为 MLK-H3 / CZ08，器件 XC7Z100FFG900
 | 协作与验证索引 | report | 协作记录、报告证据索引；设计报告作为独立文档提交 |
 | 可复用技能包 | skill | 排查、接口验证、构建与冷启动工作流 |
 
-本工程采用上述目录组织，与指南推荐的 src/sim/build/board/data 分类对应。Vivado/Vitis 管理的原工程名称保持现状；如制作严格小写命名的提交副本，应同步工程引用并重新验证，不能只批量改名。
+本工程采用上述目录组织，与指南推荐的 src/sim/build/board/data 分类对应。完整操作步骤见[从零复现](docs/reproduce.md)，参数对照见[优化验证](report/optimization.md)。Vivado/Vitis 管理的原工程名称保持现状；如制作严格小写命名的提交副本，应同步工程引用并重新验证，不能只批量改名。
 
 ## 上板运行
 
@@ -64,7 +44,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\run_jtag.ps1
 
 出现 `RUNNING:` 后保持安静约 8 秒，等待背景校准。默认模式 1；确认显示和定位后，再接通 VM、短按并松开 BUT1 验证模式 2。BUT1 是用户按键，不是 PS_SRST 或启动拨码。LED1 表示模式 2，LED2 表示电机驱动使能。
 
-模式 2 先等待左右舵机中位指令稳定，再接受有效声源驱动车轮；停止播放后，最后一次有效观测满 1200 ms 撤销驱动，实际车辆仍有惯性。测试用连续人声；单一 1 kHz 正弦波不适合声源判决验收。状态读取：
+模式 2 先等待水平舵机中位指令稳定，再接受有效声源驱动车轮；停止播放后，最后一次有效观测满 1200 ms 撤销驱动，实际车辆仍有惯性。测试用连续人声；单一 1 kHz 正弦波不适合声源判决验收。状态读取：
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\read_status.ps1
@@ -104,8 +84,12 @@ python .\scripts\check_boot_init.py
 | 优化与性能 | 改动依据、前后对比、资源/时序/性能及适用条件 | `soc_prj/reports` 原始工具报告、测试日志和对比记录 |
 | 实测与验证 | 测试装置、步骤、条件、统计结果、误差和局限 | 仿真/主机测试源码、CSV、板上输出；证据索引见 `report/evidence` |
 | 复现与上板 | 环境、关键操作、验收步骤 | 本 README、`docs/board_wiring.md`、构建/下载脚本、`soc_hw`、`boot_qspi` |
-| AI 协作 | 主要提示词、回答、人工纠错与采用依据 | `report/collaboration_record.md` 索引，以及待补的完整对话导出 |
+| AI 协作 | 主要提示词、回答、人工纠错与采用依据 | `report/collaboration_record.md` 索引，以及代表性原始交互案例 |
 | 可复用 Skill | 提炼过程、验证效果、适用范围与失效条件 | `skill/README.md` 和 `skill/workflows.md` |
 | 硬件图与来源 | 必要实物图、接线图、参考文献 | `docs/reference` 中硬件资料及来源，保留第三方版权/许可信息 |
 
-`report/` 提供协作记录和验证证据索引。接线、构建和运行说明用于工程复现。照片、实测数据及完整协作记录的待补项见 [材料说明](report/README.md)；日志用途与版本适用范围见 [验证记录说明](soc_prj/reports/README.md)。
+`report/` 提供协作记录和验证证据索引。接线、构建和运行说明用于工程复现。配套协作案例、优化数据及测量边界见 [材料说明](report/README.md)；日志用途与版本适用范围见 [验证记录说明](soc_prj/reports/README.md)。
+
+## 许可与第三方来源
+
+原创贡献采用根目录MIT许可证。第三方器件资料、BSP、FSBL及厂商IP按各自原有条款使用，见[第三方说明](THIRD_PARTY_NOTICES.md)。源码仓库：https://github.com/1012wzy/My_FPGA（当前为私有仓库）。本地提交包包含源文件、许可说明和验证材料。
