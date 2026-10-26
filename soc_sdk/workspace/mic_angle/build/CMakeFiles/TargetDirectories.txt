@@ -1,0 +1,4 @@
+D:/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_angle/build/CMakeFiles/mic_angle.elf.dir
+D:/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_angle/build/CMakeFiles/print_build_info.dir
+D:/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_angle/build/CMakeFiles/edit_cache.dir
+D:/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_angle/build/CMakeFiles/rebuild_cache.dir

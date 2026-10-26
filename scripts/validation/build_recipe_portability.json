@@ -1,0 +1,8 @@
+{
+  "file": "soc_prj/scripts/build_soc.tcl",
+  "change": "post_build_python_executable_only",
+  "recorded_sha256": "6768ead1905b0c7b4ff3be93fa2157d753e347d2ec020bfeab6c49681826c416",
+  "updated_sha256": "5f32ca6f39ecc91dbcf5f018c9e38ee4e0a72bf19fc1f64b9965da94d7bad492",
+  "normalized_sha256": "c9f6dab08463f21364af0d16a04391395246e0c7eaa5aa9f247812e7e0989897",
+  "note": "Only the Python executable used by the final receipt-export command was made portable. Synthesis, implementation and all design inputs are unchanged. Existing hardware/boot artifacts were not rebuilt. The original hardware_sources.json is preserved."
+}

@@ -1,0 +1,84 @@
+08:07:45 INFO  : updated workspace path: D:\Xilinx\project\My_FPGA\soc_sdk\workspace
+08:17:29 INFO  : updated workspace path: D:\Xilinx\project\My_FPGA\soc_sdk\workspace
+08:25:52 INFO  : updated workspace path: D:\Xilinx\project\My_FPGA\soc_sdk\workspace
+09:57:10 INFO  : updated workspace path: D:\Xilinx\project\My_FPGA\soc_sdk\workspace
+09:57:11 INFO  : [INFO]: Initializing repositories
+09:57:11 INFO  : [INFO]: Successfully set the EmbeddedSW path, refer .repo.yaml for more details.
+09:57:11 INFO  : Successfully created repository data at C:\Users\30831\AppData\Local\Temp\rigel_lopper_308312106586502999094987
+09:57:11 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\30831\AppData\Local\Temp\rigel_lopper_3083116419333049290414486 -r C:\Users\30831\AppData\Local\Temp\rigel_lopper_308312106586502999094987\.repo.yaml
+09:57:12 INFO  : Embedded Template List generated successfully
+09:57:12 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\30831\AppData\Local\Temp\rigel_lopper_3083113741981645983962423 -r D:\Xilinx\project\My_FPGA\soc_sdk\workspace\_ide\.wsdata\.repo.yaml
+09:57:12 INFO  : Embedded Template List generated successfully
+10:16:49 INFO  : BSP build will be initiated for Domain zynq_fsbl
+10:16:49 INFO  : BSP build will be initiated for Domain standalone_a9
+10:16:49 INFO  : Generating BSP for the domain D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\zynq_fsbl\zynq_fsbl_bsp
+10:16:49 INFO  : Generating BSP for the domain D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\ps7_cortexa9_0\standalone_a9\bsp
+10:16:49 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\zynq_fsbl\zynq_fsbl_bsp
+10:16:49 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\ps7_cortexa9_0\standalone_a9\bsp
+10:16:49 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\ps7_cortexa9_0\standalone_a9\bsp
+10:16:49 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\zynq_fsbl\zynq_fsbl_bsp
+10:16:49 INFO  : Domain reconfigured successfully
+10:16:49 INFO  : Generating BSP for the domain D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\ps7_cortexa9_0\standalone_a9\bsp
+10:16:49 INFO  : lopper command to build BSP :empyro.bat build_bsp -d D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\ps7_cortexa9_0\standalone_a9\bsp
+10:16:49 INFO  : cmd.exe, /C, empyro.bat build_bsp -d D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\ps7_cortexa9_0\standalone_a9\bsp
+10:16:49 INFO  : Domain reconfigured successfully
+10:16:49 INFO  : Generating BSP for the domain D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\zynq_fsbl\zynq_fsbl_bsp
+10:16:49 INFO  : lopper command to build BSP :empyro.bat build_bsp -d D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\zynq_fsbl\zynq_fsbl_bsp
+10:16:49 INFO  : cmd.exe, /C, empyro.bat build_bsp -d D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\zynq_fsbl\zynq_fsbl_bsp
+10:16:51 INFO  : Domain build successfully
+10:16:51 INFO  : Domain build successfully
+10:16:51 INFO  : Generating Boot ELFs
+10:16:51 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\zynq_fsbl -d D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\zynq_fsbl\zynq_fsbl_bsp -b D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\zynq_fsbl\build
+10:16:51 INFO  : cmd.exe, /C, empyro.bat retarget_app -s D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\zynq_fsbl -d D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\zynq_fsbl\zynq_fsbl_bsp -b D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\zynq_fsbl\build
+10:16:51 INFO  : [INFO]: Retargeting app
+10:16:51 INFO  : [INFO]: Updating link libraries based on new domain
+10:16:51 INFO  : Successfully retargeted Application D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\zynq_fsbl
+10:16:51 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\zynq_fsbl --build_dir D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\zynq_fsbl\build
+10:16:51 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\zynq_fsbl --build_dir D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\zynq_fsbl\build
+10:16:55 INFO  : Successfully building the baremetal applicationD:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\zynq_fsbl\build
+10:16:55 INFO  : Generating Export directory
+10:16:55 INFO  : Platform Build Finished successfully.
+10:16:55 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s d:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_angle\src -d D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\export\mic_platform\sw\standalone_a9 -b d:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_angle\build
+10:16:55 INFO  : cmd.exe, /C, empyro.bat retarget_app -s d:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_angle\src -d D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\export\mic_platform\sw\standalone_a9 -b d:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_angle\build
+10:16:55 INFO  : [INFO]: Retargeting app
+10:16:55 INFO  : [INFO]: Updating link libraries based on new domain
+10:16:55 INFO  : Successfully retargeted Application d:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_angle\src
+10:16:55 INFO  : Initiating build for the mic_angle component.
+10:16:55 INFO  : cmd.exe, /C, empyro.bat build_app -s d:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_angle\src -b d:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_angle\build
+10:16:55 INFO  : Command: cmd.exe /C set CC= && set CXX= && empyro.bat build_app -s d:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_angle\src -b d:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_angle\build
+13:01:27 INFO  : connection terminated
+13:01:27 INFO  : connection terminated
+13:01:27 INFO  : scheduling shutdown timer for 2 seconds ...
+13:01:27 INFO  : scheduling shutdown timer for 2 seconds ...
+13:01:30 INFO  : Terminating Vitis C++ Server
+13:01:30 INFO  : Terminating Vitis C++ Server
+13:01:30 INFO  : Vitis C++ Server terminated
+14:01:01 INFO  : updated workspace path: D:\Xilinx\project\My_FPGA\soc_sdk\workspace
+14:05:13 INFO  : updated workspace path: D:\Xilinx\project\My_FPGA\soc_sdk\workspace
+08:15:51 INFO  : updated workspace path: D:\Xilinx\project\My_FPGA\soc_sdk\workspace
+22:10:00 INFO  : updated workspace path: D:\Xilinx\project\My_FPGA\soc_sdk\workspace
+22:42:35 INFO  : updated workspace path: D:\Xilinx\project\My_FPGA\soc_sdk\workspace
+22:58:28 INFO  : updated workspace path: D:\Xilinx\project\My_FPGA\soc_sdk\workspace
+08:45:05 INFO  : updated workspace path: D:\Xilinx\project\My_FPGA\soc_sdk\workspace
+13:46:42 INFO  : updated workspace path: D:\Xilinx\project\My_FPGA\soc_sdk\workspace
+19:28:00 INFO  : updated workspace path: D:\Xilinx\project\My_FPGA\soc_sdk\workspace
+09:25:39 INFO  : updated workspace path: D:\Xilinx\project\My_FPGA\soc_sdk\workspace
+09:33:34 INFO  : updated workspace path: D:\Xilinx\project\My_FPGA\soc_sdk\workspace
+09:48:51 INFO  : updated workspace path: D:\Xilinx\project\My_FPGA\soc_sdk\workspace
+17:10:53 INFO  : updated workspace path: D:\Xilinx\project\My_FPGA\soc_sdk\workspace
+18:10:41 INFO  : updated workspace path: D:\Xilinx\project\My_FPGA\soc_sdk\workspace
+11:00:48 INFO  : updated workspace path: D:\Xilinx\project\My_FPGA\soc_sdk\workspace
+12:16:06 INFO  : updated workspace path: D:\Xilinx\project\My_FPGA\soc_sdk\workspace
+15:45:11 INFO  : updated workspace path: D:\Xilinx\project\My_FPGA\soc_sdk\workspace
+15:46:50 INFO  : updated workspace path: D:\Xilinx\project\My_FPGA\soc_sdk\workspace
+16:03:44 INFO  : updated workspace path: D:\Xilinx\project\My_FPGA\soc_sdk\workspace
+11:08:45 INFO  : updated workspace path: D:\Xilinx\project\My_FPGA\soc_sdk\workspace
+20:13:39 INFO  : updated workspace path: D:\Xilinx\project\My_FPGA\soc_sdk\workspace
+20:42:30 INFO  : updated workspace path: D:\Xilinx\project\My_FPGA\soc_sdk\workspace
+08:03:38 INFO  : updated workspace path: D:\Xilinx\project\My_FPGA\soc_sdk\workspace
+13:15:48 INFO  : updated workspace path: D:\Xilinx\project\My_FPGA\soc_sdk\workspace
+18:12:10 INFO  : updated workspace path: D:\Xilinx\project\My_FPGA\soc_sdk\workspace
+06:20:15 INFO  : updated workspace path: D:\Xilinx\project\My_FPGA\soc_sdk\workspace
+13:08:37 INFO  : updated workspace path: D:\Xilinx\project\My_FPGA\soc_sdk\workspace
+19:32:24 INFO  : updated workspace path: D:\Xilinx\project\My_FPGA\soc_sdk\workspace
+19:34:17 INFO  : updated workspace path: D:\Xilinx\project\My_FPGA\soc_sdk\workspace

@@ -1,0 +1,45 @@
+{
+  "test_type": "deterministic_host_parameter_ablation",
+  "sample_period_ms": 20,
+  "observation_interval_ms": 900,
+  "duration_ms": 10800,
+  "bearing_deg": 30,
+  "source_age_ms": 60,
+  "pl_implementation_shared": true,
+  "cases": [
+    {
+      "loss_ms": 500,
+      "samples": 540,
+      "authorized_samples": 300,
+      "authorized_fraction": 0.5555555555555556,
+      "stop_transitions": 12,
+      "start_transitions": 12,
+      "reference_mismatches": 0,
+      "car_state_bytes": 72,
+      "timeout_boundary_pass": true,
+      "stale_500ms_rejected": true,
+      "trace": "gap_500.csv",
+      "trace_sha256": "2dc4f91a5a06b41c7ec2774c315289c542d2693217cc8bbcdfba7980c630bc8b"
+    },
+    {
+      "loss_ms": 1200,
+      "samples": 540,
+      "authorized_samples": 540,
+      "authorized_fraction": 1.0,
+      "stop_transitions": 0,
+      "start_transitions": 1,
+      "reference_mismatches": 0,
+      "car_state_bytes": 72,
+      "timeout_boundary_pass": true,
+      "stale_500ms_rejected": true,
+      "trace": "gap_1200.csv",
+      "trace_sha256": "e5340191493a3c14d265fd31b25ad02500f3ffa4172f8564bea022bdb9398f28"
+    }
+  ],
+  "production_inputs": {
+    "soc_sdk/src/car.c": "171b587e6a39e3fa3670cf48500a423525f281a21ac96061113e17e6944b3972",
+    "soc_sdk/src/car.h": "e306880577e18fa7bb4b2b7d75ef3c87e49274d4ec00f876cdf9645faa7b88e4",
+    "soc_sdk/tests/compare_car_gap.c": "e6ab23770e85a35388dc5ea8ce79f38c4ce951dafe7c1b5aa7b155fbd8749227"
+  },
+  "shared_utilization_report_sha256": "d88ff58524f4320eaf8f85c5acb941cf45ae65227599f88efdbcc73f8b179d8f"
+}

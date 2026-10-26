@@ -1,0 +1,4 @@
+D:/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_platform/zynq_fsbl/build/CMakeFiles/fsbl.elf.dir
+D:/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_platform/zynq_fsbl/build/CMakeFiles/print_build_info.dir
+D:/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_platform/zynq_fsbl/build/CMakeFiles/edit_cache.dir
+D:/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_platform/zynq_fsbl/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,24 @@
+# ninja log v5
+1	312	0	CMakeFiles/print_build_info	b1fb1b9330a0d8c3
+313	483	8140263593699590	CMakeFiles/mic_angle.elf.dir/background.c.obj	7b2356eec3ab3cf5
+1	312	0	D:/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_angle/build/CMakeFiles/print_build_info	b1fb1b9330a0d8c3
+329	647	8140263595345064	CMakeFiles/mic_angle.elf.dir/doa.c.obj	7946192309c76c71
+335	653	8140263595400211	CMakeFiles/mic_angle.elf.dir/main.c.obj	be7e757f2ab9f5e1
+374	534	8140263594178210	CMakeFiles/mic_angle.elf.dir/servo_startup.c.obj	bbc15246f8ae7af3
+653	872	8140263596948159	mic_angle.elf	7a3dcce8c9e2f671
+350	591	8140263594773676	CMakeFiles/mic_angle.elf.dir/servo.c.obj	f8ee05d89ffd2c33
+318	625	8140263595105269	CMakeFiles/mic_angle.elf.dir/camera.c.obj	8d09f19e32f66504
+386	636	8140263595232195	CMakeFiles/mic_angle.elf.dir/sound_marker.c.obj	ea3e7f6224c5075b
+360	559	8132485377413729	CMakeFiles/mic_angle.elf.dir/video_dma.c.obj	af5218ff70ad572c
+324	573	8140263594595114	CMakeFiles/mic_angle.elf.dir/car.c.obj	fd016c26638336a7
+2	320	0	CMakeFiles/print_build_info	b1fb1b9330a0d8c3
+2	320	0	D:/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_angle/build/CMakeFiles/print_build_info	b1fb1b9330a0d8c3
+320	515	8140264646537882	CMakeFiles/mic_angle.elf.dir/background.c.obj	7b2356eec3ab3cf5
+352	521	8140264646612238	CMakeFiles/mic_angle.elf.dir/servo_startup.c.obj	bbc15246f8ae7af3
+331	561	8140264647003586	CMakeFiles/mic_angle.elf.dir/car.c.obj	fd016c26638336a7
+346	574	8140264647131413	CMakeFiles/mic_angle.elf.dir/servo.c.obj	f8ee05d89ffd2c33
+325	585	8140264647233008	CMakeFiles/mic_angle.elf.dir/camera.c.obj	8d09f19e32f66504
+359	609	8140264647494829	CMakeFiles/mic_angle.elf.dir/sound_marker.c.obj	ea3e7f6224c5075b
+336	622	8140264647621223	CMakeFiles/mic_angle.elf.dir/doa.c.obj	7946192309c76c71
+340	636	8140264647750795	CMakeFiles/mic_angle.elf.dir/main.c.obj	be7e757f2ab9f5e1
+636	850	8140264649325037	mic_angle.elf	7a3dcce8c9e2f671

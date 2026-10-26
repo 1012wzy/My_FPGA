@@ -1,0 +1,663 @@
+2026-10-06 09:57:10 [debug] : --------------------------------------------------------------------------------- 
+2026-10-06 09:57:10 [debug] : D:\Xilinx\project\My_FPGA\soc_sdk\workspace 
+2026-10-06 09:57:10 [debug] : --------------------------------------------------------------------------------- 
+2026-10-06 09:57:10 [debug] : [Logger] Previous user logs are stored in the file - C:\Users\30831\.Xilinx\Vitis\2025.2\logs\ide.log 
+2026-10-06 09:57:10 [debug] : [Logger] Previous debug logs are stored in the file - C:\Users\30831\.Xilinx\Vitis\2025.2\.wsdata\ide_verbose.log 
+2026-10-06 09:57:10 [debug] : [hosted-plugin: 34848] PLUGIN_HOST(34848) starting instance 
+2026-10-06 09:57:10 [debug] : RIGEL SERVER 09:57:10 INFO  : created .gitignore file for the project D:\Xilinx\project\My_FPGA\soc_sdk\workspace 
+2026-10-06 09:57:10 [debug] : RIGEL SERVER 09:57:10 INFO  : updated workspace path: D:\Xilinx\project\My_FPGA\soc_sdk\workspace 
+2026-10-06 09:57:10 [debug] : Linked preference "workbench.colorCustomizations" not found. 
+2026-10-06 09:57:10 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["a9986b68-e0ed-423c-8968-650a942ba466",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-10-06 09:57:10 [debug] : Frontend f.onStart took longer than the expected maximum 100 milliseconds: 417.6 ms [Finished 1.817 s after frontend start] 
+2026-10-06 09:57:10 [debug] : Frontend c.onStart: 0.2 ms [Finished 1.818 s after frontend start] 
+2026-10-06 09:57:10 [debug] : Frontend y.onStart: 1.9 ms [Finished 1.820 s after frontend start] 
+2026-10-06 09:57:10 [debug] : Frontend w.onStart: 0.2 ms [Finished 1.820 s after frontend start] 
+2026-10-06 09:57:10 [debug] : Frontend B.onStart: 0.0 ms [Finished 1.821 s after frontend start] 
+2026-10-06 09:57:10 [debug] : Frontend u.onStart: 0.5 ms [Finished 1.832 s after frontend start] 
+2026-10-06 09:57:10 [debug] : Frontend l.onStart: 0.7 ms [Finished 1.833 s after frontend start] 
+2026-10-06 09:57:10 [debug] : Frontend l.onStart: 0.3 ms [Finished 1.833 s after frontend start] 
+2026-10-06 09:57:10 [debug] : Frontend l.onStart: 0.2 ms [Finished 1.834 s after frontend start] 
+2026-10-06 09:57:10 [debug] : Frontend p.onStart: 7.7 ms [Finished 1.841 s after frontend start] 
+2026-10-06 09:57:10 [debug] : Frontend d.onStart: 0.2 ms [Finished 1.842 s after frontend start] 
+2026-10-06 09:57:10 [debug] : Frontend u.onStart: 0.0 ms [Finished 1.842 s after frontend start] 
+2026-10-06 09:57:10 [debug] : Frontend E.onStart: 0.4 ms [Finished 1.843 s after frontend start] 
+2026-10-06 09:57:10 [debug] : Frontend d.onStart: 0.0 ms [Finished 1.843 s after frontend start] 
+2026-10-06 09:57:10 [debug] : Frontend u.onStart: 0.1 ms [Finished 1.843 s after frontend start] 
+2026-10-06 09:57:10 [debug] : Frontend c.onStart: 0.1 ms [Finished 1.844 s after frontend start] 
+2026-10-06 09:57:10 [debug] : Frontend c.onStart: 0.1 ms [Finished 1.844 s after frontend start] 
+2026-10-06 09:57:10 [debug] : Frontend l.onStart: 0.1 ms [Finished 1.844 s after frontend start] 
+2026-10-06 09:57:10 [debug] : Frontend l.onStart: 0.1 ms [Finished 1.844 s after frontend start] 
+2026-10-06 09:57:10 [debug] : Vercel AI: Creating or updating model vercel/openai/gpt-4.1 
+2026-10-06 09:57:10 [debug] : Vercel AI: Creating or updating model vercel/openai/gpt-4.1-nano 
+2026-10-06 09:57:10 [debug] : Vercel AI: Creating or updating model vercel/openai/gpt-4.1-mini 
+2026-10-06 09:57:10 [debug] : Vercel AI: Creating or updating model vercel/openai/gpt-4-turbo 
+2026-10-06 09:57:10 [debug] : Vercel AI: Creating or updating model vercel/openai/gpt-4o 
+2026-10-06 09:57:10 [debug] : Vercel AI: Creating or updating model vercel/openai/gpt-4o-mini 
+2026-10-06 09:57:10 [debug] : Vercel AI: Creating or updating model vercel/anthropic/claude-3-7-sonnet-20250219 
+2026-10-06 09:57:10 [debug] : Vercel AI: Creating or updating model vercel/anthropic/claude-3-5-haiku-20241022 
+2026-10-06 09:57:10 [debug] : Vercel AI: Creating or updating model vercel/anthropic/claude-3-opus-20240229 
+2026-10-06 09:57:10 [debug] : Frontend l.onStart: 0.2 ms [Finished 1.845 s after frontend start] 
+2026-10-06 09:57:10 [debug] : Start frontend contributions: 688.4 ms [Finished 1.845 s after frontend start] 
+2026-10-06 09:57:10 [debug] : Changed application state from 'init' to 'started_contributions'. 
+2026-10-06 09:57:10 [debug] : [Application Examples Provider]  updating the embedded templates on workspace event. 
+2026-10-06 09:57:10 [debug] : [Application Examples Provider] refresh requested. 
+2026-10-06 09:57:10 [debug] : Received event from notification service: ON_DID_UPDATE_WORKSPACE. 
+2026-10-06 09:57:10 [debug] : [Repository Server] Executing method:getEmbeddedExampleTemplateTree with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-10-06 09:57:10 [debug] : [Logger Client] log levelchanged to  {"0":"Info"}
+2026-10-06 09:57:10 [debug] : [Logger UI]  Update Log Level  called 
+2026-10-06 09:57:10 [debug] : [Application Examples Provider] common calling method requested. 
+2026-10-06 09:57:10 [debug] : [Application Examples Provider] Repositories model update requested. 
+2026-10-06 09:57:10 [debug] : [Application Examples Provider] Repositories model update completed. 
+2026-10-06 09:57:10 [debug] : [Application Examples Provider] Templates model update requested. 
+2026-10-06 09:57:10 [debug] : [Repository Service] Executing method:getEmbeddedExampleTemplateTree from frontend. {"0":"request:"}
+2026-10-06 09:57:10 [debug] : Received event from notification service: ON_DID_OPEN_COMPONENT. 
+2026-10-06 09:57:10 [debug] : Received event from notification service: ON_DID_OPEN_COMPONENT. 
+2026-10-06 09:57:10 [debug] : Received event from notification service: ON_DID_REFRESH_WORKSPACE_SUMMARIES. 
+2026-10-06 09:57:10 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-10-06 09:57:10 [debug] : Changed application state from 'started_contributions' to 'attached_shell'. 
+2026-10-06 09:57:10 [debug] : >>> Restoring the layout state... 
+2026-10-06 09:57:10 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2026-10-06 09:57:10 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["6137dbf5-34f1-45a6-a4a2-a810269ba0dc",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-10-06 09:57:10 [debug] : [Logger UI]  Update Log Level success {"0":{"success":true,"error":""}}
+2026-10-06 09:57:10 [debug] : Received event from notification service: ON_DID_OPEN_COMPONENT. 
+2026-10-06 09:57:10 [debug] : Received event from notification service: ON_DID_OPEN_COMPONENT. 
+2026-10-06 09:57:10 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2026-10-06 09:57:10 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 2,
+        "startColumn": 47,
+        "endLineNumber": 2,
+        "endColumn": 52
+      },
+      "rangeLength": 5,
+      "text": "false",
+      "rangeOffset": 49,
+      "forceMoveMarkers": false
+    }
+  ],
+  "eol": "\r\n",
+  "isEolChange": false,
+  "versionId": 2,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"user-storage:/user/settings.json"}
+2026-10-06 09:57:10 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"user-storage:/user/settings.json"}
+2026-10-06 09:57:10 [debug] : MonacoEditorModel.cancelSync {"0":"user-storage:/user/settings.json"}
+2026-10-06 09:57:10 [debug] : MonacoEditorModel.markAsDirty - exit {"0":"user-storage:/user/settings.json"}
+2026-10-06 09:57:10 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"user-storage:/user/settings.json"}
+2026-10-06 09:57:10 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2026-10-06 09:57:10 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 3,
+        "startColumn": 29,
+        "endLineNumber": 3,
+        "endColumn": 37
+      },
+      "rangeLength": 8,
+      "text": "\"custom\"",
+      "rangeOffset": 85,
+      "forceMoveMarkers": false
+    }
+  ],
+  "eol": "\r\n",
+  "isEolChange": false,
+  "versionId": 3,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"user-storage:/user/settings.json"}
+2026-10-06 09:57:10 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"user-storage:/user/settings.json"}
+2026-10-06 09:57:10 [debug] : MonacoEditorModel.cancelSync {"0":"user-storage:/user/settings.json"}
+2026-10-06 09:57:10 [debug] : MonacoEditorModel.markAsDirty - exit {"0":"user-storage:/user/settings.json"}
+2026-10-06 09:57:10 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"user-storage:/user/settings.json"}
+2026-10-06 09:57:10 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2026-10-06 09:57:10 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2026-10-06 09:57:10 [debug] : <<< Nothing to restore. 
+2026-10-06 09:57:10 [debug] : Frontend A.initializeLayout: 11.7 ms [Finished 1.953 s after frontend start] 
+2026-10-06 09:57:10 [debug] : Frontend v.initializeLayout: 4.2 ms [Finished 1.957 s after frontend start] 
+2026-10-06 09:57:10 [debug] : Frontend f.initializeLayout: 2.5 ms [Finished 1.960 s after frontend start] 
+2026-10-06 09:57:10 [debug] : Frontend Object.initializeLayout: 0.0 ms [Finished 1.960 s after frontend start] 
+2026-10-06 09:57:10 [debug] : Frontend $.initializeLayout: 4.7 ms [Finished 1.964 s after frontend start] 
+2026-10-06 09:57:10 [debug] : Frontend w.initializeLayout: 7.7 ms [Finished 1.972 s after frontend start] 
+2026-10-06 09:57:10 [debug] : Frontend _.initializeLayout: 3.5 ms [Finished 1.976 s after frontend start] 
+2026-10-06 09:57:10 [debug] : Frontend c.initializeLayout: 5.9 ms [Finished 1.982 s after frontend start] 
+2026-10-06 09:57:10 [debug] : Frontend E.initializeLayout: 13.0 ms [Finished 1.996 s after frontend start] 
+2026-10-06 09:57:10 [debug] : [Repository Examples UI] in on initialize layout method. 
+2026-10-06 09:57:10 [debug] : Frontend R.initializeLayout: 6.2 ms [Finished 2.002 s after frontend start] 
+2026-10-06 09:57:10 [debug] : Frontend u.initializeLayout: 3.3 ms [Finished 2.005 s after frontend start] 
+2026-10-06 09:57:10 [debug] : Frontend h.initializeLayout: 0.1 ms [Finished 2.005 s after frontend start] 
+2026-10-06 09:57:10 [debug] : Frontend D.initializeLayout: 14.9 ms [Finished 2.020 s after frontend start] 
+2026-10-06 09:57:10 [debug] : [ProjectDecorator] tree decoration updated 
+2026-10-06 09:57:10 [debug] : [ProjectCache] Project location updated to D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_angle 
+2026-10-06 09:57:10 [debug] : [ProjectDecorator] tree decoration updated 
+2026-10-06 09:57:10 [debug] : No label for action menu node: No command "workspace:addFolder" exists. 
+2026-10-06 09:57:10 [debug] : Failed to parse markers data: {"0":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at _.setMarkersFromWorkspace (file:///D:/Xilinx/Install/2025.2/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:7825359)"}
+2026-10-06 09:57:10 [debug] : Frontend H.initializeLayout took longer than the expected maximum 100 milliseconds: 139.1 ms [Finished 2.159 s after frontend start] 
+2026-10-06 09:57:10 [debug] : [Library Api Contribution] in on initialize layout method. 
+2026-10-06 09:57:10 [debug] : Frontend g.initializeLayout: 5.6 ms [Finished 2.165 s after frontend start] 
+2026-10-06 09:57:11 [debug] : MonacoEditorModel.cancelSync {"0":"user-storage:/user/settings.json"}
+2026-10-06 09:57:11 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2026-10-06 09:57:11 [debug] : No label for action menu node: No command "workspace:addFolder" exists. 
+2026-10-06 09:57:11 [debug] : Initialize the workbench layout: 369.7 ms [Finished 2.245 s after frontend start] 
+2026-10-06 09:57:11 [debug] : Changed application state from 'attached_shell' to 'initialized_layout'. 
+2026-10-06 09:57:11 [debug] : Frontend d.onDidInitializeLayout: 0.1 ms [Finished 2.245 s after frontend start] 
+2026-10-06 09:57:11 [debug] : [b771811f-484a-47bf-bc68-878f0e43e7f7] Loading plugin contributions 
+2026-10-06 09:57:11 [debug] : [b771811f-484a-47bf-bc68-878f0e43e7f7][eclipse-cdt.serial-monitor]: Loaded contributions. 
+2026-10-06 09:57:11 [debug] : [b771811f-484a-47bf-bc68-878f0e43e7f7][vscode.json-language-features]: Loaded contributions. 
+2026-10-06 09:57:11 [debug] : [b771811f-484a-47bf-bc68-878f0e43e7f7][pkief.material-icon-theme]: Loaded contributions. 
+2026-10-06 09:57:11 [debug] : [b771811f-484a-47bf-bc68-878f0e43e7f7][vscode.git-base]: Loaded contributions. 
+2026-10-06 09:57:11 [debug] : [b771811f-484a-47bf-bc68-878f0e43e7f7][eamodio.gitlens]: Loaded contributions. 
+2026-10-06 09:57:11 [debug] : [b771811f-484a-47bf-bc68-878f0e43e7f7][amd.tcf-debug]: Loaded contributions. 
+2026-10-06 09:57:11 [debug] : [b771811f-484a-47bf-bc68-878f0e43e7f7][twxs.cmake]: Loaded contributions. 
+2026-10-06 09:57:11 [debug] : [b771811f-484a-47bf-bc68-878f0e43e7f7][amd.vitis-config]: Loaded contributions. 
+2026-10-06 09:57:11 [debug] : [b771811f-484a-47bf-bc68-878f0e43e7f7][amd.vitis-hls-l1-library]: Loaded contributions. 
+2026-10-06 09:57:11 [debug] : [b771811f-484a-47bf-bc68-878f0e43e7f7][amd.vitis-hls-pragma]: Loaded contributions. 
+2026-10-06 09:57:11 [debug] : [b771811f-484a-47bf-bc68-878f0e43e7f7][amd.vitis-hls-verilog-vhdl-support]: Loaded contributions. 
+2026-10-06 09:57:11 [debug] : [b771811f-484a-47bf-bc68-878f0e43e7f7][amd.vitis-output]: Loaded contributions. 
+2026-10-06 09:57:11 [debug] : [b771811f-484a-47bf-bc68-878f0e43e7f7][vscode.cpp]: Loaded contributions. 
+2026-10-06 09:57:11 [debug] : [b771811f-484a-47bf-bc68-878f0e43e7f7][vscode.json]: Loaded contributions. 
+2026-10-06 09:57:11 [debug] : [b771811f-484a-47bf-bc68-878f0e43e7f7][llvm-vs-code-extensions.vscode-clangd]: Loaded contributions. 
+2026-10-06 09:57:11 [debug] : [b771811f-484a-47bf-bc68-878f0e43e7f7][webfreak.debug]: Loaded contributions. 
+2026-10-06 09:57:11 [debug] : [b771811f-484a-47bf-bc68-878f0e43e7f7][vscode.git]: Loaded contributions. 
+2026-10-06 09:57:11 [debug] : [b771811f-484a-47bf-bc68-878f0e43e7f7][vscode.make]: Loaded contributions. 
+2026-10-06 09:57:11 [debug] : [b771811f-484a-47bf-bc68-878f0e43e7f7] Load contributions of 18 plugins: 324.8 ms [Finished 2.574 s after frontend start] 
+2026-10-06 09:57:11 [debug] : Frontend c.onDidInitializeLayout: 15.5 ms [Finished 2.590 s after frontend start] 
+2026-10-06 09:57:11 [debug] : Frontend n.onDidInitializeLayout: 2.9 ms [Finished 2.595 s after frontend start] 
+2026-10-06 09:57:11 [debug] : Frontend T.onDidInitializeLayout: 14.6 ms [Finished 2.611 s after frontend start] 
+2026-10-06 09:57:11 [debug] : Frontend p.onDidInitializeLayout: 3.9 ms [Finished 2.625 s after frontend start] 
+2026-10-06 09:57:11 [debug] : Frontend h.onDidInitializeLayout: 0.0 ms [Finished 2.625 s after frontend start] 
+2026-10-06 09:57:11 [debug] : 'cpp' language is remapped from 'source.cpp.embedded.macro' to 'source.cpp' scope 
+2026-10-06 09:57:11 [debug] : a registered grammar configuration for 'cpp' language is overridden 
+2026-10-06 09:57:11 [debug] : No label for action menu node: No command "workspace:addFolder" exists. 
+2026-10-06 09:57:11 [debug] : No label for action menu node: No command "workspace:addFolder" exists. 
+2026-10-06 09:57:11 [debug] : RIGEL SERVER 09:57:11 INFO  : [INFO]: Initializing repositories 
+2026-10-06 09:57:11 [debug] : RIGEL SERVER 09:57:11 INFO  : [INFO]: Successfully set the EmbeddedSW path, refer .repo.yaml for more details.
+09:57:11 INFO  : Successfully created repository data at C:\Users\30831\AppData\Local\Temp\rigel_lopper_308312106586502999094987 
+2026-10-06 09:57:11 [debug] : RIGEL SERVER 09:57:11 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\30831\AppData\Local\Temp\rigel_lopper_3083116419333049290414486 -r C:\Users\30831\AppData\Local\Temp\rigel_lopper_308312106586502999094987\.repo.yaml 
+2026-10-06 09:57:11 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 4,
+        "startColumn": 29,
+        "endLineNumber": 14,
+        "endColumn": 6
+      },
+      "rangeLength": 310,
+      "text": "{\r\n        \"**/.git/objects/**\": true,\r\n        \"**/.git/subtree-cache/**\": true,\r\n        \"**/_build/**\": true,\r\n        \"**/build/**\": true,\r\n        \"**/export/**\": true,\r\n        \"**/hls/impl/**\": true,\r\n        \"**/hls/syth/**\": true,\r\n        \"**/hls/syn/**\": true,\r\n        \"**/hls/csim/**\": true\r\n    }",
+      "rangeOffset": 124,
+      "forceMoveMarkers": false
+    }
+  ],
+  "eol": "\r\n",
+  "isEolChange": false,
+  "versionId": 2,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"user-storage:/user/settings.json"}
+2026-10-06 09:57:11 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"user-storage:/user/settings.json"}
+2026-10-06 09:57:11 [debug] : MonacoEditorModel.cancelSync {"0":"user-storage:/user/settings.json"}
+2026-10-06 09:57:11 [debug] : MonacoEditorModel.markAsDirty - exit {"0":"user-storage:/user/settings.json"}
+2026-10-06 09:57:11 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"user-storage:/user/settings.json"}
+2026-10-06 09:57:11 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2026-10-06 09:57:11 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2026-10-06 09:57:11 [debug] : getTasks(): about to return task information for 0 tasks 
+2026-10-06 09:57:12 [debug] : RIGEL SERVER 09:57:12 INFO  : Embedded Template List generated successfully 
+2026-10-06 09:57:12 [debug] : RIGEL SERVER 09:57:12 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\30831\AppData\Local\Temp\rigel_lopper_3083113741981645983962423 -r D:\Xilinx\project\My_FPGA\soc_sdk\workspace\_ide\.wsdata\.repo.yaml 
+2026-10-06 09:57:12 [debug] : [Application Examples Provider] Templates model update completed. 
+2026-10-06 09:57:12 [debug] : [Application Examples Provider] common calling method completed. 
+2026-10-06 09:57:12 [debug] : [Application Examples Provider] refresh completed. 
+2026-10-06 09:57:12 [debug] : MonacoEditorModel.cancelSync {"0":"user-storage:/user/settings.json"}
+2026-10-06 09:57:12 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2026-10-06 09:57:12 [debug] : PLUGIN_HOST(34848): PluginManagerExtImpl/init() 
+2026-10-06 09:57:12 [debug] : PLUGIN_HOST(34848): initializing(serial-monitor@1.0.2 with D:\Xilinx\Install\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2026-10-06 09:57:12 [debug] : PLUGIN_HOST(34848): initializing(json-language-features@1.88.1 with D:\Xilinx\Install\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2026-10-06 09:57:12 [debug] : PLUGIN_HOST(34848): initializing(material-icon-theme@5.15.0 with D:\Xilinx\Install\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2026-10-06 09:57:12 [debug] : PLUGIN_HOST(34848): initializing(git-base@1.95.3 with D:\Xilinx\Install\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2026-10-06 09:57:12 [debug] : PLUGIN_HOST(34848): initializing(gitlens@11.7.0 with D:\Xilinx\Install\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2026-10-06 09:57:12 [debug] : PLUGIN_HOST(34848): initializing(tcf-debug@0.0.1 with D:\Xilinx\Install\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2026-10-06 09:57:12 [debug] : PLUGIN_HOST(34848): initializing(cmake@0.0.17 with D:\Xilinx\Install\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2026-10-06 09:57:12 [debug] : PLUGIN_HOST(34848): initializing(vitis-config@0.0.1 with D:\Xilinx\Install\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2026-10-06 09:57:12 [debug] : PLUGIN_HOST(34848): initializing(vitis-hls-l1-library@0.0.1 with D:\Xilinx\Install\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2026-10-06 09:57:12 [debug] : PLUGIN_HOST(34848): initializing(vitis-hls-pragma@0.6.0 with D:\Xilinx\Install\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2026-10-06 09:57:12 [debug] : PLUGIN_HOST(34848): initializing(vitis-hls-verilog-vhdl-support@0.0.1 with D:\Xilinx\Install\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2026-10-06 09:57:12 [debug] : PLUGIN_HOST(34848): initializing(vitis-output@0.0.1 with D:\Xilinx\Install\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2026-10-06 09:57:12 [debug] : PLUGIN_HOST(34848): initializing(cpp@1.88.1 with D:\Xilinx\Install\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2026-10-06 09:57:12 [debug] : PLUGIN_HOST(34848): initializing(json@1.88.1 with D:\Xilinx\Install\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2026-10-06 09:57:12 [debug] : PLUGIN_HOST(34848): initializing(vscode-clangd@0.1.33 with D:\Xilinx\Install\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2026-10-06 09:57:12 [debug] : PLUGIN_HOST(34848): initializing(debug@0.27.0 with D:\Xilinx\Install\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2026-10-06 09:57:12 [debug] : PLUGIN_HOST(34848): initializing(git@1.95.3 with D:\Xilinx\Install\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2026-10-06 09:57:12 [debug] : PLUGIN_HOST(34848): initializing(make@1.88.1 with D:\Xilinx\Install\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2026-10-06 09:57:12 [debug] : Debugger contribution has been registered: tcf-debug 
+2026-10-06 09:57:12 [debug] : Debugger contribution has been registered: gdb 
+2026-10-06 09:57:12 [debug] : Debugger contribution has been registered: lldb-mi 
+2026-10-06 09:57:12 [debug] : Debugger contribution has been registered: mago-mi 
+2026-10-06 09:57:12 [debug] : Unsupported activation events: oncommand:gitlens.copyCurrentBranch, please open an issue: https://github.com/eclipse-theia/theia/issues/new 
+2026-10-06 09:57:12 [debug] : Unsupported activation events: onEditSession:file, please open an issue: https://github.com/eclipse-theia/theia/issues/new 
+2026-10-06 09:57:12 [debug] : PLUGIN_HOST(34848): PluginManagerExtImpl/loadPlugin(D:\Xilinx\Install\2025.2\Vitis\ide\electron-app\win64\resources\app\plugins\vitis-output-0.0.1\extension\lib\extension.js) 
+2026-10-06 09:57:12 [debug] : PLUGIN_HOST(34848): PluginManagerExtImpl/loadPlugin(D:\Xilinx\Install\2025.2\Vitis\ide\electron-app\win64\resources\app\plugins\vscode-builtin-json-language-features\extension\client\dist\node\jsonClientMain) 
+2026-10-06 09:57:12 [debug] : PLUGIN_HOST(34848): PluginManagerExtImpl/loadPlugin(D:\Xilinx\Install\2025.2\Vitis\ide\electron-app\win64\resources\app\plugins\vscode.git-base\extension\dist\extension.js) 
+2026-10-06 09:57:12 [debug] : Calling activation function on plugin amd.vitis-output 
+2026-10-06 09:57:12 [debug] : Calling activation function on plugin Git Base (built-in) 
+2026-10-06 09:57:12 [debug] : PLUGIN_HOST(34848): PluginManagerExtImpl/loadPlugin(D:\Xilinx\Install\2025.2\Vitis\ide\electron-app\win64\resources\app\plugins\vscode.git\extension\dist\main) 
+2026-10-06 09:57:12 [debug] : MonacoEditorModel.cancelSync {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 09:57:12 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 09:57:12 [debug] : MonacoEditorModel.cancelSync {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 09:57:12 [debug] : MonacoEditorModel.doSync - exit - cancelled while looking for a resource {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 09:57:12 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 09:57:12 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 9,
+        "startColumn": 1,
+        "endLineNumber": 9,
+        "endColumn": 1
+      },
+      "rangeLength": 0,
+      "text": "09:57:12 INFO  : Embedded Template List generated successfully\r\n09:57:12 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\\Users\\30831\\AppData\\Local\\Temp\\rigel_lopper_3083113741981645983962423 -r D:\\Xilinx\\project\\My_FPGA\\soc_sdk\\workspace\\_ide\\.wsdata\\.repo.yaml\r\n",
+      "rangeOffset": 847,
+      "forceMoveMarkers": true
+    }
+  ],
+  "eol": "\r\n",
+  "isEolChange": false,
+  "versionId": 2,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 09:57:12 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 09:57:12 [debug] : MonacoEditorModel.markAsDirty - exit - ignoring dirty changes enabled {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 09:57:12 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 09:57:12 [debug] : MonacoEditorModel.doSync - exit {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 09:57:12 [debug] : Calling activation function on plugin JSON Language Features (built-in) 
+2026-10-06 09:57:13 [debug] : Calling activation function on plugin Git (built-in) 
+2026-10-06 09:57:13 [debug] : [b771811f-484a-47bf-bc68-878f0e43e7f7] Starting plugins. 
+2026-10-06 09:57:13 [debug] : [b771811f-484a-47bf-bc68-878f0e43e7f7][eclipse-cdt.serial-monitor]: Started plugin. 
+2026-10-06 09:57:13 [debug] : [b771811f-484a-47bf-bc68-878f0e43e7f7][vscode.json-language-features]: Started plugin. 
+2026-10-06 09:57:13 [debug] : [b771811f-484a-47bf-bc68-878f0e43e7f7][pkief.material-icon-theme]: Started plugin. 
+2026-10-06 09:57:13 [debug] : [b771811f-484a-47bf-bc68-878f0e43e7f7][vscode.git-base]: Started plugin. 
+2026-10-06 09:57:13 [debug] : [b771811f-484a-47bf-bc68-878f0e43e7f7][eamodio.gitlens]: Started plugin. 
+2026-10-06 09:57:13 [debug] : [b771811f-484a-47bf-bc68-878f0e43e7f7][amd.tcf-debug]: Started plugin. 
+2026-10-06 09:57:13 [debug] : [b771811f-484a-47bf-bc68-878f0e43e7f7][twxs.cmake]: Started plugin. 
+2026-10-06 09:57:13 [debug] : [b771811f-484a-47bf-bc68-878f0e43e7f7][amd.vitis-config]: Started plugin. 
+2026-10-06 09:57:13 [debug] : [b771811f-484a-47bf-bc68-878f0e43e7f7][amd.vitis-hls-l1-library]: Started plugin. 
+2026-10-06 09:57:13 [debug] : [b771811f-484a-47bf-bc68-878f0e43e7f7][amd.vitis-hls-pragma]: Started plugin. 
+2026-10-06 09:57:13 [debug] : [b771811f-484a-47bf-bc68-878f0e43e7f7][amd.vitis-hls-verilog-vhdl-support]: Started plugin. 
+2026-10-06 09:57:13 [debug] : [b771811f-484a-47bf-bc68-878f0e43e7f7][amd.vitis-output]: Started plugin. 
+2026-10-06 09:57:13 [debug] : [b771811f-484a-47bf-bc68-878f0e43e7f7][vscode.cpp]: Started plugin. 
+2026-10-06 09:57:13 [debug] : [b771811f-484a-47bf-bc68-878f0e43e7f7][vscode.json]: Started plugin. 
+2026-10-06 09:57:13 [debug] : [b771811f-484a-47bf-bc68-878f0e43e7f7][llvm-vs-code-extensions.vscode-clangd]: Started plugin. 
+2026-10-06 09:57:13 [debug] : [b771811f-484a-47bf-bc68-878f0e43e7f7][webfreak.debug]: Started plugin. 
+2026-10-06 09:57:13 [debug] : [b771811f-484a-47bf-bc68-878f0e43e7f7][vscode.git]: Started plugin. 
+2026-10-06 09:57:13 [debug] : [b771811f-484a-47bf-bc68-878f0e43e7f7][vscode.make]: Started plugin. 
+2026-10-06 09:57:13 [debug] : RIGEL SERVER 09:57:12 INFO  : Embedded Template List generated successfully 
+2026-10-06 09:57:13 [debug] : [Application Examples Provider] Templates model update completed. 
+2026-10-06 09:57:13 [debug] : [Application Examples Provider] common calling method completed. 
+2026-10-06 09:57:13 [debug] : [Application Examples Provider] refresh completed. 
+2026-10-06 09:57:13 [debug] : PLUGIN_HOST(34848): PluginManagerExtImpl/loadPlugin(D:\Xilinx\Install\2025.2\Vitis\ide\electron-app\win64\resources\app\plugins\eamodio-gitlens\extension\dist\gitlens) 
+2026-10-06 09:57:13 [debug] : PLUGIN_HOST(34848): PluginManagerExtImpl/loadPlugin(D:\Xilinx\Install\2025.2\Vitis\ide\electron-app\win64\resources\app\plugins\vscode-material-icon-theme\extension\dist\extension\desktop\extension.cjs) 
+2026-10-06 09:57:13 [debug] : PLUGIN_HOST(34848): PluginManagerExtImpl/loadPlugin(D:\Xilinx\Install\2025.2\Vitis\ide\electron-app\win64\resources\app\plugins\eclipse-cdt.serial-monitor\extension\dist\desktop\extension.js) 
+2026-10-06 09:57:13 [debug] : Calling activation function on plugin Web and Desktop Serial Monitor 
+2026-10-06 09:57:13 [debug] : [INFO] 2026-10-06T01:57:13.332Z - Translations initialized. 
+2026-10-06 09:57:13 [debug] : [INFO] 2026-10-06T01:57:13.333Z - Extension activated! 
+2026-10-06 09:57:13 [debug] : Calling activation function on plugin Material Icon Theme 
+2026-10-06 09:57:13 [debug] : Calling activation function on plugin GitLens — Git supercharged 
+2026-10-06 09:57:13 [debug] : [b771811f-484a-47bf-bc68-878f0e43e7f7] Start of 18 plugins: 1946.3 ms [Finished 4.601 s after frontend start] 
+2026-10-06 09:57:13 [debug] : No label for action menu node: No command "workspace:addFolder" exists. 
+2026-10-06 09:57:13 [debug] : Frontend H.onDidInitializeLayout took longer than the expected maximum 100 milliseconds: 2259.4 ms [Finished 4.885 s after frontend start] 
+2026-10-06 09:57:13 [debug] : Frontend P.onDidInitializeLayout: 0.0 ms [Finished 4.885 s after frontend start] 
+2026-10-06 09:57:13 [debug] : Frontend D.onDidInitializeLayout: 0.8 ms [Finished 4.886 s after frontend start] 
+2026-10-06 09:57:13 [debug] : Frontend R.onDidInitializeLayout: 0.1 ms [Finished 4.886 s after frontend start] 
+2026-10-06 09:57:13 [debug] : Frontend v.onDidInitializeLayout: 0.1 ms [Finished 4.886 s after frontend start] 
+2026-10-06 09:57:13 [debug] : Frontend h.onDidInitializeLayout: 0.2 ms [Finished 4.888 s after frontend start] 
+2026-10-06 09:57:14 [debug] : [Platform Server] Executing method:[getPartFromXSA] with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":["D:\\Xilinx\\project\\My_FPGA\\soc_sdk\\workspace\\mic_platform"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-10-06 09:57:14 [debug] : MonacoEditorModel.cancelSync {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 09:57:14 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 09:57:14 [debug] : MonacoEditorModel.cancelSync {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 09:57:14 [debug] : MonacoEditorModel.doSync - exit - cancelled while looking for a resource {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 09:57:14 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 09:57:14 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 11,
+        "startColumn": 1,
+        "endLineNumber": 11,
+        "endColumn": 1
+      },
+      "rangeLength": 0,
+      "text": "09:57:12 INFO  : Embedded Template List generated successfully\r\n",
+      "rangeOffset": 1118,
+      "forceMoveMarkers": true
+    }
+  ],
+  "eol": "\r\n",
+  "isEolChange": false,
+  "versionId": 3,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 09:57:14 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 09:57:14 [debug] : MonacoEditorModel.markAsDirty - exit - ignoring dirty changes enabled {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 09:57:14 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 09:57:14 [debug] : MonacoEditorModel.doSync - exit {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 09:57:14 [debug] : Frontend application start: 4498.8 ms [Finished 49.169 s after backend start] 
+2026-10-06 09:57:14 [debug] : Replace loading indicator with ready workbench UI (animation): 808.0 ms [Finished 5.696 s after frontend start] 
+2026-10-06 09:57:14 [debug] : Changed application state from 'initialized_layout' to 'ready'. 
+2026-10-06 09:59:30 [debug] : [ProjectDecorator] tree decoration updated 
+2026-10-06 09:59:30 [debug] : [ProjectCache] Project location updated to D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_angle 
+2026-10-06 09:59:33 [debug] : [ProjectDecorator] tree decoration updated 
+2026-10-06 09:59:33 [debug] : [ProjectCache] Project location updated to D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform 
+2026-10-06 09:59:39 [debug] : [ProjectDecorator] tree decoration updated 
+2026-10-06 09:59:39 [debug] : [ProjectCache] Project location updated to D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_angle 
+2026-10-06 10:11:28 [debug] : start navigation 1 
+2026-10-06 10:11:28 [debug] : start navigation 2 
+2026-10-06 10:11:28 [debug] : end navigation 1 
+2026-10-06 10:11:28 [debug] : end navigation 0 
+2026-10-06 10:11:28 [debug] : ending navigation with location {"uri":"file:///d%3A/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_angle/src/main.c","type":1,"context":{"start":{"line":0,"character":0},"end":{"line":0,"character":0}}} 
+2026-10-06 10:11:28 [debug] : start navigation 1 
+2026-10-06 10:11:28 [debug] : start navigation 2 
+2026-10-06 10:11:28 [debug] : start navigation 3 
+2026-10-06 10:11:28 [debug] : end navigation 2 
+2026-10-06 10:11:28 [debug] : end navigation 1 
+2026-10-06 10:11:28 [debug] : end navigation 0 
+2026-10-06 10:11:28 [debug] : ending navigation with location {"uri":"file:///d%3A/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_angle/src/main.c","type":1,"context":{"start":{"line":0,"character":0},"end":{"line":0,"character":0}}} 
+2026-10-06 10:11:28 [debug] : PLUGIN_HOST(34848): PluginManagerExtImpl/loadPlugin(D:\Xilinx\Install\2025.2\Vitis\ide\electron-app\win64\resources\app\plugins\vscode-clangd\extension\out\bundle) 
+2026-10-06 10:11:28 [debug] : PLUGIN_HOST(34848): PluginManagerExtImpl/loadPlugin(D:\Xilinx\Install\2025.2\Vitis\ide\electron-app\win64\resources\app\plugins\vitis-hls-verilog-vhdl-support-0.0.1\extension\lib\extension.js) 
+2026-10-06 10:11:28 [debug] : PLUGIN_HOST(34848): PluginManagerExtImpl/loadPlugin(D:\Xilinx\Install\2025.2\Vitis\ide\electron-app\win64\resources\app\plugins\vitis-hls-pragma-0.6.0\extension\out\extension.js) 
+2026-10-06 10:11:28 [debug] : PLUGIN_HOST(34848): PluginManagerExtImpl/loadPlugin(D:\Xilinx\Install\2025.2\Vitis\ide\electron-app\win64\resources\app\plugins\vitis-hls-l1-library-0.0.1\extension\lib\extension.js) 
+2026-10-06 10:11:28 [debug] : Starting extension "vitis-hls-pragma"! 
+2026-10-06 10:11:28 [debug] : Calling activation function on plugin amd.vitis-hls-verilog-vhdl-support 
+2026-10-06 10:11:28 [debug] : Calling activation function on plugin amd.vitis-hls-l1-library 
+2026-10-06 10:11:28 [debug] : Calling activation function on plugin amd.vitis-hls-pragma 
+2026-10-06 10:11:29 [debug] : TextEditor is disposed! 
+2026-10-06 10:11:29 [debug] : Clang Language Server is now active! 
+2026-10-06 10:11:29 [debug] : Calling activation function on plugin clangd 
+2026-10-06 10:11:32 [debug] : start navigation 1 
+2026-10-06 10:11:32 [debug] : start navigation 2 
+2026-10-06 10:11:32 [debug] : end navigation 1 
+2026-10-06 10:11:32 [debug] : start navigation 2 
+2026-10-06 10:11:32 [debug] : start navigation 3 
+2026-10-06 10:11:32 [debug] : start navigation 4 
+2026-10-06 10:11:32 [debug] : end navigation 3 
+2026-10-06 10:11:32 [debug] : start navigation 4 
+2026-10-06 10:11:32 [debug] : end navigation 3 
+2026-10-06 10:11:32 [debug] : end navigation 2 
+2026-10-06 10:11:32 [debug] : end navigation 1 
+2026-10-06 10:11:32 [debug] : end navigation 0 
+2026-10-06 10:11:32 [debug] : ending navigation with location {"uri":"file:///d%3A/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_angle/src/doa.c","type":1,"context":{"start":{"line":0,"character":0},"end":{"line":0,"character":0}}} 
+2026-10-06 10:11:36 [debug] : start navigation 1 
+2026-10-06 10:11:36 [debug] : start navigation 2 
+2026-10-06 10:11:36 [debug] : end navigation 1 
+2026-10-06 10:11:36 [debug] : end navigation 0 
+2026-10-06 10:11:36 [debug] : ending navigation with location {"uri":"file:///d%3A/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_angle/src/main.c","type":1,"context":{"start":{"line":0,"character":0},"end":{"line":0,"character":0}}} 
+2026-10-06 10:11:36 [debug] : start navigation 1 
+2026-10-06 10:11:36 [debug] : start navigation 2 
+2026-10-06 10:11:36 [debug] : start navigation 3 
+2026-10-06 10:11:36 [debug] : end navigation 2 
+2026-10-06 10:11:36 [debug] : start navigation 3 
+2026-10-06 10:11:36 [debug] : end navigation 2 
+2026-10-06 10:11:36 [debug] : end navigation 1 
+2026-10-06 10:11:36 [debug] : end navigation 0 
+2026-10-06 10:11:36 [debug] : ending navigation with location {"uri":"file:///d%3A/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_angle/src/main.c","type":1,"context":{"start":{"line":0,"character":0},"end":{"line":0,"character":0}}} 
+2026-10-06 10:11:37 [debug] : start navigation 1 
+2026-10-06 10:11:37 [debug] : start navigation 2 
+2026-10-06 10:11:37 [debug] : end navigation 1 
+2026-10-06 10:11:37 [debug] : end navigation 0 
+2026-10-06 10:11:37 [debug] : ending navigation with location {"uri":"file:///d%3A/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_angle/src/README.txt","type":1,"context":{"start":{"line":0,"character":0},"end":{"line":0,"character":0}}} 
+2026-10-06 10:15:43 [debug] : start navigation 1 
+2026-10-06 10:15:43 [debug] : start navigation 2 
+2026-10-06 10:15:43 [debug] : end navigation 1 
+2026-10-06 10:15:43 [debug] : MonacoEditorModel.cancelSync {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_angle/src/README.txt"}
+2026-10-06 10:15:43 [debug] : MonacoEditorModel.cancelSave {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_angle/src/README.txt"}
+2026-10-06 10:15:43 [debug] : end navigation 0 
+2026-10-06 10:15:43 [debug] : ending navigation with location {"uri":"file:///d%3A/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_angle/src/doa.c","type":1,"context":{"start":{"line":0,"character":0},"end":{"line":0,"character":0}}} 
+2026-10-06 10:15:44 [debug] : start navigation 1 
+2026-10-06 10:15:44 [debug] : start navigation 2 
+2026-10-06 10:15:44 [debug] : end navigation 1 
+2026-10-06 10:15:44 [debug] : MonacoEditorModel.cancelSync {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_angle/src/doa.c"}
+2026-10-06 10:15:44 [debug] : MonacoEditorModel.cancelSave {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_angle/src/doa.c"}
+2026-10-06 10:15:44 [debug] : end navigation 0 
+2026-10-06 10:15:44 [debug] : ending navigation with location {"uri":"file:///d%3A/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_angle/src/main.c","type":1,"context":{"start":{"line":0,"character":0},"end":{"line":0,"character":0}}} 
+2026-10-06 10:15:55 [debug] : start navigation 1 
+2026-10-06 10:15:55 [debug] : start navigation 2 
+2026-10-06 10:15:55 [debug] : end navigation 1 
+2026-10-06 10:15:55 [debug] : MonacoEditorModel.cancelSync {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_angle/src/main.c"}
+2026-10-06 10:15:55 [debug] : MonacoEditorModel.cancelSave {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_angle/src/main.c"}
+2026-10-06 10:15:55 [debug] : end navigation 0 
+2026-10-06 10:15:55 [debug] : ending navigation with location {"uri":"file:///d%3A/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_angle/src/doa.c","type":1,"context":{"start":{"line":0,"character":0},"end":{"line":0,"character":0}}} 
+2026-10-06 10:16:49 [debug] : [Platform Server] Executing method:[generatePlatform] with connection:(object). {"0":"request:","1":"D:\\Xilinx\\project\\My_FPGA\\soc_sdk\\workspace\\mic_platform"}
+2026-10-06 10:16:49 [debug] : [Platform Server] Generate platform requested for mic_platform with internal id '2fa04e6f-abe8-47cc-869d-1f177a8fe839'. 
+2026-10-06 10:16:49 [debug] : Received event from notification service: ON_DID_OPEN_COMPONENT. 
+2026-10-06 10:16:49 [debug] : Received event from notification service: ON_DID_BUILD_START. 
+2026-10-06 10:16:49 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 1,
+        "startColumn": 1,
+        "endLineNumber": 1,
+        "endColumn": 1
+      },
+      "rangeLength": 0,
+      "text": "{\r\n    \"vitis.build.application –PlatformBuildDependency\": \"always\"\r\n}",
+      "rangeOffset": 0,
+      "forceMoveMarkers": false
+    }
+  ],
+  "eol": "\r\n",
+  "isEolChange": false,
+  "versionId": 2,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/settings.json"}
+2026-10-06 10:16:49 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/settings.json"}
+2026-10-06 10:16:49 [debug] : MonacoEditorModel.cancelSync {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/settings.json"}
+2026-10-06 10:16:49 [debug] : MonacoEditorModel.markAsDirty - exit {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/settings.json"}
+2026-10-06 10:16:49 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/settings.json"}
+2026-10-06 10:16:49 [debug] : MonacoEditorModel.cancelSave {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/settings.json"}
+2026-10-06 10:16:49 [debug] : MonacoEditorModel.cancelSave {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/settings.json"}
+2026-10-06 10:16:49 [debug] : Received event from notification service: ON_UPDATE_FLOWNAVIGATOR_STATUS. 
+2026-10-06 10:16:49 [debug] : [Platform Output] Generate mic_platform platform with id '2fa04e6f-abe8-47cc-869d-1f177a8fe839' started. 
+2026-10-06 10:16:49 [debug] : RIGEL SERVER 10:16:49 INFO  : BSP build will be initiated for Domain standalone_a9
+10:16:49 INFO  : BSP build will be initiated for Domain zynq_fsbl
+10:16:49 INFO  : Generating BSP for the domain D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\zynq_fsbl\zynq_fsbl_bsp 
+2026-10-06 10:16:49 [debug] : RIGEL SERVER 10:16:49 INFO  : Generating BSP for the domain D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\ps7_cortexa9_0\standalone_a9\bsp
+10:16:49 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\zynq_fsbl\zynq_fsbl_bsp
+10:16:49 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\ps7_cortexa9_0\standalone_a9\bsp 
+2026-10-06 10:16:49 [debug] : RIGEL SERVER 10:16:49 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\zynq_fsbl\zynq_fsbl_bsp 
+2026-10-06 10:16:49 [debug] : RIGEL SERVER 10:16:49 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\ps7_cortexa9_0\standalone_a9\bsp 
+2026-10-06 10:16:49 [debug] : MonacoEditorModel.cancelSync {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/settings.json"}
+2026-10-06 10:16:49 [debug] : MonacoEditorModel.cancelSave {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/settings.json"}
+2026-10-06 10:16:49 [debug] : No label for action menu node: No command "workspace:addFolder" exists. 
+2026-10-06 10:16:49 [debug] : MonacoEditorModel.cancelSync {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 10:16:49 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 10:16:49 [debug] : MonacoEditorModel.cancelSync {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 10:16:49 [debug] : MonacoEditorModel.cancelSync {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 10:16:49 [debug] : MonacoEditorModel.doSync - exit - cancelled while looking for a resource {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 10:16:49 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 10:16:49 [debug] : MonacoEditorModel.doSync - exit - cancelled {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 10:16:49 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 10:16:49 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 12,
+        "startColumn": 1,
+        "endLineNumber": 12,
+        "endColumn": 1
+      },
+      "rangeLength": 0,
+      "text": "10:16:49 INFO  : BSP build will be initiated for Domain zynq_fsbl\r\n10:16:49 INFO  : BSP build will be initiated for Domain standalone_a9\r\n10:16:49 INFO  : Generating BSP for the domain D:\\Xilinx\\project\\My_FPGA\\soc_sdk\\workspace\\mic_platform\\zynq_fsbl\\zynq_fsbl_bsp\r\n10:16:49 INFO  : Generating BSP for the domain D:\\Xilinx\\project\\My_FPGA\\soc_sdk\\workspace\\mic_platform\\ps7_cortexa9_0\\standalone_a9\\bsp\r\n10:16:49 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d D:\\Xilinx\\project\\My_FPGA\\soc_sdk\\workspace\\mic_platform\\zynq_fsbl\\zynq_fsbl_bsp\r\n10:16:49 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d D:\\Xilinx\\project\\My_FPGA\\soc_sdk\\workspace\\mic_platform\\ps7_cortexa9_0\\standalone_a9\\bsp\r\n10:16:49 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d D:\\Xilinx\\project\\My_FPGA\\soc_sdk\\workspace\\mic_platform\\ps7_cortexa9_0\\standalone_a9\\bsp\r\n10:16:49 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d D:\\Xilinx\\project\\My_FPGA\\soc_sdk\\workspace\\mic_platform\\zynq_fsbl\\zynq_fsbl_bsp\r\n",
+      "rangeOffset": 1182,
+      "forceMoveMarkers": true
+    }
+  ],
+  "eol": "\r\n",
+  "isEolChange": false,
+  "versionId": 4,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 10:16:49 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 10:16:49 [debug] : MonacoEditorModel.markAsDirty - exit - ignoring dirty changes enabled {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 10:16:49 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 10:16:49 [debug] : MonacoEditorModel.doSync - exit {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 10:16:49 [debug] : RIGEL SERVER 10:16:49 INFO  : Domain reconfigured successfully 
+2026-10-06 10:16:49 [debug] : RIGEL SERVER 10:16:49 INFO  : Generating BSP for the domain D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\ps7_cortexa9_0\standalone_a9\bsp 
+2026-10-06 10:16:49 [debug] : RIGEL SERVER 10:16:49 INFO  : lopper command to build BSP :empyro.bat build_bsp -d D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\ps7_cortexa9_0\standalone_a9\bsp 
+2026-10-06 10:16:49 [debug] : RIGEL SERVER 10:16:49 INFO  : cmd.exe, /C, empyro.bat build_bsp -d D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\ps7_cortexa9_0\standalone_a9\bsp 
+2026-10-06 10:16:49 [debug] : RIGEL SERVER 10:16:49 INFO  : Domain reconfigured successfully 
+2026-10-06 10:16:49 [debug] : RIGEL SERVER 10:16:49 INFO  : Generating BSP for the domain D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\zynq_fsbl\zynq_fsbl_bsp
+10:16:49 INFO  : lopper command to build BSP :empyro.bat build_bsp -d D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\zynq_fsbl\zynq_fsbl_bsp 
+2026-10-06 10:16:49 [debug] : RIGEL SERVER 10:16:49 INFO  : cmd.exe, /C, empyro.bat build_bsp -d D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\zynq_fsbl\zynq_fsbl_bsp 
+2026-10-06 10:16:51 [debug] : RIGEL SERVER 10:16:51 INFO  : Domain build successfully 
+2026-10-06 10:16:51 [debug] : RIGEL SERVER 10:16:51 INFO  : Domain build successfully 
+2026-10-06 10:16:51 [debug] : RIGEL SERVER 10:16:51 INFO  : Generating Boot ELFs 
+2026-10-06 10:16:51 [debug] : RIGEL SERVER 10:16:51 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\zynq_fsbl -d D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\zynq_fsbl\zynq_fsbl_bsp -b D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\zynq_fsbl\build 
+2026-10-06 10:16:51 [debug] : RIGEL SERVER 10:16:51 INFO  : cmd.exe, /C, empyro.bat retarget_app -s D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\zynq_fsbl -d D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\zynq_fsbl\zynq_fsbl_bsp -b D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\zynq_fsbl\build 
+2026-10-06 10:16:51 [debug] : RIGEL SERVER 10:16:51 INFO  : [INFO]: Retargeting app 
+2026-10-06 10:16:51 [debug] : RIGEL SERVER 10:16:51 INFO  : [INFO]: Updating link libraries based on new domain
+10:16:51 INFO  : Successfully retargeted Application D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\zynq_fsbl 
+2026-10-06 10:16:51 [debug] : RIGEL SERVER 10:16:51 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\zynq_fsbl --build_dir D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\zynq_fsbl\build 
+2026-10-06 10:16:51 [debug] : RIGEL SERVER 10:16:51 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\zynq_fsbl --build_dir D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\zynq_fsbl\build 
+2026-10-06 10:16:55 [debug] : RIGEL SERVER 10:16:55 INFO  : Successfully building the baremetal applicationD:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\zynq_fsbl\build 
+2026-10-06 10:16:55 [debug] : RIGEL SERVER 10:16:55 INFO  : Generating Export directory 
+2026-10-06 10:16:55 [debug] : Received event from notification service: ON_DID_UPDATE_COMPONENT. 
+2026-10-06 10:16:55 [debug] : Received event from notification service: ON_UPDATE_PLATFORM_STATUS. 
+2026-10-06 10:16:55 [debug] : RIGEL SERVER 10:16:55 INFO  : Platform Build Finished successfully. 
+2026-10-06 10:16:55 [debug] : [Platform Server] Generate platform completed on 'mic_platform' with internal id '2fa04e6f-abe8-47cc-869d-1f177a8fe839'. 
+2026-10-06 10:16:55 [debug] : [Platform Server] Generate platform status event - label: mic_platform, status_code:0, status_details:. 
+2026-10-06 10:16:55 [debug] : [Platform Server] Generate platform output steam finished on 'mic_platform' with internal id '2fa04e6f-abe8-47cc-869d-1f177a8fe839'. 
+2026-10-06 10:16:55 [info] : [Platform Server] Generate platform output stream finished - mic_platform. 
+2026-10-06 10:16:55 [debug] : Received event from notification service: ON_DID_MODIFY_PLATFORM_REPOS. 
+2026-10-06 10:16:55 [debug] : [Platform Output] Generate mic_platform platform with id '2fa04e6f-abe8-47cc-869d-1f177a8fe839' completed. 
+2026-10-06 10:16:55 [debug] : [Platform Output] Deleting and canceling the build task with id '2fa04e6f-abe8-47cc-869d-1f177a8fe839'. 
+2026-10-06 10:16:55 [debug] : [Build Server] Executing method:build with connection:(object). {"0":"request:","1":{"appParentPath":"d:\\Xilinx\\project\\My_FPGA\\soc_sdk\\workspace","appName":"mic_angle","buildCfg":"","componentName":"","type":0,"buildTarget":"all","workDirPath":"","customCommand":"","containerName":"","serialBuild":true,"buildComps":false,"componentsToBuildList":[]}}
+2026-10-06 10:16:55 [debug] : [Build Server] Build requested on 'mic_angle::' with internal id '4d7ed764-3069-4ff3-84b7-c4aacc7c9e07'. 
+2026-10-06 10:16:55 [debug] : Received event from notification service: ON_DID_BUILD_STOP. 
+2026-10-06 10:16:55 [debug] : RIGEL SERVER 10:16:55 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s d:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_angle\src -d D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\export\mic_platform\sw\standalone_a9 -b d:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_angle\build 
+2026-10-06 10:16:55 [debug] : RIGEL SERVER 10:16:55 INFO  : cmd.exe, /C, empyro.bat retarget_app -s d:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_angle\src -d D:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_platform\export\mic_platform\sw\standalone_a9 -b d:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_angle\build 
+2026-10-06 10:16:55 [debug] : Received event from notification service: ON_UPDATE_FLOWNAVIGATOR_STATUS. 
+2026-10-06 10:16:55 [debug] : Received event from notification service: ON_DID_OPEN_COMPONENT. 
+2026-10-06 10:16:55 [debug] : Received event from notification service: ON_DID_BUILD_START. 
+2026-10-06 10:16:55 [debug] : Received event from notification service: ON_UPDATE_FLOWNAVIGATOR_STATUS. 
+2026-10-06 10:16:55 [debug] : [Platform Server] Executing method:[getPartFromXSA] with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":["D:\\Xilinx\\project\\My_FPGA\\soc_sdk\\workspace\\mic_platform"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-10-06 10:16:55 [debug] : MonacoEditorModel.cancelSync {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 10:16:55 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 10:16:55 [debug] : MonacoEditorModel.cancelSync {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 10:16:55 [debug] : MonacoEditorModel.cancelSync {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 10:16:55 [debug] : MonacoEditorModel.doSync - exit - cancelled while looking for a resource {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 10:16:55 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 10:16:55 [debug] : MonacoEditorModel.doSync - exit - cancelled {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 10:16:55 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 10:16:55 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 20,
+        "startColumn": 1,
+        "endLineNumber": 20,
+        "endColumn": 1
+      },
+      "rangeLength": 0,
+      "text": "10:16:49 INFO  : Domain reconfigured successfully\r\n10:16:49 INFO  : Generating BSP for the domain D:\\Xilinx\\project\\My_FPGA\\soc_sdk\\workspace\\mic_platform\\ps7_cortexa9_0\\standalone_a9\\bsp\r\n10:16:49 INFO  : lopper command to build BSP :empyro.bat build_bsp -d D:\\Xilinx\\project\\My_FPGA\\soc_sdk\\workspace\\mic_platform\\ps7_cortexa9_0\\standalone_a9\\bsp\r\n10:16:49 INFO  : cmd.exe, /C, empyro.bat build_bsp -d D:\\Xilinx\\project\\My_FPGA\\soc_sdk\\workspace\\mic_platform\\ps7_cortexa9_0\\standalone_a9\\bsp\r\n10:16:49 INFO  : Domain reconfigured successfully\r\n10:16:49 INFO  : Generating BSP for the domain D:\\Xilinx\\project\\My_FPGA\\soc_sdk\\workspace\\mic_platform\\zynq_fsbl\\zynq_fsbl_bsp\r\n10:16:49 INFO  : lopper command to build BSP :empyro.bat build_bsp -d D:\\Xilinx\\project\\My_FPGA\\soc_sdk\\workspace\\mic_platform\\zynq_fsbl\\zynq_fsbl_bsp\r\n10:16:49 INFO  : cmd.exe, /C, empyro.bat build_bsp -d D:\\Xilinx\\project\\My_FPGA\\soc_sdk\\workspace\\mic_platform\\zynq_fsbl\\zynq_fsbl_bsp\r\n10:16:51 INFO  : Domain build successfully\r\n10:16:51 INFO  : Domain build successfully\r\n10:16:51 INFO  : Generating Boot ELFs\r\n10:16:51 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s D:\\Xilinx\\project\\My_FPGA\\soc_sdk\\workspace\\mic_platform\\zynq_fsbl -d D:\\Xilinx\\project\\My_FPGA\\soc_sdk\\workspace\\mic_platform\\zynq_fsbl\\zynq_fsbl_bsp -b D:\\Xilinx\\project\\My_FPGA\\soc_sdk\\workspace\\mic_platform\\zynq_fsbl\\build\r\n10:16:51 INFO  : cmd.exe, /C, empyro.bat retarget_app -s D:\\Xilinx\\project\\My_FPGA\\soc_sdk\\workspace\\mic_platform\\zynq_fsbl -d D:\\Xilinx\\project\\My_FPGA\\soc_sdk\\workspace\\mic_platform\\zynq_fsbl\\zynq_fsbl_bsp -b D:\\Xilinx\\project\\My_FPGA\\soc_sdk\\workspace\\mic_platform\\zynq_fsbl\\build\r\n10:16:51 INFO  : [INFO]: Retargeting app\r\n10:16:51 INFO  : [INFO]: Updating link libraries based on new domain\r\n10:16:51 INFO  : Successfully retargeted Application D:\\Xilinx\\project\\My_FPGA\\soc_sdk\\workspace\\mic_platform\\zynq_fsbl\r\n10:16:51 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir D:\\Xilinx\\project\\My_FPGA\\soc_sdk\\workspace\\mic_platform\\zynq_fsbl --build_dir D:\\Xilinx\\project\\My_FPGA\\soc_sdk\\workspace\\mic_platform\\zynq_fsbl\\build\r\n10:16:51 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir D:\\Xilinx\\project\\My_FPGA\\soc_sdk\\workspace\\mic_platform\\zynq_fsbl --build_dir D:\\Xilinx\\project\\My_FPGA\\soc_sdk\\workspace\\mic_platform\\zynq_fsbl\\build\r\n10:16:55 INFO  : Successfully building the baremetal applicationD:\\Xilinx\\project\\My_FPGA\\soc_sdk\\workspace\\mic_platform\\zynq_fsbl\\build\r\n10:16:55 INFO  : Generating Export directory\r\n10:16:55 INFO  : Platform Build Finished successfully.\r\n10:16:55 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s d:\\Xilinx\\project\\My_FPGA\\soc_sdk\\workspace\\mic_angle\\src -d D:\\Xilinx\\project\\My_FPGA\\soc_sdk\\workspace\\mic_platform\\export\\mic_platform\\sw\\standalone_a9 -b d:\\Xilinx\\project\\My_FPGA\\soc_sdk\\workspace\\mic_angle\\build\r\n10:16:55 INFO  : cmd.exe, /C, empyro.bat retarget_app -s d:\\Xilinx\\project\\My_FPGA\\soc_sdk\\workspace\\mic_angle\\src -d D:\\Xilinx\\project\\My_FPGA\\soc_sdk\\workspace\\mic_platform\\export\\mic_platform\\sw\\standalone_a9 -b d:\\Xilinx\\project\\My_FPGA\\soc_sdk\\workspace\\mic_angle\\build\r\n",
+      "rangeOffset": 2205,
+      "forceMoveMarkers": true
+    }
+  ],
+  "eol": "\r\n",
+  "isEolChange": false,
+  "versionId": 5,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 10:16:55 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 10:16:55 [debug] : MonacoEditorModel.markAsDirty - exit - ignoring dirty changes enabled {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 10:16:55 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 10:16:55 [debug] : MonacoEditorModel.doSync - exit {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 10:16:55 [debug] : RIGEL SERVER 10:16:55 INFO  : [INFO]: Retargeting app 
+2026-10-06 10:16:55 [debug] : RIGEL SERVER 10:16:55 INFO  : [INFO]: Updating link libraries based on new domain
+10:16:55 INFO  : Successfully retargeted Application d:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_angle\src 
+2026-10-06 10:16:55 [debug] : RIGEL SERVER 10:16:55 INFO  : Initiating build for the mic_angle component. 
+2026-10-06 10:16:55 [debug] : RIGEL SERVER 10:16:55 INFO  : cmd.exe, /C, empyro.bat build_app -s d:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_angle\src -b d:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_angle\build 
+2026-10-06 10:16:55 [debug] : RIGEL SERVER 10:16:55 INFO  : Command: cmd.exe /C set CC= && set CXX= && empyro.bat build_app -s d:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_angle\src -b d:\Xilinx\project\My_FPGA\soc_sdk\workspace\mic_angle\build 
+2026-10-06 10:16:55 [debug] : [Build Output] Build for mic_angle::build with id '4d7ed764-3069-4ff3-84b7-c4aacc7c9e07' started. 
+2026-10-06 10:16:57 [debug] : [Build Server] Build completed on 'mic_angle::' with internal id '4d7ed764-3069-4ff3-84b7-c4aacc7c9e07'. 
+2026-10-06 10:16:57 [debug] : [Build Server] Build status event - label: mic_angle::, status_code:0, status_details:. 
+2026-10-06 10:16:57 [debug] : [Build Server] Build output steam finished on 'mic_angle::' with internal id '4d7ed764-3069-4ff3-84b7-c4aacc7c9e07'. 
+2026-10-06 10:16:57 [info] : [Build Server] Build output stream finished - mic_angle::. 
+2026-10-06 10:16:57 [debug] : [Workspace Service] Attempting to restart clangd - unimplemented 
+2026-10-06 10:16:57 [debug] : Received event from notification service: ON_DID_UPDATE_COMPILE_COMMAND. 
+2026-10-06 10:16:57 [debug] : [Build Output] Build for mic_angle::build with id '4d7ed764-3069-4ff3-84b7-c4aacc7c9e07' completed. 
+2026-10-06 10:16:57 [debug] : [Build Output] Deleting and canceling the build task with id '4d7ed764-3069-4ff3-84b7-c4aacc7c9e07'. 
+2026-10-06 10:16:57 [debug] : Received event from notification service: ON_DID_BUILD_STOP. 
+2026-10-06 10:16:57 [debug] : Received event from notification service: ON_UPDATE_FLOWNAVIGATOR_STATUS. 
+2026-10-06 10:16:57 [debug] : MonacoEditorModel.cancelSync {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 10:16:57 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 10:16:57 [debug] : MonacoEditorModel.cancelSync {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 10:16:57 [debug] : MonacoEditorModel.cancelSync {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 10:16:57 [debug] : MonacoEditorModel.doSync - exit - cancelled while looking for a resource {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 10:16:57 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 10:16:57 [debug] : MonacoEditorModel.doSync - exit - cancelled {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 10:16:57 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 10:16:57 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 43,
+        "startColumn": 1,
+        "endLineNumber": 43,
+        "endColumn": 1
+      },
+      "rangeLength": 0,
+      "text": "10:16:55 INFO  : [INFO]: Retargeting app\r\n10:16:55 INFO  : [INFO]: Updating link libraries based on new domain\r\n10:16:55 INFO  : Successfully retargeted Application d:\\Xilinx\\project\\My_FPGA\\soc_sdk\\workspace\\mic_angle\\src\r\n10:16:55 INFO  : Initiating build for the mic_angle component.\r\n10:16:55 INFO  : cmd.exe, /C, empyro.bat build_app -s d:\\Xilinx\\project\\My_FPGA\\soc_sdk\\workspace\\mic_angle\\src -b d:\\Xilinx\\project\\My_FPGA\\soc_sdk\\workspace\\mic_angle\\build\r\n10:16:55 INFO  : Command: cmd.exe /C set CC= && set CXX= && empyro.bat build_app -s d:\\Xilinx\\project\\My_FPGA\\soc_sdk\\workspace\\mic_angle\\src -b d:\\Xilinx\\project\\My_FPGA\\soc_sdk\\workspace\\mic_angle\\build\r\n",
+      "rangeOffset": 5426,
+      "forceMoveMarkers": true
+    }
+  ],
+  "eol": "\r\n",
+  "isEolChange": false,
+  "versionId": 6,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 10:16:57 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 10:16:57 [debug] : MonacoEditorModel.markAsDirty - exit - ignoring dirty changes enabled {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 10:16:57 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 10:16:57 [debug] : MonacoEditorModel.doSync - exit {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/_ide/logs/vitis.log"}
+2026-10-06 10:17:13 [debug] : start navigation 1 
+2026-10-06 10:17:13 [debug] : start navigation 2 
+2026-10-06 10:17:13 [debug] : end navigation 1 
+2026-10-06 10:17:13 [debug] : MonacoEditorModel.cancelSync {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_angle/src/doa.c"}
+2026-10-06 10:17:13 [debug] : MonacoEditorModel.cancelSave {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_angle/src/doa.c"}
+2026-10-06 10:17:13 [debug] : end navigation 0 
+2026-10-06 10:17:13 [debug] : ending navigation with location {"uri":"file:///d%3A/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_angle/src/main.c","type":1,"context":{"start":{"line":0,"character":0},"end":{"line":0,"character":0}}} 
+2026-10-06 10:17:37 [debug] : start navigation 1 
+2026-10-06 10:17:37 [debug] : start navigation 2 
+2026-10-06 10:17:37 [debug] : end navigation 1 
+2026-10-06 10:17:37 [debug] : MonacoEditorModel.cancelSync {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_angle/src/main.c"}
+2026-10-06 10:17:37 [debug] : MonacoEditorModel.cancelSave {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_angle/src/main.c"}
+2026-10-06 10:17:37 [debug] : end navigation 0 
+2026-10-06 10:17:37 [debug] : ending navigation with location {"uri":"file:///d%3A/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_angle/src/doa.h","type":1,"context":{"start":{"line":0,"character":0},"end":{"line":0,"character":0}}} 
+2026-10-06 10:17:43 [debug] : start navigation 1 
+2026-10-06 10:17:43 [debug] : start navigation 2 
+2026-10-06 10:17:43 [debug] : end navigation 1 
+2026-10-06 10:17:43 [debug] : MonacoEditorModel.cancelSync {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_angle/src/doa.h"}
+2026-10-06 10:17:43 [debug] : MonacoEditorModel.cancelSave {"0":"file:///d:/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_angle/src/doa.h"}
+2026-10-06 10:17:43 [debug] : end navigation 0 
+2026-10-06 10:17:43 [debug] : ending navigation with location {"uri":"file:///d%3A/Xilinx/project/My_FPGA/soc_sdk/workspace/mic_angle/src/main.c","type":1,"context":{"start":{"line":0,"character":0},"end":{"line":0,"character":0}}} 
+2026-10-06 13:01:27 [debug] : socket closed 

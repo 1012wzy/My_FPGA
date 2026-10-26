@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="vio_mic_control_synth_1" LaunchDir="D:/Xilinx/project/My_FPGA/soc_prj/SXCX.runs/vio_mic_control_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ila_mic_samples_synth_1" LaunchDir="D:/Xilinx/project/My_FPGA/soc_prj/SXCX.runs/ila_mic_samples_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ila_mic_raw_synth_1" LaunchDir="D:/Xilinx/project/My_FPGA/soc_prj/SXCX.runs/ila_mic_raw_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="D:/Xilinx/project/My_FPGA/soc_prj/SXCX.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="vio_mic_control_synth_1"/>
+		<Parent Id="ila_mic_samples_synth_1"/>
+		<Parent Id="ila_mic_raw_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+		<Parameter Name="general.shortenLongPath" Val="true" Type="bool"/>
+		<Parameter Name="general.usePosixSpawnForFork" Val="true" Type="bool"/>
+	</Parameters>
+	<ProductInfo Name="vivado"/>
+</Runs>
+
